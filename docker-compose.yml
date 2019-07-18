@@ -1,0 +1,18 @@
+version: '3'
+services:
+  jenkins:
+    image: jenkins
+    ports:
+      - "50000:50000"
+      - "8080:8080"
+  sonarqube:
+    image: sonarqube
+    ports:
+      - "9000:9000"
+  was:
+    image: ibmcom/websphere-traditional
+    volumes:
+      - ./tmp/PASSWORD:/tmp/PASSWORD
+    ports:
+      - "9043:9043"
+      - "9443:9443"
