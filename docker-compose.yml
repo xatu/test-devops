@@ -1,18 +1,31 @@
 version: '3'
 services:
   jenkins:
-    image: jenkins
+    build: 
+      context: ./jenkins      
+    container_name: jenkins
+    environment:
+      - JAVA_OPTS="-Djava.awt.headless=true"
     ports:
       - "50000:50000"
       - "8080:8080"
-  sonarqube:
-    image: sonarqube
-    ports:
-      - "9000:9000"
-  was:
-    image: ibmcom/websphere-traditional
-    volumes:
-      - ./tmp/PASSWORD:/tmp/PASSWORD
-    ports:
-      - "9043:9043"
-      - "9443:9443"
+  # sonarqube:
+  #   image: sonarqube:alpine
+  #   container_name: sonarqube
+  #   user: root
+  #   volumes:
+  #     - ./sonarqube/conf:/opt/sonarqube/conf
+  #     - ./sonarqube/data:/opt/sonarqube/data
+  #     - ./sonarqube/logs:/opt/sonarqube/logs
+  #     - ./sonarqube/extensions:/opt/sonarqube/extensions
+  #   ports:
+  #     - "9000:9000"
+  #     - "9001:9001"
+  # was:
+  #   image: ibmcom/websphere-traditional
+  #   container_name: was
+  #   volumes:
+  #     - ./tmp/PASSWORD:/tmp/PASSWORD
+  #   ports:
+  #     - "9043:9043"
+  #     - "9443:9443"
