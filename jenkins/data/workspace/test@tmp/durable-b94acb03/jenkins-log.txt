@@ -1,0 +1,99 @@
++ /opt/jenkins/home/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /opt/jenkins/home/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /opt/jenkins/home/workspace/test/sonar-project.properties
+INFO: SonarQube Scanner 4.0.0.1744
+INFO: Java 1.8.0_212 IcedTea (64-bit)
+INFO: Linux 4.9.125-linuxkit amd64
+INFO: User cache: /root/.sonar/cache
+INFO: SonarQube server 7.1.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=234ms
+INFO: Server id: AWwH5kQS36IHQhoaN6-v
+INFO: User cache: /root/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=84ms
+INFO: Load/download plugins
+INFO: Load/download plugins (done) | time=84ms
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=220ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=132ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=3069ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=93ms
+INFO: Project key: test
+INFO: Project base dir: /opt/jenkins/home/workspace/test
+INFO: -------------  Scan Ear-Test
+INFO: Load server rules
+INFO: Load server rules (done) | time=313ms
+INFO: Base dir: /opt/jenkins/home/workspace/test
+INFO: Working dir: /opt/jenkins/home/workspace/test/.scannerwork
+INFO: Source paths: .
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: Index files
+INFO: Excluded sources: 
+INFO:   **/target/**
+INFO: 8 files indexed
+INFO: 0 files ignored because of inclusion/exclusion patterns
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: Sensor JavaSquidSensor [java]
+INFO: Configured Java source version (sonar.java.source): 8
+INFO: JavaClasspath initialization
+WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+INFO: JavaClasspath initialization (done) | time=27ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=4ms
+INFO: Java Main Files AST scan
+WARN: [JOURNAL_FLUSHER] WARNING Journal flush operation took 2,010ms last 8 cycles average is 251ms
+INFO: 1 source files to be analyzed
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java

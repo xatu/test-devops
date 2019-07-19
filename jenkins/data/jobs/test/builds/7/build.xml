@@ -1,0 +1,107 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.33">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterValue plugin="git-parameter@0.9.11">
+          <name>BRANCH</name>
+          <value>origin/master</value>
+        </net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>BRANCH</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.14">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.72">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>13</queueId>
+  <timestamp>1563515118968</timestamp>
+  <startTime>1563515118997</startTime>
+  <result>FAILURE</result>
+  <duration>1904</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+
+    properties([
+        parameters([
+            gitParameter(
+                branch: &apos;&apos;, 
+                branchFilter: &apos;.*&apos;, 
+                defaultValue: &apos;master&apos;, 
+                description: &apos;&apos;, 
+                name: &apos;BRANCH&apos;, 
+                quickFilterEnabled: false, 
+                selectedValue: &apos;NONE&apos;, 
+                sortMode: &apos;NONE&apos;, 
+                tagFilter: &apos;*&apos;, 
+                type: &apos;PT_BRANCH&apos;
+            )
+        ])
+    ])
+    
+    def branch = &quot;${env.BRANCH}&quot;
+
+    stage(&apos;scm&apos;){
+        git branch: &quot;${branch}&quot;, url: &apos;https://gitlab.com/codilabs/Ear-Test.git&apos;
+    }
+
+    stage(&apos;show&apos;){
+        sh &apos;ls -ltrha&apos;
+    }
+    
+    withSonarQubeEnv(credentialsId: &apos;sonar-token&apos;) {
+    
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>542217400</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>159732700</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1032467800</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>93900100</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>173260100</long>
+      </entry>
+    </timings>
+    <sandbox>false</sandbox>
+    <iota>13</iota>
+    <head>1:13</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

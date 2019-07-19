@@ -1,0 +1,1 @@
+/opt/jenkins/home/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/bin/sonar-scanner

@@ -1,0 +1,106 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.33">
+  <actions>
+    <org.jenkinsci.plugins.workflow.multibranch.JobPropertyTrackerAction plugin="workflow-multibranch@2.21">
+      <jobPropertyDescriptors>
+        <string>hudson.model.ParametersDefinitionProperty</string>
+      </jobPropertyDescriptors>
+    </org.jenkinsci.plugins.workflow.multibranch.JobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterDefinition plugin="git-parameter@0.9.11">
+          <name>BRANCH</name>
+          <description></description>
+          <uuid>a6f7baa6-86cc-4bcc-91af-0036310c7198</uuid>
+          <type>PT_BRANCH</type>
+          <branch></branch>
+          <tagFilter>*</tagFilter>
+          <branchFilter>.*</branchFilter>
+          <sortMode>NONE</sortMode>
+          <defaultValue>master</defaultValue>
+          <selectedValue>NONE</selectedValue>
+          <quickFilterEnabled>false</quickFilterEnabled>
+          <listSize>5</listSize>
+        </net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.72">
+    <script>node {
+
+    properties([
+        parameters([
+            gitParameter(
+                branch: &apos;&apos;, 
+                branchFilter: &apos;.*&apos;, 
+                defaultValue: &apos;master&apos;, 
+                description: &apos;&apos;, 
+                name: &apos;BRANCH&apos;, 
+                quickFilterEnabled: false, 
+                selectedValue: &apos;NONE&apos;, 
+                sortMode: &apos;NONE&apos;, 
+                tagFilter: &apos;*&apos;, 
+                type: &apos;PT_BRANCH&apos;
+            )
+        ])
+    ])
+    
+    def branch = &quot;${env.BRANCH}&quot;.split(&apos;/&apos;)[1]
+
+    stage(&apos;scm&apos;){
+        git branch: &quot;${branch}&quot;, url: &apos;https://gitlab.com/codilabs/Ear-Test.git&apos;
+    }
+
+    stage(&apos;Show files&apos;){
+        sh &apos;ls -ltrha&apos;
+    }
+    
+    stage(&apos;Sonnarqube&apos;) {
+        withSonarQubeEnv(credentialsId: &apos;sonar-token&apos;) {
+            def scan = tool name: &apos;scanner&apos;, type: &apos;hudson.plugins.sonar.SonarRunnerInstallation&apos;
+            writeFile file: &apos;sonar-project.properties&apos;, text: &apos;&apos;&apos;sonar.host.url=http://sonarqube:9000
+            sonar.projectKey=test
+            sonar.projectName=Ear-Test
+            sonar.projectVersion=&gt;0.0.1-SNAPSHOT
+            sonar.sources=.
+            sonar.sourceEncoding=UTF-8
+            sonar.exclusions=**/target/**
+            sonar.java.source=1.8
+            &apos;&apos;&apos;            
+            sh &quot;${scan}/bin/sonar-scanner&quot;
+        }
+    }
+
+    stage(&quot;Quality Check&quot;){
+        timeout(time: 20, unit: &apos;MINUTES&apos;) {
+            def qg = waitForQualityGate()
+            if (qg.status == &apos;WARN&apos;) {
+                currentBuild.result = &apos;UNSTABLE&apos;
+            }
+        }
+    }
+
+    stage(&apos;Build&apos;) {
+        def maven = tool name: &apos;maven&apos;, type: &apos;maven&apos;
+        sh &quot;&quot;&quot;
+            cd testWAR
+            ${maven}/bin/mvn clean package
+            ls -ltrh
+            cd target
+            ls -ltrh
+        &quot;&quot;&quot;
+    }
+
+    stage(&apos;Deploy WAS&apos;) {
+
+    }
+}</script>
+    <sandbox>false</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

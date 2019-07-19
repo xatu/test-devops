@@ -1,0 +1,81 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.72">
+    <parentIds>
+      <string>4</string>
+    </parentIds>
+    <id>5</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.multibranch.JobPropertyStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.72">
+      <arguments>
+        <entry>
+          <string>properties</string>
+          <list>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.19">
+              <symbol>parameters</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>&lt;anonymous&gt;</string>
+                  <list>
+                    <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                      <symbol>gitParameter</symbol>
+                      <arguments class="linked-hash-map">
+                        <entry>
+                          <string>branch</string>
+                          <string></string>
+                        </entry>
+                        <entry>
+                          <string>branchFilter</string>
+                          <string>.*</string>
+                        </entry>
+                        <entry>
+                          <string>defaultValue</string>
+                          <string>master</string>
+                        </entry>
+                        <entry>
+                          <string>description</string>
+                          <string></string>
+                        </entry>
+                        <entry>
+                          <string>name</string>
+                          <string>BRANCH</string>
+                        </entry>
+                        <entry>
+                          <string>quickFilterEnabled</string>
+                          <boolean>false</boolean>
+                        </entry>
+                        <entry>
+                          <string>selectedValue</string>
+                          <string>NONE</string>
+                        </entry>
+                        <entry>
+                          <string>sortMode</string>
+                          <string>NONE</string>
+                        </entry>
+                        <entry>
+                          <string>tagFilter</string>
+                          <string>*</string>
+                        </entry>
+                        <entry>
+                          <string>type</string>
+                          <string>PT_BRANCH</string>
+                        </entry>
+                      </arguments>
+                    </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                  </list>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.35">
+      <startTime>1563515508496</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>
