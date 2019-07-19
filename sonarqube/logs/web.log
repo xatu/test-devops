@@ -1,0 +1,274 @@
+2019.07.19 14:28:23 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2019.07.19 14:28:23 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2019.07.19 14:28:24 INFO  web[][o.e.p.PluginsService] no modules loaded
+2019.07.19 14:28:24 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019.07.19 14:28:24 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019.07.19 14:28:24 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.07.19 14:28:25 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.07.19 14:28:25 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.1.0.11001 / 9f47ce9daecebb16fc777249a418252625ae774a
+2019.07.19 14:28:26 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.07.19 14:28:26 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2019.07.19 14:28:26 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.07.19 14:28:26 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2019.07.19 14:28:28 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.d.m.h.MigrationHistoryTableImpl] Creating table schema_migrations
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin Svn [scmsvn] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarJS [javascript] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarPython [python] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarJava [java] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarC# [csharp] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin Git [scmgit] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarTS [typescript] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarXML [xml] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarFlex [flex] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarPHP [php] installed
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Git / 1.4.0.1037 / 05703ae67364e0cc41c6d49f495e0e6977abfb52
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 7.0.1.4822 / 6d8cd4ef8c80476eba86efa4d0a1a9416065c304
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarFlex / 2.4.0.1222 / 68d9cb3b7daccbc4869c4f2b89d09218d26a0829
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 4.1.0.6085 / 0a33c1a749126986ce73dd749f64f14ff4c91e33
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 5.2.0.13398 / 3e712400303a4017c13b87b7194d3d630c8ff6f3
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.13.0.3107 / 9592e5feedc752eddc8f4c15763e80d2bd07ade7
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.9.1.2080 / 0354ec882b62a15fa818ba426a2f8793ba84f135
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.6.0.2388 / 5ae76d80572942e9a286a67656f68c983290ce69
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.5.0.1373 / 9f316f07ccad2687bd45715aa034353d6a7a4a4a
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Svn / 1.7.0.1017 / 49f31dd1fa72844fb25a98937e76b1469b39d135
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.d.m.AutoDbMigration] Automatically perform DB migration on fresh install
+2019.07.19 14:28:28 INFO  web[][o.s.s.p.Platform] Database has been automatically updated
+2019.07.19 14:28:29 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@299cf44f [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2019.07.19 14:28:29 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2019.07.19 14:28:30 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2019.07.19 14:28:30 INFO  web[][o.s.s.e.IndexCreator] Create index metadatas
+2019.07.19 14:28:31 INFO  web[][o.s.s.e.IndexCreator] Create type metadatas/metadata
+2019.07.19 14:28:31 INFO  web[][o.s.s.e.IndexCreator] Create index components
+2019.07.19 14:28:32 INFO  web[][o.s.s.e.IndexCreator] Create type components/component
+2019.07.19 14:28:33 INFO  web[][o.s.s.e.IndexCreator] Create type components/authorization
+2019.07.19 14:28:33 INFO  web[][o.s.s.e.IndexCreator] Create index tests
+2019.07.19 14:28:34 INFO  web[][o.s.s.e.IndexCreator] Create type tests/test
+2019.07.19 14:28:34 INFO  web[][o.s.s.e.IndexCreator] Create index projectmeasures
+2019.07.19 14:28:36 INFO  web[][o.s.s.e.IndexCreator] Create type projectmeasures/projectmeasure
+2019.07.19 14:28:36 INFO  web[][o.s.s.e.IndexCreator] Create type projectmeasures/authorization
+2019.07.19 14:28:36 INFO  web[][o.s.s.e.IndexCreator] Create index rules
+2019.07.19 14:28:37 INFO  web[][o.s.s.e.IndexCreator] Create type rules/activeRule
+2019.07.19 14:28:37 INFO  web[][o.s.s.e.IndexCreator] Create type rules/ruleExtension
+2019.07.19 14:28:37 INFO  web[][o.s.s.e.IndexCreator] Create type rules/rule
+2019.07.19 14:28:37 INFO  web[][o.s.s.e.IndexCreator] Create index issues
+2019.07.19 14:28:38 INFO  web[][o.s.s.e.IndexCreator] Create type issues/issue
+2019.07.19 14:28:38 INFO  web[][o.s.s.e.IndexCreator] Create type issues/authorization
+2019.07.19 14:28:39 INFO  web[][o.s.s.e.IndexCreator] Create index users
+2019.07.19 14:28:39 INFO  web[][o.s.s.e.IndexCreator] Create type users/user
+2019.07.19 14:28:39 INFO  web[][o.s.s.e.IndexCreator] Create index views
+2019.07.19 14:28:40 INFO  web[][o.s.s.e.IndexCreator] Create type views/view
+2019.07.19 14:28:40 INFO  web[][o.s.s.s.LogServerId] Server ID: AWwKol8fdkkWHEQ-xLJ8
+2019.07.19 14:28:41 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2019.07.19 14:28:41 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2019.07.19 14:28:41 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2019.07.19 14:28:41 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2019.07.19 14:28:41 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2019.07.19 14:28:41 INFO  web[][o.s.s.q.RegisterQualityGates] Built-in quality gate's conditions of [Sonar way] has been updated
+2019.07.19 14:28:41 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2019.07.19 14:28:51 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2019.07.19 14:28:52 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2019.07.19 14:28:52 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile cs/Sonar way
+2019.07.19 14:28:53 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile java/Sonar way
+2019.07.19 14:28:54 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile flex/Sonar way
+2019.07.19 14:28:54 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile xml/Sonar way
+2019.07.19 14:28:54 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile js/Sonar way Recommended
+2019.07.19 14:28:54 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile js/Sonar way
+2019.07.19 14:28:54 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/Sonar way
+2019.07.19 14:28:55 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/PSR-2
+2019.07.19 14:28:55 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/Drupal
+2019.07.19 14:28:55 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile py/Sonar way
+2019.07.19 14:28:55 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile ts/Sonar way
+2019.07.19 14:28:56 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile ts/Sonar way recommended
+2019.07.19 14:28:56 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2019.07.19 14:28:56 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2019.07.19 14:28:56 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@306d22ce [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2019.07.19 14:28:56 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@5b0bed9b [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2019.07.19 14:28:56 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@4e94b237 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2019.07.19 14:28:56 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@7d2b48c7 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2019.07.19 14:28:56 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@6936ef94 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2019.07.19 14:28:56 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@3bb4f060 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2019.07.19 14:28:56 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@203ac20a [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2019.07.19 14:28:56 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@57f63a90 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2019.07.19 14:28:56 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [rules/activeRule] ...
+2019.07.19 14:28:59 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [rules/activeRule] done | time=3010ms
+2019.07.19 14:28:59 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [rules/ruleExtension],[rules/rule] ...
+2019.07.19 14:29:04 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [rules/ruleExtension],[rules/rule] done | time=4932ms
+2019.07.19 14:29:04 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [users/user] ...
+2019.07.19 14:29:05 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [users/user] done | time=922ms
+2019.07.19 14:29:05 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [components/component] ...
+2019.07.19 14:29:05 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [components/component] done | time=218ms
+2019.07.19 14:29:05 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [views/view] ...
+2019.07.19 14:29:05 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [views/view] done | time=265ms
+2019.07.19 14:29:05 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [issues/issue] ...
+2019.07.19 14:29:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [issues/issue] done | time=234ms
+2019.07.19 14:29:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [components/authorization],[issues/authorization],[projectmeasures/authorization] ...
+2019.07.19 14:29:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [components/authorization],[issues/authorization],[projectmeasures/authorization] done | time=273ms
+2019.07.19 14:29:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [tests/test] ...
+2019.07.19 14:29:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [tests/test] done | time=191ms
+2019.07.19 14:29:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [projectmeasures/projectmeasure] ...
+2019.07.19 14:29:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [projectmeasures/projectmeasure] done | time=287ms
+2019.07.19 14:29:06 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2019.07.19 14:29:10 INFO  web[AWwKovhvFfAHkPSFAAAB][o.a.t.u.h.p.Cookie] A cookie header was received [N1:C N2:C N3:C N4:C N5:C N6:C N7:C N8:C N9:C N10:C N11:C N12:C N13:C N14:C N15:C N16:C N17:C N18:C N19:C N20:C N21:C N22:C N23:C N24:C N25:C N26:C N27:C N28:C N29:C N30:C N31:C N32:C N33:C; LtpaToken2=yCtxM3P21ToKq+VAYNwLL9fjZKuEiKA+EwoExOvHLtNAnpIbeuWSzQ1s4/WmF8QktWGhCNqx7ODQntlig41beoNH+j/PH7pTpEkR1+wmRxkjZoFqk5uApsnPw0tnorIngHA6U+KliBTdFb3GVYpiGKzHBZgO6XSpc0XaR6KigKGLKWn+yBb81JvprG9/dGOLefxkv5+NRcWlZ5B0YN6qfi0kE4LaLlkdhCda83LuMU5vqNEjYcbPHCq5df8SmtxQuRQuG3IQB9BmGDR9n+Ypa213ZpGY/QNkBWQwhWhWXVDtpTAQaxiUgycjsBRkpr9GCSTUWliMDEB2tr38tMtAjCxtp1+HfKBGacHVtwqDFtTeSycMuKMOgM26Fh0aF8d8XqJdDT99cxHijrwysrHcYUigMaXzaaSXz/oOfbWJLCBON7E91mliGZFW9HSpg9FmU7n51A8gcQpzKTOhLLfdgpG1wvrNg4WEZS1mGmOfJbhA5mNOQsJrTGOsBU4Z69CeNcXwTaKGI8ApYUembq0yi6dR5nlYbgy4exOG+fN7KuBcAFz82zXL87dEnUdGRQCwncKFk6JmOHxgpceOHhQPKz9k4UmWQXXVK+TyZA/1RL2jzJyh3k5kqMH1luvYwCkbD03er8vlWT4rZr6hN8BqMg==; sessionCode=1623776755] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 7.0.1.4822 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.4.0.1222 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'java' version : 5.2.0.13398 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 4.1.0.6085 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'php' version : 2.13.0.3107 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'python' version : 1.9.1.2080 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmgit' version : 1.4.0.1037 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'scmsvn' version : 1.7.0.1017 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 1.6.0.2388 has not been found on the update center.
+2019.07.19 15:40:03 INFO  web[AWwKovhvFfAHkPSFAADU][o.s.u.c.UpdateCenter] The plugin 'xml' version : 1.5.0.1373 has not been found on the update center.
+2019.07.19 16:30:07 INFO  web[][o.s.p.StopWatcher] Stopping process
+2019.07.19 19:08:53 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2019.07.19 19:08:54 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2019.07.19 19:08:55 INFO  web[][o.e.p.PluginsService] no modules loaded
+2019.07.19 19:08:55 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019.07.19 19:08:55 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019.07.19 19:08:55 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.07.19 19:08:56 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.07.19 19:08:56 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.1.0.11001 / 9f47ce9daecebb16fc777249a418252625ae774a
+2019.07.19 19:08:57 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.07.19 19:08:57 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2019.07.19 19:08:57 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.07.19 19:08:58 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2019.07.19 19:08:59 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Git / 1.4.0.1037 / 05703ae67364e0cc41c6d49f495e0e6977abfb52
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 7.0.1.4822 / 6d8cd4ef8c80476eba86efa4d0a1a9416065c304
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarFlex / 2.4.0.1222 / 68d9cb3b7daccbc4869c4f2b89d09218d26a0829
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 4.1.0.6085 / 0a33c1a749126986ce73dd749f64f14ff4c91e33
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 5.2.0.13398 / 3e712400303a4017c13b87b7194d3d630c8ff6f3
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.13.0.3107 / 9592e5feedc752eddc8f4c15763e80d2bd07ade7
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.9.1.2080 / 0354ec882b62a15fa818ba426a2f8793ba84f135
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.6.0.2388 / 5ae76d80572942e9a286a67656f68c983290ce69
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.5.0.1373 / 9f316f07ccad2687bd45715aa034353d6a7a4a4a
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Svn / 1.7.0.1017 / 49f31dd1fa72844fb25a98937e76b1469b39d135
+2019.07.19 19:08:59 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@36b0116a [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2019.07.19 19:09:00 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2019.07.19 19:09:01 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2019.07.19 19:09:02 INFO  web[][o.s.s.s.LogServerId] Server ID: AWwKol8fdkkWHEQ-xLJ8
+2019.07.19 19:09:02 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2019.07.19 19:09:02 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2019.07.19 19:09:02 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2019.07.19 19:09:02 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2019.07.19 19:09:02 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2019.07.19 19:09:03 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2019.07.19 19:09:08 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2019.07.19 19:09:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2019.07.19 19:09:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2019.07.19 19:09:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2019.07.19 19:09:10 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2019.07.19 19:09:10 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2019.07.19 19:09:10 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2019.07.19 19:09:10 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@6e80130b [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2019.07.19 19:09:10 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@293a8f1f [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2019.07.19 19:09:10 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@71d158f3 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2019.07.19 19:09:10 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@7b3f3dc0 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2019.07.19 19:09:10 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@2b96877d [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2019.07.19 19:09:10 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@56c9fcbb [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2019.07.19 19:09:10 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@4350ddfe [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2019.07.19 19:09:10 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@5eadbb0f [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2019.07.19 19:09:10 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2019.07.19 19:09:14 INFO  web[AWwLo2DxgJB5PZ99AAAE][o.a.t.u.h.p.Cookie] A cookie header was received [N1:C N2:C N3:C N4:C N5:C N6:C N7:C N8:C N9:C N10:C N11:C N12:C N13:C N14:C N15:C N16:C N17:C N18:C N19:C N20:C N21:C N22:C N23:C N24:C N25:C N26:C N27:C N28:C N29:C N30:C N31:C N32:C N33:C; LtpaToken2=KQhM0IyrTjelf0iDxd2GGEsLYOUJzNrLRUOCk6ufR1wRa+NYTSfHwEltRf0Q1rvicOVpp5iBx/8Lq9qiXopDCSQB9hPuyfvkae5ACD/xDP1iQOXs6RslZtEpQeli0HM5u+JrgiLg4M7IJ0EWT62bYuXzW1Xg9ODqiXccb0rvIUFhMz+77mU1sNSZL8MQBRRc3iTjroeuX6JuKtyikDzEMuOl5kXKBQrSb11IhudQNgxFNPqBCNxQ2+d+dRFktv5aCXrmg6APl6Cea6WDkr3zJ9fzitR5E75XSvInx+AWGVlFXDs1UJPu/p2PFYqgG3ajTOiL9uJg8W9LGFTzLW3vbC4TBZlvZRRmDH1zYH+XaArW6gh5LjM+oOwZrY4DQP+1/o4kobA/+sKe9SsGu6YdTiXnKnPEEKGI1szVVlpiR2GRToeLVhijW27EN6N4sZVtiOHMEbYxvbJELYl2N94gxaG7UpBCtciIUhDN4phRCt0HKrufLSC4AyT/IxBMBfVySBSqqqQcGbCZxWn3Zw4XQBDTSJkGpbU1tuWA+zEsLfObPfbyDHMYVkyJ+XU6WVvGYix9dp76vvl8fZlm3bddWdNSWiYODdGPZ/jiYvMy3f/J9ZWqNL8yxGNjfS/U6vAco3MKzaqdmA7xzYnZ44LiBA==; sessionCode=1623776755; XSRF-TOKEN=a09qaa3v9mghpl7ppihd94tcrj; JWT-SESSION=eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJBV3dLb3lkc2Rra1dIRVEteE1EcyIsInN1YiI6ImFkbWluIiwiaWF0IjoxNTYzNTQ2NTYwLCJleHAiOjE1NjM4MTIyNDAsImxhc3RSZWZyZXNoVGltZSI6MTU2MzU0NjU2MDI1MCwieHNyZlRva2VuIjoiYTA5cWFhM3Y5bWdocGw3cHBpaGQ5NHRjcmoifQ.O0OQwDBO-02cvoHvHiR5f-0rbfFKbHQio2SXqU_oGYE; JSESSIONID.b6ce57d4=node073l8w9se3lze1r0bas79jiolh1.node0; JSESSIONID.6e14e4fb=node05iknxoa7x42p14hh3cygp2txj1.node0; JSESSIONID.39ba45e8=node0tg8t71s5tjyx15zc77081b67v1.node0; JSESSIONID.13abdbc9=node0d6pt3zsehr56151f6madwemx33.node0] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.

@@ -1,0 +1,88 @@
+2019.07.19 14:29:07 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2019.07.19 14:29:07 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2019.07.19 14:29:08 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2019.07.19 14:29:08 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019.07.19 14:29:08 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019.07.19 14:29:08 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.07.19 14:29:09 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.07.19 14:29:09 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.07.19 14:29:09 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2019.07.19 14:29:10 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2019.07.19 14:29:10 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2019.07.19 14:29:12 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before 1547994552222
+2019.07.19 14:29:12 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Scanner contexts tasks created before 1561127352275
+2019.07.19 14:29:12 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2019.07.19 14:30:38 INFO  ce[AWwKpFM8dkkWHEQ-xMDz][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwKpFM8dkkWHEQ-xMDz | submitter=admin
+2019.07.19 14:30:41 INFO  ce[AWwKpFM8dkkWHEQ-xMDz][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwKpFM8dkkWHEQ-xMDz | submitter=admin | status=SUCCESS | time=2641ms
+2019.07.19 15:27:17 INFO  ce[AWwK2DBjdkkWHEQ-xMD0][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK2DBjdkkWHEQ-xMD0 | submitter=admin
+2019.07.19 15:27:18 INFO  ce[AWwK2DBjdkkWHEQ-xMD0][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK2DBjdkkWHEQ-xMD0 | submitter=admin | status=SUCCESS | time=1558ms
+2019.07.19 15:30:07 INFO  ce[AWwK2sh0dkkWHEQ-xMD1][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK2sh0dkkWHEQ-xMD1 | submitter=admin
+2019.07.19 15:30:08 INFO  ce[AWwK2sh0dkkWHEQ-xMD1][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK2sh0dkkWHEQ-xMD1 | submitter=admin | status=SUCCESS | time=1157ms
+2019.07.19 15:36:52 INFO  ce[AWwK4PUOdkkWHEQ-xMD2][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK4PUOdkkWHEQ-xMD2 | submitter=admin
+2019.07.19 15:36:53 INFO  ce[AWwK4PUOdkkWHEQ-xMD2][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK4PUOdkkWHEQ-xMD2 | submitter=admin | status=SUCCESS | time=1180ms
+2019.07.19 15:43:56 INFO  ce[AWwK525edkkWHEQ-xMD6][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK525edkkWHEQ-xMD6 | submitter=admin
+2019.07.19 15:43:57 INFO  ce[AWwK525edkkWHEQ-xMD6][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK525edkkWHEQ-xMD6 | submitter=admin | status=SUCCESS | time=1183ms
+2019.07.19 15:47:01 INFO  ce[AWwK6kaQdkkWHEQ-xMD7][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK6kaQdkkWHEQ-xMD7 | submitter=admin
+2019.07.19 15:47:02 INFO  ce[AWwK6kaQdkkWHEQ-xMD7][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK6kaQdkkWHEQ-xMD7 | submitter=admin | status=SUCCESS | time=1233ms
+2019.07.19 15:53:17 INFO  ce[AWwK8AKmdkkWHEQ-xMD8][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK8AKmdkkWHEQ-xMD8 | submitter=admin
+2019.07.19 15:53:18 INFO  ce[AWwK8AKmdkkWHEQ-xMD8][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK8AKmdkkWHEQ-xMD8 | submitter=admin | status=SUCCESS | time=1270ms
+2019.07.19 15:57:12 INFO  ce[AWwK85mOdkkWHEQ-xMD9][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK85mOdkkWHEQ-xMD9 | submitter=admin
+2019.07.19 15:57:13 INFO  ce[AWwK85mOdkkWHEQ-xMD9][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK85mOdkkWHEQ-xMD9 | submitter=admin | status=SUCCESS | time=1166ms
+2019.07.19 15:59:05 INFO  ce[AWwK9VKFdkkWHEQ-xMD-][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK9VKFdkkWHEQ-xMD- | submitter=admin
+2019.07.19 15:59:07 INFO  ce[AWwK9VKFdkkWHEQ-xMD-][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK9VKFdkkWHEQ-xMD- | submitter=admin | status=SUCCESS | time=1034ms
+2019.07.19 16:04:13 INFO  ce[AWwK-gGmdkkWHEQ-xMD_][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK-gGmdkkWHEQ-xMD_ | submitter=admin
+2019.07.19 16:04:14 INFO  ce[AWwK-gGmdkkWHEQ-xMD_][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK-gGmdkkWHEQ-xMD_ | submitter=admin | status=SUCCESS | time=1257ms
+2019.07.19 16:09:00 INFO  ce[AWwK_mfOdkkWHEQ-xMEA][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwK_mfOdkkWHEQ-xMEA | submitter=admin
+2019.07.19 16:09:02 INFO  ce[AWwK_mfOdkkWHEQ-xMEA][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwK_mfOdkkWHEQ-xMEA | submitter=admin | status=SUCCESS | time=1474ms
+2019.07.19 16:11:00 INFO  ce[AWwLADjGdkkWHEQ-xMEB][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwLADjGdkkWHEQ-xMEB | submitter=admin
+2019.07.19 16:11:01 INFO  ce[AWwLADjGdkkWHEQ-xMEB][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwLADjGdkkWHEQ-xMEB | submitter=admin | status=SUCCESS | time=1093ms
+2019.07.19 16:16:51 INFO  ce[AWwLBZeTdkkWHEQ-xMEC][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwLBZeTdkkWHEQ-xMEC | submitter=admin
+2019.07.19 16:16:53 INFO  ce[AWwLBZeTdkkWHEQ-xMEC][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwLBZeTdkkWHEQ-xMEC | submitter=admin | status=SUCCESS | time=1266ms
+2019.07.19 16:17:29 INFO  ce[AWwLBiSBdkkWHEQ-xMED][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwLBiSBdkkWHEQ-xMED | submitter=admin
+2019.07.19 16:17:30 INFO  ce[AWwLBiSBdkkWHEQ-xMED][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwLBiSBdkkWHEQ-xMED | submitter=admin | status=SUCCESS | time=1073ms
+2019.07.19 16:30:05 INFO  ce[][o.s.p.StopWatcher] Stopping process
+2019.07.19 16:30:05 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2019.07.19 16:30:05 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Waiting for workers to finish in-progress tasks
+2019.07.19 16:30:06 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2019.07.19 19:09:11 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2019.07.19 19:09:11 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2019.07.19 19:09:11 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2019.07.19 19:09:11 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019.07.19 19:09:11 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019.07.19 19:09:11 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.07.19 19:09:13 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.07.19 19:09:13 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.07.19 19:09:13 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2019.07.19 19:09:14 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2019.07.19 19:09:14 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2019.07.19 19:09:15 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before 1548011355461
+2019.07.19 19:09:15 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Scanner contexts tasks created before 1561144155478
+2019.07.19 19:09:15 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2019.07.19 19:10:07 INFO  ce[AWwLpDIdfML5f2bzhs8a][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwLpDIdfML5f2bzhs8a | submitter=admin
+2019.07.19 19:10:10 INFO  ce[AWwLpDIdfML5f2bzhs8a][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwLpDIdfML5f2bzhs8a | submitter=admin | status=SUCCESS | time=2633ms
+2019.07.19 19:11:54 INFO  ce[AWwLpdbnfML5f2bzhs8b][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwLpdbnfML5f2bzhs8b | submitter=admin
+2019.07.19 19:11:55 INFO  ce[AWwLpdbnfML5f2bzhs8b][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwLpdbnfML5f2bzhs8b | submitter=admin | status=SUCCESS | time=1468ms
+2019.07.19 19:39:56 INFO  ce[AWwLv4AQfML5f2bzhs8c][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwLv4AQfML5f2bzhs8c | submitter=admin
+2019.07.19 19:39:57 INFO  ce[AWwLv4AQfML5f2bzhs8c][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwLv4AQfML5f2bzhs8c | submitter=admin | status=SUCCESS | time=1370ms
+2019.07.19 19:59:50 INFO  ce[AWwL0bqpfML5f2bzhs8d][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwL0bqpfML5f2bzhs8d | submitter=admin
+2019.07.19 19:59:52 INFO  ce[AWwL0bqpfML5f2bzhs8d][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwL0bqpfML5f2bzhs8d | submitter=admin | status=SUCCESS | time=1531ms
+2019.07.19 20:02:24 INFO  ce[AWwL1BY3fML5f2bzhs8e][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwL1BY3fML5f2bzhs8e | submitter=admin
+2019.07.19 20:02:25 INFO  ce[AWwL1BY3fML5f2bzhs8e][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwL1BY3fML5f2bzhs8e | submitter=admin | status=SUCCESS | time=1394ms
+2019.07.19 20:25:11 INFO  ce[AWwL6OwcfML5f2bzhs8f][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwL6OwcfML5f2bzhs8f | submitter=admin
+2019.07.19 20:25:12 INFO  ce[AWwL6OwcfML5f2bzhs8f][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwL6OwcfML5f2bzhs8f | submitter=admin | status=SUCCESS | time=1422ms
+2019.07.19 20:29:00 INFO  ce[AWwL7GwrfML5f2bzhs8g][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwL7GwrfML5f2bzhs8g | submitter=admin
+2019.07.19 20:29:02 INFO  ce[AWwL7GwrfML5f2bzhs8g][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwL7GwrfML5f2bzhs8g | submitter=admin | status=SUCCESS | time=1292ms
+2019.07.19 20:36:38 INFO  ce[AWwL82pHfML5f2bzhs8h][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwL82pHfML5f2bzhs8h | submitter=admin
+2019.07.19 20:36:40 INFO  ce[AWwL82pHfML5f2bzhs8h][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwL82pHfML5f2bzhs8h | submitter=admin | status=SUCCESS | time=1528ms
+2019.07.19 20:40:30 INFO  ce[AWwL9vClfML5f2bzhs8i][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwL9vClfML5f2bzhs8i | submitter=admin
+2019.07.19 20:40:31 INFO  ce[AWwL9vClfML5f2bzhs8i][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwL9vClfML5f2bzhs8i | submitter=admin | status=SUCCESS | time=1435ms
+2019.07.19 20:41:43 INFO  ce[AWwL-BP0fML5f2bzhs8j][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwL-BP0fML5f2bzhs8j | submitter=admin
+2019.07.19 20:41:44 INFO  ce[AWwL-BP0fML5f2bzhs8j][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwL-BP0fML5f2bzhs8j | submitter=admin | status=SUCCESS | time=1222ms
+2019.07.19 20:42:53 INFO  ce[AWwL-SMkfML5f2bzhs8k][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwL-SMkfML5f2bzhs8k | submitter=admin
+2019.07.19 20:42:54 INFO  ce[AWwL-SMkfML5f2bzhs8k][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwL-SMkfML5f2bzhs8k | submitter=admin | status=SUCCESS | time=1465ms
+2019.07.19 20:47:52 INFO  ce[AWwL_bJGfML5f2bzhs8l][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwL_bJGfML5f2bzhs8l | submitter=admin
+2019.07.19 20:47:54 INFO  ce[AWwL_bJGfML5f2bzhs8l][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwL_bJGfML5f2bzhs8l | submitter=admin | status=SUCCESS | time=1345ms
+2019.07.19 20:50:36 INFO  ce[AWwMADVwfML5f2bzhs8m][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwMADVwfML5f2bzhs8m | submitter=admin
+2019.07.19 20:50:37 INFO  ce[AWwMADVwfML5f2bzhs8m][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwMADVwfML5f2bzhs8m | submitter=admin | status=SUCCESS | time=1246ms
+2019.07.19 20:51:49 INFO  ce[AWwMAVDIfML5f2bzhs8n][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwMAVDIfML5f2bzhs8n | submitter=admin
+2019.07.19 20:51:50 INFO  ce[AWwMAVDIfML5f2bzhs8n][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwMAVDIfML5f2bzhs8n | submitter=admin | status=SUCCESS | time=1214ms

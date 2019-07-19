@@ -1,0 +1,240 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.33">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterValue plugin="git-parameter@0.9.11">
+          <name>BRANCH</name>
+          <value>origin/master</value>
+        </net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>BRANCH</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.14">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.72">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <hudson.plugins.git.util.BuildData plugin="git@3.10.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.8.0">
+              <sha1>3b5bcd036d946f15f2bf00b37c396e43add311ca</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>41</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://gitlab.com/codilabs/Ear-Test.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.10.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.9">
+      <revisionStates>
+        <entry>
+          <string>git https://gitlab.com/codilabs/Ear-Test.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <hudson.plugins.sonar.action.SonarMarkerAction plugin="sonar@2.9"/>
+    <hudson.plugins.sonar.action.SonarAnalysisAction plugin="sonar@2.9">
+      <installationName>sonar</installationName>
+      <credentialsId>sonar-token</credentialsId>
+      <ceTaskId>AWwL0bqpfML5f2bzhs8d</ceTaskId>
+      <url>http://localhost:9000/dashboard/index/test</url>
+      <serverUrl>http://localhost:9000</serverUrl>
+      <isNew>true</isNew>
+      <isSkipped>false</isSkipped>
+    </hudson.plugins.sonar.action.SonarAnalysisAction>
+    <hudson.plugins.sonar.action.SonarCacheAction plugin="sonar@2.9">
+      <infoByTaskId>
+        <entry>
+          <string>AWwL0bqpfML5f2bzhs8d</string>
+          <hudson.plugins.sonar.client.ProjectInformation>
+            <created>1563566396224</created>
+            <name>Ear-Test</name>
+            <url>http://localhost:9000/dashboard/index/test</url>
+            <status>OK</status>
+            <ceStatus>success</ceStatus>
+            <ceUrl>http://localhost:9000/api/ce/task?id=AWwL0bqpfML5f2bzhs8d</ceUrl>
+          </hudson.plugins.sonar.client.ProjectInformation>
+        </entry>
+      </infoByTaskId>
+      <lastRequest>1563566396245</lastRequest>
+      <lastProjInfo>
+        <hudson.plugins.sonar.client.ProjectInformation reference="../../infoByTaskId/entry/hudson.plugins.sonar.client.ProjectInformation"/>
+      </lastProjInfo>
+    </hudson.plugins.sonar.action.SonarCacheAction>
+  </actions>
+  <queueId>68</queueId>
+  <timestamp>1563566375176</timestamp>
+  <startTime>1563566375221</startTime>
+  <result>FAILURE</result>
+  <duration>20985</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+
+    properties([
+        parameters([
+            gitParameter(
+                branch: &apos;&apos;, 
+                branchFilter: &apos;.*&apos;, 
+                defaultValue: &apos;master&apos;, 
+                description: &apos;&apos;, 
+                name: &apos;BRANCH&apos;, 
+                quickFilterEnabled: false, 
+                selectedValue: &apos;NONE&apos;, 
+                sortMode: &apos;NONE&apos;, 
+                tagFilter: &apos;*&apos;, 
+                type: &apos;PT_BRANCH&apos;
+            )
+        ])
+    ])
+    
+    def branch = &quot;${env.BRANCH}&quot;.split(&apos;/&apos;)[1]
+
+    stage(&apos;scm&apos;){
+        git branch: &quot;${branch}&quot;, url: &apos;https://gitlab.com/codilabs/Ear-Test.git&apos;
+    }
+
+    stage(&apos;Show files&apos;){
+        sh &apos;ls -ltrha&apos;
+    }
+    
+    stage(&apos;Sonnarqube&apos;) {
+        withSonarQubeEnv(credentialsId: &apos;sonar-token&apos;) {
+            def scan = tool name: &apos;scanner&apos;, type: &apos;hudson.plugins.sonar.SonarRunnerInstallation&apos;
+            writeFile file: &apos;sonar-project.properties&apos;, text: &apos;&apos;&apos;sonar.projectKey=test
+            sonar.projectName=Ear-Test
+            sonar.projectVersion=&gt;0.0.1-SNAPSHOT
+            sonar.sources=.
+            sonar.sourceEncoding=UTF-8
+            sonar.exclusions=**/target/**
+            sonar.java.source=1.8
+            &apos;&apos;&apos;            
+            sh &quot;${scan}/bin/sonar-scanner&quot;
+        }
+    }
+
+    stage(&apos;Quality gate&apos;) {
+        timeout(time: 1, unit: &apos;MINUTES&apos;) {
+            def qg = waitForQualityGate()
+            if (qg.status != &apos;OK&apos;) {
+                error &quot;Pipeline failed due to sonarqube: ${qg.status}&quot;
+            }
+        }
+    }
+
+
+    stage(&apos;Build&apos;) {
+        def maven = tool name: &apos;maven&apos;, type: &apos;maven&apos;
+        configFileProvider([configFile(fileId: &apos;68ff4cc8-1127-419c-b691-8ab28323f659&apos;, targetLocation: &apos;${env.WORKSPACE}/settings.xml&apos;)]) {
+            sh &quot;&quot;&quot;            
+                ${maven}/bin/mvn clean package -source 1.8 -target 1.8
+                ls -ltrh
+            &quot;&quot;&quot;
+        }
+    }
+
+    stage(&apos;Deploy WAS&apos;) {
+
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>4164292214</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>1748540629</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>7545971715</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>1301013381</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>442791151</long>
+      </entry>
+    </timings>
+    <sandbox>false</sandbox>
+    <iota>48</iota>
+    <head>1:48</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.10.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://gitlab.com/codilabs/Ear-Test.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>master</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test</workspace>
+      <changelogFile>/home/rmezquita/Projects/test-devops/jenkins/data/jobs/test/builds/41/changelog814104459910518317.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

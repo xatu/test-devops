@@ -152,3 +152,16 @@ INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR
 INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
 INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
 INFO: 0/1 files analyzed, current file: /opt/jenkins/home/workspace/test/testWAR/src/java/com/codilabs/test.java
+Resuming build at Fri Jul 19 10:19:50 AST 2019 after Jenkins restart
+Waiting to resume part of test #20: Finished waiting
+Ready to run at Fri Jul 19 10:19:52 AST 2019
+[8mha:////4Pa9Fd89UyQfzQWnwMbe4cUnvMKHh03NlqfPFoNf3P55AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] }
+WARN: Unable to locate 'report-task.txt' in the workspace. Did the SonarScanner succeeded?
+[8mha:////4MJOyThRrE2TdRNi14ge0bRl950og1NvSgnvawodtPqSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4Fkq0o5j+v3jdwhsdxxeVqM+0l7wzoR7+/kBtaW8V929AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] }
+[8mha:////4CUWEfEBdeK+fIZEr4+c0hctIenpuXM+IrV1zGNdX6zmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKNIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QEM+zgYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4L+3aXIm98faB8TjSLt1Z0ygjJ1kAbeuDooM3SzKGb7mAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuAzuF8ea9AAAA[0m[Pipeline] }
+[8mha:////4HyBz+c5dYXD9Ajmp1Mx1nepTFQW2eIfk6ekKT2JzfFDAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AEmHxfq9AAAA[0m[Pipeline] // node
+[8mha:////4K/FJKAlTTcoy2AknguA0Jab589cSUzBKSFIxo6JXMAzAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkbMY4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAb56isL0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: missing workspace /opt/jenkins/home/workspace/test on 
+Finished: FAILURE

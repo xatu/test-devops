@@ -1,0 +1,47 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.72">
+    <parentIds>
+      <string>42</string>
+    </parentIds>
+    <id>43</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreWrapperStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.72">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.19">
+            <symbol>configFileProvider</symbol>
+            <arguments class="tree-map">
+              <entry>
+                <string>&lt;anonymous&gt;</string>
+                <list>
+                  <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                    <symbol>configFile</symbol>
+                    <arguments class="linked-hash-map">
+                      <entry>
+                        <string>fileId</string>
+                        <string>2661c4b2-0d44-428e-a734-bba0ef32c65c</string>
+                      </entry>
+                      <entry>
+                        <string>targetLocation</string>
+                        <string>/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/was-maven-plugin.properties</string>
+                      </entry>
+                    </arguments>
+                  </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                </list>
+              </entry>
+            </arguments>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.35">
+      <startTime>1563569439284</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: F276977
+Build-Jdk: 1.6.0_24
+Extension-Name: was-builder
+Implementation-Title: was-builder
+Implementation-Version: 1.6.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: was-builder
+Long-Name: WAS Builder Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/WAS+Builder+Plugin
+Plugin-Version: 1.6.1
+Hudson-Version: 1.409
+Jenkins-Version: 1.409
+Plugin-Developers: Romain Seguy:rseguy:romain.seguy@gmail.com
+

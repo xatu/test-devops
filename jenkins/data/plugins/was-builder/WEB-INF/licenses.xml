@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='WAS Builder Plugin' groupId='org.jenkins-ci.plugins' artifactId='was-builder' version='1.6.1' url='http://wiki.jenkins-ci.org/display/JENKINS/WAS+Builder+Plugin'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

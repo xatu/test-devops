@@ -1,0 +1,1707 @@
+Started by user [8mha:////4GsdmSnoachQW7TY4LUsIa8Jceibbe1gckqppfnhBX5iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4CimnQvyZR6b2nW4znHAa0HtuPT+9DSBz84kL/SPxqARAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PBKnezGyldlWllmf3HzZQj+mh+5zrD3XIJbjkwZBBHEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HpioqQ0eUJLRt1j39eLxnVsLlnDkdQE8RUlHgx9zCIaAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+[8mha:////4AA931kxtK5wMm11cG8kV+ImoHecxJ/9oep6gmW8yMBGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4A5Xad9S+bJeHFYapW/tigAiyZdJ8qjqL5QkpS4jfVRcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] properties
+[8mha:////4FFdK3chaHOFNc6RkpPlswzOrzPVJYlq6pkUOe8e+RxWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] stage
+[8mha:////4Iz8XUqI0F8SM4+p5rl5Y/AOYOeX57AtIYHEGNI2N0KtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] { (SCM)
+[8mha:////4NwYWpOPy3ZN4vtKGi9tQ2E1TIBE+UJqL+NMD5uV0kBHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4geKI23CvAAAAA==[0m[Pipeline] git
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/codilabs/Ear-Test.git # timeout=10
+Fetching upstream changes from https://gitlab.com/codilabs/Ear-Test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://gitlab.com/codilabs/Ear-Test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3b5bcd036d946f15f2bf00b37c396e43add311ca (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3b5bcd036d946f15f2bf00b37c396e43add311ca
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 3b5bcd036d946f15f2bf00b37c396e43add311ca
+Commit message: "Commit inicial"
+ > git rev-list --no-walk 3b5bcd036d946f15f2bf00b37c396e43add311ca # timeout=10
+[8mha:////4KPJIpaSdQyTOSkDhZ6T/vj6eujzFu74loKgjrK8WRxCAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbGmOsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/Qdlmg9gvAAAAA==[0m[Pipeline] }
+[8mha:////4Dfx2JoI0LM4qcHZAWndnd8pCnCdzmWmHcPLX4F847AJAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoY+NY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AqUpLPL0AAAA=[0m[Pipeline] // stage
+[8mha:////4FnzUJdCrf4mbXgmIeW9MbaeBAFYVn1rSb/ZQohWNCtLAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] stage
+[8mha:////4NQiA7mQw72LuC2EB+TZeBh5zCygFtzD7EZpvot/6bSKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Show files)
+[8mha:////4FKgLGbKDnJHF57e9U8GAcXVUrMYNYGpR1w/eKzLJunQAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] sh
++ ls -ltrha
+total 52K
+drwxrwxr-x 4 rmezquita rmezquita 4.0K Jul 19 16:02 ..
+-rw-rw-r-- 1 rmezquita rmezquita 1.1K Jul 19 16:02 LICENSE
+-rw-rw-r-- 1 rmezquita rmezquita  265 Jul 19 16:50 sonar-project.properties
+drwxrwxr-x 2 rmezquita rmezquita 4.0K Jul 19 16:50 .scannerwork
+-rw-r----- 1 rmezquita rmezquita  10K Jul 19 16:50 settings.xml
+-rw-r----- 1 rmezquita rmezquita  115 Jul 19 16:50 was-maven-plugin.properties
+drwxrwxr-x 4 rmezquita rmezquita 4.0K Jul 19 16:50 testWAR
+drwxrwxr-x 3 rmezquita rmezquita 4.0K Jul 19 16:50 testEAR
+-rw-rw-r-- 1 rmezquita rmezquita  454 Jul 19 16:51 pom.xml
+drwxrwxr-x 6 rmezquita rmezquita 4.0K Jul 19 16:51 .
+drwxrwxr-x 8 rmezquita rmezquita 4.0K Jul 19 16:51 .git
+[8mha:////4Cf0SICVcs3aj0+v1i9Hz4uWY6nxT+28AXsBeDnhH2XSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3BoOEdWO+AAAA[0m[Pipeline] }
+[8mha:////4DD+jh9sAdNJA5M+vJxi9xMhMn5roGkgg3Jf5WlSUQ/wAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfnAYgMb4AAAA=[0m[Pipeline] // stage
+[8mha:////4OuPu+to2vFM7cwtGdb5wJNQCmgWbgWuEyL3tV8BiDlvAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4KroJy4j8WpwK4w54Sskv4OwuuWsYwNdXbcPAlqY1J7LAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Sonnarqube)
+[8mha:////4Ooq/+bBTp29xhRvb+hf8cOI8GdsERtrowb0CJWWqNYJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonar
+[8mha:////4BXmE/7ev/HwC5gXWFItinyB2fcYofsBIgpyytPuNdCnAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4JcaYb5lbhFVBcPsokm/wUmqRo+4woFoqfzWfhrFCajQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] tool
+[8mha:////4L+Pq0ChZXA+Cb3pZTk4o+rJirepM/kigsbmIhG6gNUzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] writeFile
+[8mha:////4IIfytCrNwNrC5UHAznhMInd+GayRqh6aQR137RRyzwGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPeHXHXtP5vywgS+AAAA[0m[Pipeline] sh
++ /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/sonar-project.properties
+INFO: SonarQube Scanner 4.0.0.1744
+INFO: Java 1.8.0_171 Oracle Corporation (64-bit)
+INFO: Linux 4.15.0-20-generic amd64
+INFO: User cache: /home/rmezquita/.sonar/cache
+INFO: SonarQube server 7.1.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=75ms
+INFO: Server id: AWwKol8fdkkWHEQ-xLJ8
+INFO: User cache: /home/rmezquita/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=38ms
+INFO: Load/download plugins
+INFO: Load/download plugins (done) | time=15ms
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=62ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=25ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=1355ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=138ms
+INFO: Project key: test
+INFO: Project base dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+INFO: -------------  Scan Ear-Test
+INFO: Load server rules
+INFO: Load server rules (done) | time=230ms
+INFO: Base dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+INFO: Working dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/.scannerwork
+INFO: Source paths: .
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: Index files
+INFO: Excluded sources: 
+INFO:   **/target/**
+INFO: 8 files indexed
+INFO: 7 files ignored because of inclusion/exclusion patterns
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: Sensor JavaSquidSensor [java]
+INFO: Configured Java source version (sonar.java.source): 8
+INFO: JavaClasspath initialization
+WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+INFO: JavaClasspath initialization (done) | time=6ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=1ms
+INFO: Java Main Files AST scan
+INFO: 1 source files to be analyzed
+INFO: Java Main Files AST scan (done) | time=197ms
+INFO: Java Test Files AST scan
+INFO: 1/1 source files have been analyzed
+INFO: 0 source files to be analyzed
+INFO: Java Test Files AST scan (done) | time=2ms
+INFO: Sensor JavaSquidSensor [java] (done) | time=1011ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/surefire-reports]
+INFO: Sensor SurefireSensor [java] (done) | time=4ms
+INFO: Sensor JaCoCoSensor [java]
+INFO: Sensor JaCoCoSensor [java] (done) | time=1ms
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: 0/0 source files have been analyzed
+INFO: 4 source files to be analyzed
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=623ms
+INFO: 4/4 source files have been analyzed
+INFO: Sensor XML Sensor [xml]
+INFO: Sensor XML Sensor [xml] (done) | time=164ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=15ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=11ms
+INFO: SCM provider for this project is: git
+INFO: 1 files to be analyzed
+INFO: 0/1 files analyzed
+WARN: Missing blame information for the following files:
+WARN:   * settings.xml
+WARN: This may lead to missing/broken features in SonarQube
+INFO: 1 file had no CPD blocks
+INFO: Calculating CPD for 0 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 157ms, dir size=41 KB
+INFO: Analysis reports compressed in 15ms, zip size=17 KB
+INFO: Analysis report uploaded in 57ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/test
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AWwMAVDIfML5f2bzhs8n
+INFO: Task total time: 6.714 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 8.229s
+INFO: Final Memory: 20M/408M
+INFO: ------------------------------------------------------------------------
+[8mha:////4Pa9Fd89UyQfzQWnwMbe4cUnvMKHh03NlqfPFoNf3P55AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] }
+[8mha:////4MJOyThRrE2TdRNi14ge0bRl950og1NvSgnvawodtPqSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4Fkq0o5j+v3jdwhsdxxeVqM+0l7wzoR7+/kBtaW8V929AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] }
+[8mha:////4CUWEfEBdeK+fIZEr4+c0hctIenpuXM+IrV1zGNdX6zmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKNIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QEM+zgYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4MBnNl6pEfJSDuI8mVH26dqrOOk7W6WqIkLtc9f3GKLMAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjISQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG5POx33BAAAA[0m[Pipeline] stage
+[8mha:////4HvLg4yV67P1jn1HeL2voojMLKZlVI3FQusAi4bveJvnAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Quality gate)
+[8mha:////4A2P31menaKnY3nN6JU37cQJz+5PqLBauevr8i/jzNQVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] timeout
+Timeout set to expire in 1 min 0 sec
+[8mha:////4MoQuEhjgsa7U4g4uWWvnZtS/eAktKzvSMW8waE4y7ixAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4NeKStUOhEMTQOTz7ZScNC+idYlUpbFFQ2SbLAzLCk64AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task 'AWwMAVDIfML5f2bzhs8n' on server 'sonar'
+SonarQube task 'AWwMAVDIfML5f2bzhs8n' status is 'IN_PROGRESS'
+SonarQube task 'AWwMAVDIfML5f2bzhs8n' status is 'SUCCESS'
+SonarQube task 'AWwMAVDIfML5f2bzhs8n' completed. Quality gate is 'OK'
+[8mha:////4Cv1DveKT/uqecHyrZAmoNEkSOw/O1yeJnTQ/yPU/JJzAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fGXWL/r4AAAA=[0m[Pipeline] }
+[8mha:////4Dgk2DkHzedLE2jDkeekumjgymV88XAHxSir8lhbr50EAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFZLxBVvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4DDczyMNdpK9NlVDJ2V6byLJZpswNejX1/dcJFPMMZN6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAdy8SP74AAAA=[0m[Pipeline] }
+[8mha:////4L3PF/i2GMswf2vjEmSFuI7PMAJYJKjTtLpM7l4OM9hcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigRAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAQ+HxZL4AAAA=[0m[Pipeline] // stage
+[8mha:////4OJS/vOPNvY9RsKCp/mwj+WsHilYeQsCQkDjU1se4TDEAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTgGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvghbsEMEAAAA=[0m[Pipeline] stage
+[8mha:////4A9aU5S5lTGhMHTAS2C3nrJcy9R0PWKo4ih+KBPQ5VcIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Build and Deploy)
+[8mha:////4Andbn1behpURuqwAVIeqH8JOATp+uwWNEfTn7KvUFhDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] tool
+[8mha:////4KXuVwLKQ9W1z62U66yExNL3DZYBSA6HbUkYhZlF57aOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YEAIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfABZuXxiwgAAAA==[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [MySettings] to file:/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/settings.xml
+[8mha:////4L6gt76uzxlexFzFlSaO5U+s8G2O51i+Aw9+SV7A03THAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
+[8mha:////4K7UtkEV69pqhkujYeM8Zn5ev/YQebH6X8fwLSzlbk8dAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [pom] to file:/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/pom.xml
+[8mha:////4JYkW4bvpBhjnUjgQM3WHOhxpzcpRlPttsMOl+/TYFxZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4Ea2CkM1369Ca2nf/xMtPDY6939jnsdiglYtRJR7NVEhAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [was-maven-plugin.properties] to file:/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/was-maven-plugin.properties
+[8mha:////4JHQSv3QZ92dQz0QPstk7iO5U0tFG8R3Mh01BDkQp9q5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] {
+[8mha:////4LW4R6PKNioYr7Y+aVdsHI1BSs3/LfBWh5Z4I0wF/306AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] sh
++ /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn clean install -Ddeploy_targets=was -X
+Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T15:00:29-04:00)
+Maven home: /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven
+Java version: 1.8.0_171, vendor: Oracle Corporation, runtime: /opt/jdk1.8.0_171/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-20-generic", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/conf/settings.xml
+[DEBUG] Reading user settings from /home/rmezquita/.m2/settings.xml
+[DEBUG] Reading global toolchains from /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/rmezquita/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/rmezquita/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/rmezquita/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.org:Maven:pom:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.codilabs:testWAR:war:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.codilabs:testEAR:ear:1.0: (none)
+[DEBUG] Looking up lifecycle mappings for packaging ear from ClassRealm[plexus.core, parent: null]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] testWAR                                                            [war]
+[INFO] testEAR                                                            [ear]
+[INFO] Maven                                                              [pom]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.codilabs:testWAR:war:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.codilabs:testEAR:ear:1.0
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.org:Maven:pom:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------------------------< com.codilabs:testWAR >------------------------
+[INFO] Building testWAR 1.0-SNAPSHOT                                      [1/3]
+[INFO] --------------------------------[ war ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.codilabs:testWAR:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-war-plugin:2.6:war (default-war)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <archiveClasses default-value="false">${archiveClasses}</archiveClasses>
+  <attachClasses default-value="false"/>
+  <cacheFile default-value="${project.build.directory}/war/work/webapp-cache.xml"/>
+  <classesClassifier default-value="classes"/>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <containerConfigXML>${maven.war.containerConfigXML}</containerConfigXML>
+  <escapeString>${maven.war.escapeString}</escapeString>
+  <escapedBackslashesInFilePath default-value="false">${maven.war.escapedBackslashesInFilePath}</escapedBackslashesInFilePath>
+  <failOnMissingWebXml default-value="true">false</failOnMissingWebXml>
+  <filteringDeploymentDescriptors default-value="false">${maven.war.filteringDeploymentDescriptors}</filteringDeploymentDescriptors>
+  <includeEmptyDirectories default-value="false"/>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <primaryArtifact default-value="true">${primaryArtifact}</primaryArtifact>
+  <project default-value="${project}"/>
+  <recompressZippedFiles default-value="true"/>
+  <resourceEncoding default-value="${project.build.sourceEncoding}">${resourceEncoding}</resourceEncoding>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.war.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useCache default-value="false">${useCache}</useCache>
+  <useJvmChmod default-value="true">${maven.war.useJvmChmod}</useJvmChmod>
+  <warName default-value="${project.build.finalName}">${war.warName}</warName>
+  <warSourceDirectory default-value="${basedir}/src/main/webapp"/>
+  <warSourceIncludes default-value="**"/>
+  <webXml>${maven.war.webxml}</webXml>
+  <webappDirectory default-value="${project.build.directory}/${project.build.finalName}"/>
+  <workDirectory default-value="${project.build.directory}/war/work"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=69789, ConflictMarker.markTime=387046, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=25873, ConflictIdSorter.topsortTime=482831, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1035778, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=284267, DefaultDependencyCollector.transformTime=3905038}
+[DEBUG] com.codilabs:testWAR:war:1.0-SNAPSHOT
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testWAR ---
+[WARNING] The POM for org.apache.maven:maven-plugin-api:jar:2.0.6 is invalid, transitive dependencies (if any) will not be available: 3 problems were encountered while building the effective model for org.apache.maven:maven-plugin-api:2.0.6
+[ERROR] Invalid packaging for parent POM org.apache.maven:maven-plugin-api:2.0.6, must be "pom" but is "jar" @ 
+[ERROR] Invalid packaging for parent POM org.apache.maven:maven-plugin-api:2.0.6, must be "pom" but is "jar" @ 
+[FATAL] The parents form a cycle: org.apache.maven:maven-plugin-api:2.0.6 -> org.apache.maven:maven-plugin-api:2.0.6 @ 
+
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=761848, ConflictMarker.markTime=75662, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=122242, ConflictIdSorter.topsortTime=32897, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1782276, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=30631489, DefaultDependencyCollector.transformTime=2854682}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/classes
+[DEBUG]   (f) reportDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target
+[INFO] Deleting file /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT.war
+[INFO] Deleting file /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/maven-archiver/pom.properties
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/maven-archiver
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT/META-INF
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT/WEB-INF/classes
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT/WEB-INF
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/classes
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/test-classes
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/site
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testWAR ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=281869, ConflictMarker.markTime=132680, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=207772, ConflictIdSorter.topsortTime=23239, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2190514, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=187592875, DefaultDependencyCollector.transformTime=2866444}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.codilabs:testWAR:1.0-SNAPSHOT @ /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {deploy_targets=was, env.DESKTOP_SESSION=mate, env.OLDPWD=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, file.encoding.pkg=sun.io, env.BRANCH=origin/master, java.home=/opt/jdk1.8.0_171/jre, env.DISPLAY=:0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_VTNR=2, classworlds.conf=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/m2.conf, java.endorsed.dirs=/opt/jdk1.8.0_171/jre/lib/endorsed, env.LOGNAME=rmezquita, env.USERNAME=rmezquita, env.UBUNTU_MENUPROXY=1, env.HUDSON_HOME=/home/rmezquita/Projects/test-devops/jenkins/data, env.XDG_SEAT=seat0, env.LC_PAPER=en_US.UTF-8, env.SESSION_MANAGER=local/rmezquita-pc:@/tmp/.ICE-unix/3391,unix/rmezquita-pc:/tmp/.ICE-unix/3391, sun.os.patch.level=unknown, java.vendor.url=http://java.oracle.com/, env.MANDATORY_PATH=/usr/share/gconf/mate.mandatory.path, env.NODE_NAME=master, env.TERM_PROGRAM_VERSION=1.35.1, java.version=1.8.0_171, env.NODE_LABELS=master, env.JENKINS_SERVER_COOKIE=durable-7085cb14226f4f8dda58ead5cd7157df, env.J2SDKDIR=/usr/lib/jvm/java-8-oracle, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.XDG_DATA_DIRS=/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop, user.name=rmezquita, env.LANG=en_US.UTF-8, env.LC_MONETARY=en_US.UTF-8, sun.io.unicode.encoding=UnicodeLittle, sun.jnu.encoding=UTF-8, env.DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus, java.runtime.name=Java(TM) SE Runtime Environment, env.LC_NAME=en_US.UTF-8, java.specification.name=Java Platform API Specification, user.timezone=, env.LESSOPEN=| /usr/bin/lesspipe %s, path.separator=:, env.MAVEN_CMD_LINE_ARGS= clean install -Ddeploy_targets=was -X, env.XMODIFIERS=@im=ibus, file.encoding=UTF-8, env.HOME=/home/rmezquita, env.N_PREFIX=/opt/node, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -Ddeploy_targets=was -X, env.STAGE_NAME=Build and Deploy, env.RUN_DISPLAY_URL=http://localhost:8080/job/test/51/display/redirect, env.LC_TELEPHONE=en_US.UTF-8, env.BUILD_TAG=jenkins-test-51, env.GIT_SSL_NO_VERIFY=true, env._=/usr/bin/nohup, java.io.tmpdir=/tmp, env.LC_IDENTIFICATION=en_US.UTF-8, user.language=en, line.separator=
+, env.PT7HOME=/opt/pt, env.SSH_AGENT_PID=3470, env.J2REDIR=/usr/lib/jvm/java-8-oracle/jre, env.CLUTTER_IM_MODULE=xim, env.JOB_NAME=test, java.vm.info=mixed mode, env.BUILD_DISPLAY_NAME=#51, java.vm.specification.name=Java Virtual Machine Specification, env.JOB_DISPLAY_URL=http://localhost:8080/job/test/display/redirect, env.BUILD_URL=http://localhost:8080/job/test/51/, env.TEXTDOMAIN=im-config, env.LC_MEASUREMENT=en_US.UTF-8, env.IM_CONFIG_PHASE=2, env.JENKINS_NODE_COOKIE=d2df46f6-c7f7-4292-935e-bd9100a604c5, env.LC_TIME=en_US.UTF-8, env.GDMSESSION=mate, env.QT_ACCESSIBILITY=1, env.XDG_SESSION_DESKTOP=mate, java.awt.printerjob=sun.print.PSPrinterJob, env.DEFAULTS_PATH=/usr/share/gconf/mate.default.path, env.HUDSON_SERVER_COOKIE=22cfccd4a7433d1c, env.MATE_DESKTOP_SESSION_ID=this-is-deprecated, env.XDG_SESSION_TYPE=x11, env.S_COLORS=auto, env.COMPIZ_CONFIG_PROFILE=mate, env.BUILD_NUMBER=51, os.name=Linux, java.specification.vendor=Oracle Corporation, env.TERM=xterm-256color, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.JOB_URL=http://localhost:8080/job/test/, env.QT_IM_MODULE=ibus, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, env.PATH=/opt/go/bin:/opt/heroku/bin:/opt/gradle-4.10.2/bin:/opt/jdk1.8.0_171/bin:/opt/groovy-2.5.0/bin:/opt/node/bin:/opt/mvn/apache-maven-3.5.4/bin:/home/rmezquita/.local/bin:/opt/go/bin:/opt/heroku/bin:/opt/gradle-4.10.2/bin:/opt/jdk1.8.0_171/bin:/opt/groovy-2.5.0/bin:/opt/node/bin:/opt/mvn/apache-maven-3.5.4/bin:/home/rmezquita/.local/bin:/opt/node/bin:/opt/jdk1.8.0_171/bin:/opt/node/bin:/opt/jdk1.8.0_171/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:.:., env.HUDSON_URL=http://localhost:8080/, env.LESSCLOSE=/usr/bin/lesspipe %s %s, library.jansi.path=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/lib/jansi-native, env.JENKINS_URL=http://localhost:8080/, env.TEXTDOMAINDIR=/usr/share/locale/, java.class.version=52.0, env.SHLVL=2, maven.multiModuleProjectDirectory=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, env.JENKINS_HOME=/home/rmezquita/Projects/test-devops/jenkins/data, env.RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/test/51/display/redirect?page=changes, sun.boot.library.path=/opt/jdk1.8.0_171/jre/lib/amd64, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.USER=rmezquita, env.GTK_IM_MODULE=ibus, env.GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module:appmenu-gtk-module, env.TERM_PROGRAM=vscode, env.NODE_HOME=/opt/node, env.QT_AUTO_SCREEN_SCALE_FACTOR=0, java.vm.specification.version=1.8, env.LIBVIRT_DEFAULT_URI=qemu:///system, awt.toolkit=sun.awt.X11.XToolkit, sun.cpu.isalist=, env.MAVEN_PROJECTBASEDIR=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, env.GROOVY_HOME=/opt/groovy-2.5.0, java.ext.dirs=/opt/jdk1.8.0_171/jre/lib/ext:/usr/java/packages/lib/ext, os.version=4.15.0-20-generic, env.QT_QPA_PLATFORMTHEME=gtk2, user.home=/home/rmezquita, env.XDG_CURRENT_DESKTOP=MATE, env.CHROME_DESKTOP=code-url-handler.desktop, java.vm.vendor=Oracle Corporation, env.GTK_OVERLAY_SCROLLING=0, env.JAVA_HOME=/opt/jdk1.8.0_171, env.XDG_SESSION_ID=2, env.XAUTHORITY=/run/user/1002/gdm/Xauthority, user.dir=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, maven.conf=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/conf, env.WINDOWPATH=2, env.PWD=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, sun.cpu.endian=little, env.MVN_HOME=/opt/mvn/apache-maven-3.5.4, env.QT_SCALE_FACTOR=1, java.vm.version=25.171-b11, java.class.path=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/boot/plexus-classworlds-2.6.0.jar, env.DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, env.LC_ADDRESS=en_US.UTF-8, os.arch=amd64, maven.build.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T15:00:29-04:00), env.LC_NUMERIC=en_US.UTF-8, sun.java.launcher=SUN_STANDARD, env.BUILD_ID=51, java.vm.specification.vendor=Oracle Corporation, file.separator=/, env.PAPERSIZE=letter, java.runtime.version=1.8.0_171-b11, sun.boot.class.path=/opt/jdk1.8.0_171/jre/lib/resources.jar:/opt/jdk1.8.0_171/jre/lib/rt.jar:/opt/jdk1.8.0_171/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_171/jre/lib/jsse.jar:/opt/jdk1.8.0_171/jre/lib/jce.jar:/opt/jdk1.8.0_171/jre/lib/charsets.jar:/opt/jdk1.8.0_171/jre/lib/jfr.jar:/opt/jdk1.8.0_171/jre/classes, env.SSH_AUTH_SOCK=/run/user/1002/keyring/ssh, env.QT4_IM_MODULE=xim, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-mate:/etc/xdg, env.XDG_RUNTIME_DIR=/run/user/1002, env.WORKSPACE=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, maven.version=3.6.1, user.country=US, env.EXECUTOR_NUMBER=0, maven.home=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven, env.SHELL=/bin/bash, env.NO_AT_BRIDGE=1, env.JOB_BASE_NAME=test, java.vendor=Oracle Corporation, env.GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1, env.GRADLE_HOME=/opt/gradle-4.10.2, env.QT_DEVICE_PIXEL_RATIO=auto, env.HUDSON_COOKIE=5e946a46-eae3-4ba4-a9d7-2b5e600e5735, java.specification.version=1.8, sun.arch.data.model=64}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ testWAR ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=690252, ConflictMarker.markTime=422438, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=289376, ConflictIdSorter.topsortTime=69339, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2936474, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=195431005, DefaultDependencyCollector.transformTime=4437762}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR
+[DEBUG]   (f) buildDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target
+[DEBUG]   (f) classpathElements = [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/classes
+[DEBUG]   (f) projectArtifact = com.codilabs:testWAR:war:1.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testWAR ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.codilabs:testWAR:1.0-SNAPSHOT @ /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {deploy_targets=was, env.DESKTOP_SESSION=mate, env.OLDPWD=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, file.encoding.pkg=sun.io, env.BRANCH=origin/master, java.home=/opt/jdk1.8.0_171/jre, env.DISPLAY=:0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_VTNR=2, classworlds.conf=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/m2.conf, java.endorsed.dirs=/opt/jdk1.8.0_171/jre/lib/endorsed, env.LOGNAME=rmezquita, env.USERNAME=rmezquita, env.UBUNTU_MENUPROXY=1, env.HUDSON_HOME=/home/rmezquita/Projects/test-devops/jenkins/data, env.XDG_SEAT=seat0, env.LC_PAPER=en_US.UTF-8, env.SESSION_MANAGER=local/rmezquita-pc:@/tmp/.ICE-unix/3391,unix/rmezquita-pc:/tmp/.ICE-unix/3391, sun.os.patch.level=unknown, java.vendor.url=http://java.oracle.com/, env.MANDATORY_PATH=/usr/share/gconf/mate.mandatory.path, env.NODE_NAME=master, env.TERM_PROGRAM_VERSION=1.35.1, java.version=1.8.0_171, env.NODE_LABELS=master, env.JENKINS_SERVER_COOKIE=durable-7085cb14226f4f8dda58ead5cd7157df, env.J2SDKDIR=/usr/lib/jvm/java-8-oracle, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.XDG_DATA_DIRS=/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop, user.name=rmezquita, env.LANG=en_US.UTF-8, env.LC_MONETARY=en_US.UTF-8, sun.io.unicode.encoding=UnicodeLittle, sun.jnu.encoding=UTF-8, env.DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus, java.runtime.name=Java(TM) SE Runtime Environment, env.LC_NAME=en_US.UTF-8, java.specification.name=Java Platform API Specification, user.timezone=, env.LESSOPEN=| /usr/bin/lesspipe %s, path.separator=:, env.MAVEN_CMD_LINE_ARGS= clean install -Ddeploy_targets=was -X, env.XMODIFIERS=@im=ibus, file.encoding=UTF-8, env.HOME=/home/rmezquita, env.N_PREFIX=/opt/node, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -Ddeploy_targets=was -X, env.STAGE_NAME=Build and Deploy, env.RUN_DISPLAY_URL=http://localhost:8080/job/test/51/display/redirect, env.LC_TELEPHONE=en_US.UTF-8, env.BUILD_TAG=jenkins-test-51, env.GIT_SSL_NO_VERIFY=true, env._=/usr/bin/nohup, java.io.tmpdir=/tmp, env.LC_IDENTIFICATION=en_US.UTF-8, user.language=en, line.separator=
+, env.PT7HOME=/opt/pt, env.SSH_AGENT_PID=3470, env.J2REDIR=/usr/lib/jvm/java-8-oracle/jre, env.CLUTTER_IM_MODULE=xim, env.JOB_NAME=test, java.vm.info=mixed mode, env.BUILD_DISPLAY_NAME=#51, java.vm.specification.name=Java Virtual Machine Specification, env.JOB_DISPLAY_URL=http://localhost:8080/job/test/display/redirect, env.BUILD_URL=http://localhost:8080/job/test/51/, env.TEXTDOMAIN=im-config, env.LC_MEASUREMENT=en_US.UTF-8, env.IM_CONFIG_PHASE=2, env.JENKINS_NODE_COOKIE=d2df46f6-c7f7-4292-935e-bd9100a604c5, env.LC_TIME=en_US.UTF-8, env.GDMSESSION=mate, env.QT_ACCESSIBILITY=1, env.XDG_SESSION_DESKTOP=mate, java.awt.printerjob=sun.print.PSPrinterJob, env.DEFAULTS_PATH=/usr/share/gconf/mate.default.path, env.HUDSON_SERVER_COOKIE=22cfccd4a7433d1c, env.MATE_DESKTOP_SESSION_ID=this-is-deprecated, env.XDG_SESSION_TYPE=x11, env.S_COLORS=auto, env.COMPIZ_CONFIG_PROFILE=mate, env.BUILD_NUMBER=51, os.name=Linux, java.specification.vendor=Oracle Corporation, env.TERM=xterm-256color, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.JOB_URL=http://localhost:8080/job/test/, env.QT_IM_MODULE=ibus, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, env.PATH=/opt/go/bin:/opt/heroku/bin:/opt/gradle-4.10.2/bin:/opt/jdk1.8.0_171/bin:/opt/groovy-2.5.0/bin:/opt/node/bin:/opt/mvn/apache-maven-3.5.4/bin:/home/rmezquita/.local/bin:/opt/go/bin:/opt/heroku/bin:/opt/gradle-4.10.2/bin:/opt/jdk1.8.0_171/bin:/opt/groovy-2.5.0/bin:/opt/node/bin:/opt/mvn/apache-maven-3.5.4/bin:/home/rmezquita/.local/bin:/opt/node/bin:/opt/jdk1.8.0_171/bin:/opt/node/bin:/opt/jdk1.8.0_171/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:.:., env.HUDSON_URL=http://localhost:8080/, env.LESSCLOSE=/usr/bin/lesspipe %s %s, library.jansi.path=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/lib/jansi-native, env.JENKINS_URL=http://localhost:8080/, env.TEXTDOMAINDIR=/usr/share/locale/, java.class.version=52.0, env.SHLVL=2, maven.multiModuleProjectDirectory=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, env.JENKINS_HOME=/home/rmezquita/Projects/test-devops/jenkins/data, env.RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/test/51/display/redirect?page=changes, sun.boot.library.path=/opt/jdk1.8.0_171/jre/lib/amd64, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.USER=rmezquita, env.GTK_IM_MODULE=ibus, env.GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module:appmenu-gtk-module, env.TERM_PROGRAM=vscode, env.NODE_HOME=/opt/node, env.QT_AUTO_SCREEN_SCALE_FACTOR=0, java.vm.specification.version=1.8, env.LIBVIRT_DEFAULT_URI=qemu:///system, awt.toolkit=sun.awt.X11.XToolkit, sun.cpu.isalist=, env.MAVEN_PROJECTBASEDIR=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, env.GROOVY_HOME=/opt/groovy-2.5.0, java.ext.dirs=/opt/jdk1.8.0_171/jre/lib/ext:/usr/java/packages/lib/ext, os.version=4.15.0-20-generic, env.QT_QPA_PLATFORMTHEME=gtk2, user.home=/home/rmezquita, env.XDG_CURRENT_DESKTOP=MATE, env.CHROME_DESKTOP=code-url-handler.desktop, java.vm.vendor=Oracle Corporation, env.GTK_OVERLAY_SCROLLING=0, env.JAVA_HOME=/opt/jdk1.8.0_171, env.XDG_SESSION_ID=2, env.XAUTHORITY=/run/user/1002/gdm/Xauthority, user.dir=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, maven.conf=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/conf, env.WINDOWPATH=2, env.PWD=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, sun.cpu.endian=little, env.MVN_HOME=/opt/mvn/apache-maven-3.5.4, env.QT_SCALE_FACTOR=1, java.vm.version=25.171-b11, java.class.path=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/boot/plexus-classworlds-2.6.0.jar, env.DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, env.LC_ADDRESS=en_US.UTF-8, os.arch=amd64, maven.build.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T15:00:29-04:00), env.LC_NUMERIC=en_US.UTF-8, sun.java.launcher=SUN_STANDARD, env.BUILD_ID=51, java.vm.specification.vendor=Oracle Corporation, file.separator=/, env.PAPERSIZE=letter, java.runtime.version=1.8.0_171-b11, sun.boot.class.path=/opt/jdk1.8.0_171/jre/lib/resources.jar:/opt/jdk1.8.0_171/jre/lib/rt.jar:/opt/jdk1.8.0_171/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_171/jre/lib/jsse.jar:/opt/jdk1.8.0_171/jre/lib/jce.jar:/opt/jdk1.8.0_171/jre/lib/charsets.jar:/opt/jdk1.8.0_171/jre/lib/jfr.jar:/opt/jdk1.8.0_171/jre/classes, env.SSH_AUTH_SOCK=/run/user/1002/keyring/ssh, env.QT4_IM_MODULE=xim, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-mate:/etc/xdg, env.XDG_RUNTIME_DIR=/run/user/1002, env.WORKSPACE=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, maven.version=3.6.1, user.country=US, env.EXECUTOR_NUMBER=0, maven.home=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven, env.SHELL=/bin/bash, env.NO_AT_BRIDGE=1, env.JOB_BASE_NAME=test, java.vendor=Oracle Corporation, env.GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1, env.GRADLE_HOME=/opt/gradle-4.10.2, env.QT_DEVICE_PIXEL_RATIO=auto, env.HUDSON_COOKIE=5e946a46-eae3-4ba4-a9d7-2b5e600e5735, java.specification.version=1.8, sun.arch.data.model=64}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/test/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ testWAR ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR
+[DEBUG]   (f) buildDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target
+[DEBUG]   (f) classpathElements = [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/test-classes, /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/test-classes
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ testWAR ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=396624, ConflictMarker.markTime=202188, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=313699, ConflictIdSorter.topsortTime=36180, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1320771, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=66687148, DefaultDependencyCollector.transformTime=2295539}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.12.4:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.12.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.8
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test' with basic configurator -->
+[DEBUG]   (s) basedir = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/classes
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///home/rmezquita/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.12.4:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.0.9:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.12.4:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:3.0.8:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.0.9:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.0.9:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.0.9:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.0.9:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.0.9:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.0.9:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.0.9:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.0.9:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.0.9:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.0.9:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.0.9:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/surefire-reports
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/test/java
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR
+[DEBUG]   (s) project = MavenProject: com.codilabs:testWAR:1.0-SNAPSHOT @ /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG] -- end configuration --
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ testWAR ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=229778, ConflictMarker.markTime=132736, ConflictMarker.nodeCount=120, ConflictIdSorter.graphTime=208672, ConflictIdSorter.topsortTime=60587, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4243470, ConflictResolver.conflictItemCount=108, DefaultDependencyCollector.collectTime=161045805, DefaultDependencyCollector.transformTime=4921373}
+[DEBUG] org.apache.maven.plugins:maven-war-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.6:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:2.4.1:compile
+[DEBUG]    commons-io:commons-io:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.9:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+[DEBUG]    com.thoughtworks.xstream:xstream:jar:1.4.4:compile
+[DEBUG]       xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]       xpp3:xpp3_min:jar:1.1.4c:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.3:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.apache.maven.shared:maven-mapping:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-war-plugin:jar:2.6
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.21
+[DEBUG]   Included: com.thoughtworks.xstream:xstream:jar:1.4.4
+[DEBUG]   Included: xmlpull:xmlpull:jar:1.1.3.1
+[DEBUG]   Included: xpp3:xpp3_min:jar:1.1.4c
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.apache.maven.shared:maven-mapping:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-war-plugin:2.6:war from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-war-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-war-plugin:2.6:war' with basic configurator -->
+[DEBUG]   (s) archiveClasses = false
+[DEBUG]   (s) attachClasses = false
+[DEBUG]   (s) cacheFile = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/war/work/webapp-cache.xml
+[DEBUG]   (s) classesClassifier = classes
+[DEBUG]   (s) classesDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/classes
+[DEBUG]   (f) escapedBackslashesInFilePath = false
+[DEBUG]   (s) failOnMissingWebXml = false
+[DEBUG]   (f) filteringDeploymentDescriptors = false
+[DEBUG]   (f) includeEmptyDirectories = false
+[DEBUG]   (s) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target
+[DEBUG]   (s) primaryArtifact = true
+[DEBUG]   (s) project = MavenProject: com.codilabs:testWAR:1.0-SNAPSHOT @ /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/pom.xml
+[DEBUG]   (f) recompressZippedFiles = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (s) useCache = false
+[DEBUG]   (f) useJvmChmod = true
+[DEBUG]   (s) warName = testWAR-1.0-SNAPSHOT
+[DEBUG]   (s) warSourceDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/main/webapp
+[DEBUG]   (s) warSourceIncludes = **
+[DEBUG]   (s) webappDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT
+[DEBUG]   (s) workDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/war/work
+[DEBUG] -- end configuration --
+[INFO] Packaging webapp
+[INFO] Assembling webapp [testWAR] in [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT]
+[DEBUG] properties used {deploy_targets=was, env.DESKTOP_SESSION=mate, env.OLDPWD=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, file.encoding.pkg=sun.io, env.BRANCH=origin/master, java.home=/opt/jdk1.8.0_171/jre, env.DISPLAY=:0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_VTNR=2, classworlds.conf=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/m2.conf, java.endorsed.dirs=/opt/jdk1.8.0_171/jre/lib/endorsed, env.LOGNAME=rmezquita, env.USERNAME=rmezquita, env.UBUNTU_MENUPROXY=1, env.HUDSON_HOME=/home/rmezquita/Projects/test-devops/jenkins/data, env.XDG_SEAT=seat0, env.LC_PAPER=en_US.UTF-8, env.SESSION_MANAGER=local/rmezquita-pc:@/tmp/.ICE-unix/3391,unix/rmezquita-pc:/tmp/.ICE-unix/3391, sun.os.patch.level=unknown, java.vendor.url=http://java.oracle.com/, env.MANDATORY_PATH=/usr/share/gconf/mate.mandatory.path, env.NODE_NAME=master, env.TERM_PROGRAM_VERSION=1.35.1, java.version=1.8.0_171, env.NODE_LABELS=master, env.JENKINS_SERVER_COOKIE=durable-7085cb14226f4f8dda58ead5cd7157df, env.J2SDKDIR=/usr/lib/jvm/java-8-oracle, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.XDG_DATA_DIRS=/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop, user.name=rmezquita, env.LANG=en_US.UTF-8, env.LC_MONETARY=en_US.UTF-8, sun.io.unicode.encoding=UnicodeLittle, sun.jnu.encoding=UTF-8, env.DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus, java.runtime.name=Java(TM) SE Runtime Environment, env.LC_NAME=en_US.UTF-8, java.specification.name=Java Platform API Specification, user.timezone=, env.LESSOPEN=| /usr/bin/lesspipe %s, path.separator=:, env.MAVEN_CMD_LINE_ARGS= clean install -Ddeploy_targets=was -X, env.XMODIFIERS=@im=ibus, file.encoding=UTF-8, env.HOME=/home/rmezquita, env.N_PREFIX=/opt/node, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -Ddeploy_targets=was -X, env.STAGE_NAME=Build and Deploy, env.RUN_DISPLAY_URL=http://localhost:8080/job/test/51/display/redirect, env.LC_TELEPHONE=en_US.UTF-8, env.BUILD_TAG=jenkins-test-51, env.GIT_SSL_NO_VERIFY=true, env._=/usr/bin/nohup, java.io.tmpdir=/tmp, env.LC_IDENTIFICATION=en_US.UTF-8, user.language=en, line.separator=
+, env.PT7HOME=/opt/pt, env.SSH_AGENT_PID=3470, env.J2REDIR=/usr/lib/jvm/java-8-oracle/jre, env.CLUTTER_IM_MODULE=xim, env.JOB_NAME=test, java.vm.info=mixed mode, env.BUILD_DISPLAY_NAME=#51, java.vm.specification.name=Java Virtual Machine Specification, env.JOB_DISPLAY_URL=http://localhost:8080/job/test/display/redirect, env.BUILD_URL=http://localhost:8080/job/test/51/, env.TEXTDOMAIN=im-config, env.LC_MEASUREMENT=en_US.UTF-8, env.IM_CONFIG_PHASE=2, env.JENKINS_NODE_COOKIE=d2df46f6-c7f7-4292-935e-bd9100a604c5, env.LC_TIME=en_US.UTF-8, env.GDMSESSION=mate, env.QT_ACCESSIBILITY=1, env.XDG_SESSION_DESKTOP=mate, java.awt.printerjob=sun.print.PSPrinterJob, env.DEFAULTS_PATH=/usr/share/gconf/mate.default.path, env.HUDSON_SERVER_COOKIE=22cfccd4a7433d1c, env.MATE_DESKTOP_SESSION_ID=this-is-deprecated, env.XDG_SESSION_TYPE=x11, env.S_COLORS=auto, env.COMPIZ_CONFIG_PROFILE=mate, env.BUILD_NUMBER=51, os.name=Linux, java.specification.vendor=Oracle Corporation, env.TERM=xterm-256color, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.JOB_URL=http://localhost:8080/job/test/, env.QT_IM_MODULE=ibus, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, env.PATH=/opt/go/bin:/opt/heroku/bin:/opt/gradle-4.10.2/bin:/opt/jdk1.8.0_171/bin:/opt/groovy-2.5.0/bin:/opt/node/bin:/opt/mvn/apache-maven-3.5.4/bin:/home/rmezquita/.local/bin:/opt/go/bin:/opt/heroku/bin:/opt/gradle-4.10.2/bin:/opt/jdk1.8.0_171/bin:/opt/groovy-2.5.0/bin:/opt/node/bin:/opt/mvn/apache-maven-3.5.4/bin:/home/rmezquita/.local/bin:/opt/node/bin:/opt/jdk1.8.0_171/bin:/opt/node/bin:/opt/jdk1.8.0_171/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:.:., env.HUDSON_URL=http://localhost:8080/, env.LESSCLOSE=/usr/bin/lesspipe %s %s, library.jansi.path=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/lib/jansi-native, env.JENKINS_URL=http://localhost:8080/, env.TEXTDOMAINDIR=/usr/share/locale/, java.class.version=52.0, env.SHLVL=2, maven.multiModuleProjectDirectory=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, env.JENKINS_HOME=/home/rmezquita/Projects/test-devops/jenkins/data, env.RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/test/51/display/redirect?page=changes, sun.boot.library.path=/opt/jdk1.8.0_171/jre/lib/amd64, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.USER=rmezquita, env.GTK_IM_MODULE=ibus, env.GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module:appmenu-gtk-module, env.TERM_PROGRAM=vscode, env.NODE_HOME=/opt/node, env.QT_AUTO_SCREEN_SCALE_FACTOR=0, java.vm.specification.version=1.8, env.LIBVIRT_DEFAULT_URI=qemu:///system, awt.toolkit=sun.awt.X11.XToolkit, sun.cpu.isalist=, env.MAVEN_PROJECTBASEDIR=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, env.GROOVY_HOME=/opt/groovy-2.5.0, java.ext.dirs=/opt/jdk1.8.0_171/jre/lib/ext:/usr/java/packages/lib/ext, os.version=4.15.0-20-generic, env.QT_QPA_PLATFORMTHEME=gtk2, user.home=/home/rmezquita, env.XDG_CURRENT_DESKTOP=MATE, env.CHROME_DESKTOP=code-url-handler.desktop, java.vm.vendor=Oracle Corporation, env.GTK_OVERLAY_SCROLLING=0, env.JAVA_HOME=/opt/jdk1.8.0_171, env.XDG_SESSION_ID=2, env.XAUTHORITY=/run/user/1002/gdm/Xauthority, user.dir=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, maven.conf=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/conf, env.WINDOWPATH=2, env.PWD=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, sun.cpu.endian=little, env.MVN_HOME=/opt/mvn/apache-maven-3.5.4, env.QT_SCALE_FACTOR=1, java.vm.version=25.171-b11, java.class.path=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/boot/plexus-classworlds-2.6.0.jar, env.DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, env.LC_ADDRESS=en_US.UTF-8, os.arch=amd64, maven.build.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T15:00:29-04:00), env.LC_NUMERIC=en_US.UTF-8, sun.java.launcher=SUN_STANDARD, env.BUILD_ID=51, java.vm.specification.vendor=Oracle Corporation, file.separator=/, env.PAPERSIZE=letter, java.runtime.version=1.8.0_171-b11, sun.boot.class.path=/opt/jdk1.8.0_171/jre/lib/resources.jar:/opt/jdk1.8.0_171/jre/lib/rt.jar:/opt/jdk1.8.0_171/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_171/jre/lib/jsse.jar:/opt/jdk1.8.0_171/jre/lib/jce.jar:/opt/jdk1.8.0_171/jre/lib/charsets.jar:/opt/jdk1.8.0_171/jre/lib/jfr.jar:/opt/jdk1.8.0_171/jre/classes, env.SSH_AUTH_SOCK=/run/user/1002/keyring/ssh, env.QT4_IM_MODULE=xim, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-mate:/etc/xdg, env.XDG_RUNTIME_DIR=/run/user/1002, env.WORKSPACE=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, maven.version=3.6.1, user.country=US, env.EXECUTOR_NUMBER=0, maven.home=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven, env.SHELL=/bin/bash, env.NO_AT_BRIDGE=1, env.JOB_BASE_NAME=test, java.vendor=Oracle Corporation, env.GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1, env.GRADLE_HOME=/opt/gradle-4.10.2, env.QT_DEVICE_PIXEL_RATIO=auto, env.HUDSON_COOKIE=5e946a46-eae3-4ba4-a9d7-2b5e600e5735, java.specification.version=1.8, sun.arch.data.model=64}
+[INFO] Processing war project
+[DEBUG] webapp sources directory does not exist - skipping.
+[DEBUG] Dump of the current build pathSet content -->
+[DEBUG] -- end of dump --
+[INFO] Webapp assembled in [36 msecs]
+[DEBUG] Excluding [] from the generated webapp archive.
+[DEBUG] Including [**] in the generated webapp archive.
+[DEBUG] Build won't fail if web.xml file is missing.
+[INFO] Building war: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT.war
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory WEB-INF/
+[DEBUG] adding directory WEB-INF/classes/
+[DEBUG] adding entry META-INF/maven/com.codilabs/testWAR/pom.xml
+[DEBUG] adding entry META-INF/maven/com.codilabs/testWAR/pom.properties
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ testWAR ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=145591, ConflictMarker.markTime=61257, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=115496, ConflictIdSorter.topsortTime=24734, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=457535, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=24730359, DefaultDependencyCollector.transformTime=833208}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = com.codilabs:testWAR:war:1.0-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/rmezquita/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = war
+[DEBUG]   (f) pomFile = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT.war to /home/rmezquita/.m2/repository/com/codilabs/testWAR/1.0-SNAPSHOT/testWAR-1.0-SNAPSHOT.war
+[DEBUG] Writing tracking file /home/rmezquita/.m2/repository/com/codilabs/testWAR/1.0-SNAPSHOT/_remote.repositories
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/pom.xml to /home/rmezquita/.m2/repository/com/codilabs/testWAR/1.0-SNAPSHOT/testWAR-1.0-SNAPSHOT.pom
+[DEBUG] Writing tracking file /home/rmezquita/.m2/repository/com/codilabs/testWAR/1.0-SNAPSHOT/_remote.repositories
+[DEBUG] Installing com.codilabs:testWAR:1.0-SNAPSHOT/maven-metadata.xml to /home/rmezquita/.m2/repository/com/codilabs/testWAR/1.0-SNAPSHOT/maven-metadata-local.xml
+[DEBUG] Installing com.codilabs:testWAR/maven-metadata.xml to /home/rmezquita/.m2/repository/com/codilabs/testWAR/maven-metadata-local.xml
+[INFO] 
+[INFO] ------------------------< com.codilabs:testEAR >------------------------
+[INFO] Building testEAR 1.0                                               [2/3]
+[INFO] --------------------------------[ ear ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.codilabs:testEAR:1.0
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-ear-plugin:3.0.1:generate-application-xml (default-generate-application-xml)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <description default-value="${project.description}"/>
+  <displayName default-value="${project.artifactId}"/>
+  <encoding default-value="UTF-8"/>
+  <generateApplicationXml default-value="true"/>
+  <generateModuleId default-value="false">true</generateModuleId>
+  <generatedDescriptorLocation default-value="${project.build.directory}"/>
+  <includeLibInApplicationXml default-value="false"/>
+  <libraryDirectoryMode default-value="DEFAULT"/>
+  <outputFileNameMapping default-value="@{groupId}@-@{artifactId}@-@{version}@@{dashClassifier?}@.@{extension}@"/>
+  <project default-value="${project}"/>
+  <tempFolder default-value="${project.build.directory}"/>
+  <version default-value="7"/>
+  <workDirectory default-value="${project.build.directory}/${project.build.finalName}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-ear-plugin:3.0.1:ear (default-ear)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <earSourceDirectory default-value="${basedir}/src/main/application"/>
+  <earSourceIncludes default-value="**"/>
+  <encoding default-value="UTF-8"/>
+  <escapedBackslashesInFilePath default-value="false"/>
+  <filtering default-value="false"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <generatedDescriptorLocation default-value="${project.build.directory}"/>
+  <includeLibInApplicationXml default-value="false"/>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <outputFileNameMapping default-value="@{groupId}@-@{artifactId}@-@{version}@@{dashClassifier?}@.@{extension}@"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skinnyWars default-value="false"/>
+  <skipClassPathModification default-value="false"/>
+  <tempFolder default-value="${project.build.directory}"/>
+  <useJvmChmod default-value="true"/>
+  <version default-value="7"/>
+  <workDirectory default-value="${project.build.directory}/${project.build.finalName}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=54811, ConflictMarker.markTime=27925, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=3980, ConflictIdSorter.topsortTime=8523, ConflictIdSorter.conflictIdCount=1, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=48451, ConflictResolver.conflictItemCount=1, DefaultDependencyCollector.collectTime=524597, DefaultDependencyCollector.transformTime=157110}
+[DEBUG] com.codilabs:testEAR:ear:1.0
+[DEBUG]    com.codilabs:testWAR:war:1.0-SNAPSHOT:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testEAR ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/classes
+[DEBUG]   (f) reportDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[INFO] Deleting file /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test.ear
+[INFO] Deleting file /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test/META-INF/application.xml
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test/META-INF
+[INFO] Deleting file /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test/com.codilabs-testWAR-1.0-SNAPSHOT.war
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test
+[INFO] Deleting file /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/application.xml
+[INFO] Deleting file /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/maven-archiver/pom.properties
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/maven-archiver
+[INFO] Deleting directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/classes
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test-classes
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/site
+[INFO] 
+[INFO] --- maven-ear-plugin:3.0.1:generate-application-xml (default-generate-application-xml) @ testEAR ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=145456, ConflictMarker.markTime=87555, ConflictMarker.nodeCount=96, ConflictIdSorter.graphTime=86582, ConflictIdSorter.topsortTime=46030, ConflictIdSorter.conflictIdCount=36, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1270486, ConflictResolver.conflictItemCount=86, DefaultDependencyCollector.collectTime=215185882, DefaultDependencyCollector.transformTime=1673978}
+[DEBUG] org.apache.maven.plugins:maven-ear-plugin:jar:3.0.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:3.2.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.2.0:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:3.6.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:3.0.1:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.16.1:compile
+[DEBUG]          org.objenesis:objenesis:jar:2.6:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]       org.tukaani:xz:jar:1.8:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG]    org.apache.maven.shared:maven-mapping:jar:3.0.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-ear-plugin:3.0.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-ear-plugin:3.0.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-ear-plugin:3.0.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-ear-plugin:jar:3.0.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:3.6.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.0.1
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.16.1
+[DEBUG]   Included: org.objenesis:objenesis:jar:2.6
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG]   Included: org.apache.maven.shared:maven-mapping:jar:3.0.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-ear-plugin:3.0.1:generate-application-xml from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-ear-plugin:3.0.1, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-ear-plugin:3.0.1:generate-application-xml' with basic configurator -->
+[DEBUG]   (f) displayName = testEAR
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) generateApplicationXml = true
+[DEBUG]   (f) generateModuleId = true
+[DEBUG]   (f) generatedDescriptorLocation = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[DEBUG]   (f) includeLibInApplicationXml = false
+[DEBUG]   (f) libraryDirectoryMode = DEFAULT
+[DEBUG]   (f) outputFileNameMapping = @{groupId}@-@{artifactId}@-@{version}@@{dashClassifier?}@.@{extension}@
+[DEBUG]   (f) project = MavenProject: com.codilabs:testEAR:1.0 @ /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/pom.xml
+[DEBUG]   (f) tempFolder = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[DEBUG]   (f) version = 7
+[DEBUG]   (f) workDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test
+[DEBUG] -- end configuration --
+[DEBUG] Resolving artifact type mappings ...
+[DEBUG] Initializing JBoss configuration if necessary ...
+[DEBUG] Initializing ear execution context
+[DEBUG] Resolving ear modules ...
+[INFO] Generating application.xml
+[DEBUG] Generation of jboss-app.xml is disabled
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testEAR ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.codilabs:testEAR:1.0 @ /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {deploy_targets=was, env.DESKTOP_SESSION=mate, env.OLDPWD=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, file.encoding.pkg=sun.io, env.BRANCH=origin/master, java.home=/opt/jdk1.8.0_171/jre, env.DISPLAY=:0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_VTNR=2, classworlds.conf=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/m2.conf, java.endorsed.dirs=/opt/jdk1.8.0_171/jre/lib/endorsed, env.LOGNAME=rmezquita, env.USERNAME=rmezquita, env.UBUNTU_MENUPROXY=1, env.HUDSON_HOME=/home/rmezquita/Projects/test-devops/jenkins/data, env.XDG_SEAT=seat0, env.LC_PAPER=en_US.UTF-8, env.SESSION_MANAGER=local/rmezquita-pc:@/tmp/.ICE-unix/3391,unix/rmezquita-pc:/tmp/.ICE-unix/3391, sun.os.patch.level=unknown, java.vendor.url=http://java.oracle.com/, env.MANDATORY_PATH=/usr/share/gconf/mate.mandatory.path, env.NODE_NAME=master, env.TERM_PROGRAM_VERSION=1.35.1, java.version=1.8.0_171, env.NODE_LABELS=master, env.JENKINS_SERVER_COOKIE=durable-7085cb14226f4f8dda58ead5cd7157df, env.J2SDKDIR=/usr/lib/jvm/java-8-oracle, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.XDG_DATA_DIRS=/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop, user.name=rmezquita, env.LANG=en_US.UTF-8, env.LC_MONETARY=en_US.UTF-8, sun.io.unicode.encoding=UnicodeLittle, sun.jnu.encoding=UTF-8, env.DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus, java.runtime.name=Java(TM) SE Runtime Environment, env.LC_NAME=en_US.UTF-8, java.specification.name=Java Platform API Specification, user.timezone=, env.LESSOPEN=| /usr/bin/lesspipe %s, path.separator=:, env.MAVEN_CMD_LINE_ARGS= clean install -Ddeploy_targets=was -X, env.XMODIFIERS=@im=ibus, file.encoding=UTF-8, env.HOME=/home/rmezquita, env.N_PREFIX=/opt/node, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -Ddeploy_targets=was -X, env.STAGE_NAME=Build and Deploy, env.RUN_DISPLAY_URL=http://localhost:8080/job/test/51/display/redirect, env.LC_TELEPHONE=en_US.UTF-8, env.BUILD_TAG=jenkins-test-51, env.GIT_SSL_NO_VERIFY=true, env._=/usr/bin/nohup, java.io.tmpdir=/tmp, env.LC_IDENTIFICATION=en_US.UTF-8, user.language=en, line.separator=
+, env.PT7HOME=/opt/pt, env.SSH_AGENT_PID=3470, env.J2REDIR=/usr/lib/jvm/java-8-oracle/jre, env.CLUTTER_IM_MODULE=xim, env.JOB_NAME=test, java.vm.info=mixed mode, env.BUILD_DISPLAY_NAME=#51, java.vm.specification.name=Java Virtual Machine Specification, env.JOB_DISPLAY_URL=http://localhost:8080/job/test/display/redirect, env.BUILD_URL=http://localhost:8080/job/test/51/, env.TEXTDOMAIN=im-config, env.LC_MEASUREMENT=en_US.UTF-8, env.IM_CONFIG_PHASE=2, env.JENKINS_NODE_COOKIE=d2df46f6-c7f7-4292-935e-bd9100a604c5, env.LC_TIME=en_US.UTF-8, env.GDMSESSION=mate, env.QT_ACCESSIBILITY=1, env.XDG_SESSION_DESKTOP=mate, java.awt.printerjob=sun.print.PSPrinterJob, env.DEFAULTS_PATH=/usr/share/gconf/mate.default.path, env.HUDSON_SERVER_COOKIE=22cfccd4a7433d1c, env.MATE_DESKTOP_SESSION_ID=this-is-deprecated, env.XDG_SESSION_TYPE=x11, env.S_COLORS=auto, env.COMPIZ_CONFIG_PROFILE=mate, env.BUILD_NUMBER=51, os.name=Linux, java.specification.vendor=Oracle Corporation, env.TERM=xterm-256color, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.JOB_URL=http://localhost:8080/job/test/, env.QT_IM_MODULE=ibus, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, env.PATH=/opt/go/bin:/opt/heroku/bin:/opt/gradle-4.10.2/bin:/opt/jdk1.8.0_171/bin:/opt/groovy-2.5.0/bin:/opt/node/bin:/opt/mvn/apache-maven-3.5.4/bin:/home/rmezquita/.local/bin:/opt/go/bin:/opt/heroku/bin:/opt/gradle-4.10.2/bin:/opt/jdk1.8.0_171/bin:/opt/groovy-2.5.0/bin:/opt/node/bin:/opt/mvn/apache-maven-3.5.4/bin:/home/rmezquita/.local/bin:/opt/node/bin:/opt/jdk1.8.0_171/bin:/opt/node/bin:/opt/jdk1.8.0_171/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:.:., env.HUDSON_URL=http://localhost:8080/, env.LESSCLOSE=/usr/bin/lesspipe %s %s, library.jansi.path=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/lib/jansi-native, env.JENKINS_URL=http://localhost:8080/, env.TEXTDOMAINDIR=/usr/share/locale/, java.class.version=52.0, env.SHLVL=2, maven.multiModuleProjectDirectory=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, env.JENKINS_HOME=/home/rmezquita/Projects/test-devops/jenkins/data, env.RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/test/51/display/redirect?page=changes, sun.boot.library.path=/opt/jdk1.8.0_171/jre/lib/amd64, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.USER=rmezquita, env.GTK_IM_MODULE=ibus, env.GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module:appmenu-gtk-module, env.TERM_PROGRAM=vscode, env.NODE_HOME=/opt/node, env.QT_AUTO_SCREEN_SCALE_FACTOR=0, java.vm.specification.version=1.8, env.LIBVIRT_DEFAULT_URI=qemu:///system, awt.toolkit=sun.awt.X11.XToolkit, sun.cpu.isalist=, env.MAVEN_PROJECTBASEDIR=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, env.GROOVY_HOME=/opt/groovy-2.5.0, java.ext.dirs=/opt/jdk1.8.0_171/jre/lib/ext:/usr/java/packages/lib/ext, os.version=4.15.0-20-generic, env.QT_QPA_PLATFORMTHEME=gtk2, user.home=/home/rmezquita, env.XDG_CURRENT_DESKTOP=MATE, env.CHROME_DESKTOP=code-url-handler.desktop, java.vm.vendor=Oracle Corporation, env.GTK_OVERLAY_SCROLLING=0, env.JAVA_HOME=/opt/jdk1.8.0_171, env.XDG_SESSION_ID=2, env.XAUTHORITY=/run/user/1002/gdm/Xauthority, user.dir=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, maven.conf=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/conf, env.WINDOWPATH=2, env.PWD=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, sun.cpu.endian=little, env.MVN_HOME=/opt/mvn/apache-maven-3.5.4, env.QT_SCALE_FACTOR=1, java.vm.version=25.171-b11, java.class.path=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/boot/plexus-classworlds-2.6.0.jar, env.DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, env.LC_ADDRESS=en_US.UTF-8, os.arch=amd64, maven.build.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T15:00:29-04:00), env.LC_NUMERIC=en_US.UTF-8, sun.java.launcher=SUN_STANDARD, env.BUILD_ID=51, java.vm.specification.vendor=Oracle Corporation, file.separator=/, env.PAPERSIZE=letter, java.runtime.version=1.8.0_171-b11, sun.boot.class.path=/opt/jdk1.8.0_171/jre/lib/resources.jar:/opt/jdk1.8.0_171/jre/lib/rt.jar:/opt/jdk1.8.0_171/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_171/jre/lib/jsse.jar:/opt/jdk1.8.0_171/jre/lib/jce.jar:/opt/jdk1.8.0_171/jre/lib/charsets.jar:/opt/jdk1.8.0_171/jre/lib/jfr.jar:/opt/jdk1.8.0_171/jre/classes, env.SSH_AUTH_SOCK=/run/user/1002/keyring/ssh, env.QT4_IM_MODULE=xim, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-mate:/etc/xdg, env.XDG_RUNTIME_DIR=/run/user/1002, env.WORKSPACE=/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test, maven.version=3.6.1, user.country=US, env.EXECUTOR_NUMBER=0, maven.home=/home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven, env.SHELL=/bin/bash, env.NO_AT_BRIDGE=1, env.JOB_BASE_NAME=test, java.vendor=Oracle Corporation, env.GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1, env.GRADLE_HOME=/opt/gradle-4.10.2, env.QT_DEVICE_PIXEL_RATIO=auto, env.HUDSON_COOKIE=5e946a46-eae3-4ba4-a9d7-2b5e600e5735, java.specification.version=1.8, sun.arch.data.model=64}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-ear-plugin:3.0.1:ear (default-ear) @ testEAR ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-ear-plugin:3.0.1:ear from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-ear-plugin:3.0.1, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-ear-plugin:3.0.1:ear' with basic configurator -->
+[DEBUG]   (f) earSourceDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/src/main/application
+[DEBUG]   (f) earSourceIncludes = **
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapedBackslashesInFilePath = false
+[DEBUG]   (f) filtering = false
+[DEBUG]   (f) finalName = test
+[DEBUG]   (f) generatedDescriptorLocation = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[DEBUG]   (f) includeLibInApplicationXml = false
+[DEBUG]   (f) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[DEBUG]   (f) outputFileNameMapping = @{groupId}@-@{artifactId}@-@{version}@@{dashClassifier?}@.@{extension}@
+[DEBUG]   (f) project = MavenProject: com.codilabs:testEAR:1.0 @ /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@23a9ba52
+[DEBUG]   (f) skinnyWars = false
+[DEBUG]   (f) skipClassPathModification = false
+[DEBUG]   (f) tempFolder = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[DEBUG]   (f) useJvmChmod = true
+[DEBUG]   (f) version = 7
+[DEBUG]   (f) workDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test
+[DEBUG] -- end configuration --
+[DEBUG] Resolving artifact type mappings ...
+[DEBUG] Initializing JBoss configuration if necessary ...
+[DEBUG] Initializing ear execution context
+[DEBUG] Resolving ear modules ...
+[INFO] Copying artifact [war:com.codilabs:testWAR:1.0-SNAPSHOT] to [com.codilabs-testWAR-1.0-SNAPSHOT.war]
+[DEBUG] Jar archiver implementation [org.codehaus.plexus.archiver.jar.JarArchiver]
+[DEBUG] Excluding [] from the generated EAR.
+[DEBUG] Including [**] in the generated EAR.
+[INFO] Building jar: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test.ear
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding entry com.codilabs-testWAR-1.0-SNAPSHOT.war
+[DEBUG] adding entry META-INF/application.xml
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/com.codilabs/
+[DEBUG] adding directory META-INF/maven/com.codilabs/testEAR/
+[DEBUG] adding entry META-INF/maven/com.codilabs/testEAR/pom.xml
+[DEBUG] adding entry META-INF/maven/com.codilabs/testEAR/pom.properties
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ testEAR ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = com.codilabs:testEAR:ear:1.0
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/rmezquita/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = ear
+[DEBUG]   (f) pomFile = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test.ear to /home/rmezquita/.m2/repository/com/codilabs/testEAR/1.0/testEAR-1.0.ear
+[DEBUG] Writing tracking file /home/rmezquita/.m2/repository/com/codilabs/testEAR/1.0/_remote.repositories
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/pom.xml to /home/rmezquita/.m2/repository/com/codilabs/testEAR/1.0/testEAR-1.0.pom
+[DEBUG] Writing tracking file /home/rmezquita/.m2/repository/com/codilabs/testEAR/1.0/_remote.repositories
+[DEBUG] Installing com.codilabs:testEAR/maven-metadata.xml to /home/rmezquita/.m2/repository/com/codilabs/testEAR/maven-metadata-local.xml
+[INFO] 
+[INFO] ---------------------------< com.org:Maven >----------------------------
+[INFO] Building Maven 0.0.1-SNAPSHOT                                      [3/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.org:Maven:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy (deploy)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <applicationName default-value="${project.build.finalName}">Maven-0.0.1-SNAPSHOT</applicationName>
+  <deploymentsPropertyFile default-value="${project.basedir}/was-maven-plugin.properties">${was.deploymentsPropertyFile}</deploymentsPropertyFile>
+  <failOnError default-value="false"/>
+  <host default-value="localhost">localhost</host>
+  <node>node01</node>
+  <packageFile default-value="${project.artifact.file}"/>
+  <password>123</password>
+  <pluginArtifacts default-value="${plugin.artifacts}"/>
+  <restartAfterDeploy default-value="true"/>
+  <server>server1</server>
+  <user>admin</user>
+  <verbose>true</verbose>
+  <virtualHost>default_host</virtualHost>
+  <wasHome>/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test</wasHome>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Maven ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/classes
+[DEBUG]   (f) reportDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/classes
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/test-classes
+[DEBUG] Skipping non-existing directory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/site
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Maven ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = com.org:Maven:pom:0.0.1-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/rmezquita/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = pom
+[DEBUG]   (f) pomFile = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/pom.xml to /home/rmezquita/.m2/repository/com/org/Maven/0.0.1-SNAPSHOT/Maven-0.0.1-SNAPSHOT.pom
+[DEBUG] Writing tracking file /home/rmezquita/.m2/repository/com/org/Maven/0.0.1-SNAPSHOT/_remote.repositories
+[DEBUG] Installing com.org:Maven:0.0.1-SNAPSHOT/maven-metadata.xml to /home/rmezquita/.m2/repository/com/org/Maven/0.0.1-SNAPSHOT/maven-metadata-local.xml
+[DEBUG] Installing com.org:Maven/maven-metadata.xml to /home/rmezquita/.m2/repository/com/org/Maven/maven-metadata-local.xml
+[INFO] 
+[INFO] --- was-maven-plugin:1.1.3.3:deploy (deploy) @ Maven ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=160757, ConflictMarker.markTime=122713, ConflictMarker.nodeCount=110, ConflictIdSorter.graphTime=82157, ConflictIdSorter.topsortTime=53486, ConflictIdSorter.conflictIdCount=44, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2422944, ConflictResolver.conflictItemCount=96, DefaultDependencyCollector.collectTime=267894146, DefaultDependencyCollector.transformTime=2892601}
+[DEBUG] com.orctom.mojo:was-maven-plugin:jar:1.1.3.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.2.1:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M5:compile
+[DEBUG]          javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]             javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]             javax.inject:javax.inject:jar:1:compile
+[DEBUG]          org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[DEBUG]             aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M5:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0.4:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0.4:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0.4:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0.4:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0.4:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.13.1:compile
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.13.1:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.13.1:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.13.1:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:2.3.0:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:2.3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0.4:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:3.0.4:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    org.apache.maven.shared:file-management:jar:1.2.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-io:jar:1.1:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0.2:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.ant:ant:jar:1.8.3:compile
+[DEBUG]       org.apache.ant:ant-launcher:jar:1.8.3:compile
+[DEBUG]    com.orctom.was:was-util:jar:1.1.3.2:compile
+[DEBUG]       com.github.spullara.mustache.java:compiler:jar:0.8.18:compile
+[DEBUG]       com.google.guava:guava:jar:16.0.1:compile
+[DEBUG] Created new class realm plugin>com.orctom.mojo:was-maven-plugin:1.1.3.3
+[DEBUG] Importing foreign packages into class realm plugin>com.orctom.mojo:was-maven-plugin:1.1.3.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>com.orctom.mojo:was-maven-plugin:1.1.3.3
+[DEBUG]   Included: com.orctom.mojo:was-maven-plugin:jar:1.1.3.3
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M5
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.13.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:2.3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:1.2.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:1.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.ant:ant:jar:1.8.3
+[DEBUG]   Included: org.apache.ant:ant-launcher:jar:1.8.3
+[DEBUG]   Included: com.orctom.was:was-util:jar:1.1.3.2
+[DEBUG]   Included: com.github.spullara.mustache.java:compiler:jar:0.8.18
+[DEBUG]   Included: com.google.guava:guava:jar:16.0.1
+[DEBUG] Configuring mojo com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy from plugin realm ClassRealm[plugin>com.orctom.mojo:was-maven-plugin:1.1.3.3, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy' with basic configurator -->
+[DEBUG]   (f) applicationName = Maven-0.0.1-SNAPSHOT
+[DEBUG]   (f) deploymentsPropertyFile = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/was-maven-plugin.properties
+[DEBUG]   (f) failOnError = false
+[DEBUG]   (f) host = localhost
+[DEBUG]   (f) node = node01
+[DEBUG]   (f) password = 123
+[DEBUG]   (f) pluginArtifacts = [com.orctom.mojo:was-maven-plugin:maven-plugin:1.1.3.3:, org.apache.maven:maven-plugin-api:jar:3.2.1:compile, org.apache.maven:maven-artifact:jar:3.2.1:compile, org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M5:compile, javax.enterprise:cdi-api:jar:1.0:compile, javax.annotation:jsr250-api:jar:1.0:compile, javax.inject:javax.inject:jar:1:compile, org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile, aopalliance:aopalliance:jar:1.0:compile, org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M5:compile, org.apache.maven:maven-core:jar:3.0.4:compile, org.apache.maven:maven-settings-builder:jar:3.0.4:compile, org.apache.maven:maven-repository-metadata:jar:3.0.4:compile, org.apache.maven:maven-model-builder:jar:3.0.4:compile, org.apache.maven:maven-aether-provider:jar:3.0.4:compile, org.sonatype.aether:aether-spi:jar:1.13.1:compile, org.sonatype.aether:aether-impl:jar:1.13.1:compile, org.sonatype.aether:aether-api:jar:1.13.1:compile, org.sonatype.aether:aether-util:jar:1.13.1:compile, org.sonatype.sisu:sisu-inject-plexus:jar:2.3.0:compile, org.sonatype.sisu:sisu-inject-bean:jar:2.3.0:compile, org.codehaus.plexus:plexus-interpolation:jar:1.14:compile, org.codehaus.plexus:plexus-classworlds:jar:2.4:compile, org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.maven:maven-model:jar:3.0.4:compile, org.apache.maven:maven-settings:jar:3.0.4:compile, org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile, org.codehaus.plexus:plexus-utils:jar:3.0.10:compile, org.apache.maven.shared:file-management:jar:1.2.1:compile, org.apache.maven.shared:maven-shared-io:jar:1.1:compile, org.apache.maven:maven-artifact-manager:jar:2.0.2:compile, org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6:compile, org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:compile, junit:junit:jar:3.8.1:compile, classworlds:classworlds:jar:1.1-alpha-2:compile, org.apache.ant:ant:jar:1.8.3:compile, org.apache.ant:ant-launcher:jar:1.8.3:compile, com.orctom.was:was-util:jar:1.1.3.2:compile, com.github.spullara.mustache.java:compiler:jar:0.8.18:compile, com.google.guava:guava:jar:16.0.1:compile]
+[DEBUG]   (f) restartAfterDeploy = true
+[DEBUG]   (f) server = server1
+[DEBUG]   (f) user = admin
+[DEBUG]   (f) verbose = true
+[DEBUG]   (f) virtualHost = default_host
+[DEBUG]   (f) wasHome = /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+[DEBUG]   (f) project = MavenProject: com.org:Maven:0.0.1-SNAPSHOT @ /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/pom.xml
+[DEBUG] -- end configuration --
+[INFO] was-maven-plugin - deploy
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] testWAR 1.0-SNAPSHOT ............................... SUCCESS [  1.979 s]
+[INFO] testEAR 1.0 ........................................ SUCCESS [  0.879 s]
+[INFO] Maven 0.0.1-SNAPSHOT ............................... FAILURE [  0.513 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.496 s
+[INFO] Finished at: 2019-07-19T16:51:57-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy (deploy) on project Maven: Execution deploy of goal com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy failed.: NullPointerException -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy (deploy) on project Maven: Execution deploy of goal com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy failed.
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.PluginExecutionException: Execution deploy of goal com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy failed.
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:148)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: java.lang.NullPointerException
+    at com.orctom.mojo.was.AbstractWASMojo.getProjectProperties (AbstractWASMojo.java:283)
+    at com.orctom.mojo.was.AbstractWASMojo.getWebSphereModels (AbstractWASMojo.java:133)
+    at com.orctom.mojo.was.WASDeployMojo.execute (WASDeployMojo.java:35)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :Maven
+[8mha:////4DHdRkYTYEHz7I2qtbd6X8in1y3emmcTrsUBhETT5lwUAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfX1uR6L4AAAA=[0m[Pipeline] }
+[8mha:////4G/nAfi4BUxEsIO3FL+9bqqGfhLtrKLDWUO/YYMJe21YAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFZHam9vgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4N0pl6oR0zeiFu+unz+xXqKs970ODFGr6eFNj0by/m1GAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g0an/g7vgAAAA==[0m[Pipeline] }
+[8mha:////4M14S8qRDiIrurDA6Aw1uvv8hjqFS04AUHBqoGjGQclQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEFHa1pvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4NQMyKWfpT9LThkY68LcIKAooETArv+90iWhutxq8B2IAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSAipEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP+930p++AAAA[0m[Pipeline] }
+[8mha:////4Okb5fjsc8LRxCRQzdzX0ushVnuK0MXgY3o4sem1NRcMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAKYoTYr4AAAA=[0m[Pipeline] // configFileProvider
+[8mha:////4HVyAv0OYtPOjAmv9juVuum4N4NurEgHsmuEpl6hPcoAAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigRAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAgNU/A74AAAA=[0m[Pipeline] }
+[8mha:////4MP7bEghDZoTW61OIeI+7cjUpsYqawMUi61TehKAZfkPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSRNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGzNmS/vgAAAA==[0m[Pipeline] // stage
+[8mha:////4AprMuJmpQiHPR5GL91FIpJxh30n0sMpY9yERk/zgse7AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0WDlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9Tz1S8vQAAAA==[0m[Pipeline] }
+[8mha:////4I9UqDWmbBGJWOjxFxU/3a87Vw3nm2/G7Upp18E1M96OAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUDpVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AQHNQH70AAAA=[0m[Pipeline] // node
+[8mha:////4Jo71T2Ah7lrLWPT1uCuMlnYBguzoo3pX2r+NTkyIv3CAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkKBBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AAY59y+9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

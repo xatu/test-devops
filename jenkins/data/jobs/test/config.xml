@@ -15,7 +15,7 @@
         <net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterDefinition plugin="git-parameter@0.9.11">
           <name>BRANCH</name>
           <description></description>
-          <uuid>a6f7baa6-86cc-4bcc-91af-0036310c7198</uuid>
+          <uuid>c3436c92-2bdf-46bb-b02b-038b21d66fa0</uuid>
           <type>PT_BRANCH</type>
           <branch></branch>
           <tagFilter>*</tagFilter>
@@ -50,8 +50,12 @@
     ])
     
     def branch = &quot;${env.BRANCH}&quot;.split(&apos;/&apos;)[1]
-
-    stage(&apos;scm&apos;){
+/*
+    stage(&apos;Clean&apos;) {
+        cleanWs()
+    }
+*/
+    stage(&apos;SCM&apos;){
         git branch: &quot;${branch}&quot;, url: &apos;https://gitlab.com/codilabs/Ear-Test.git&apos;
     }
 
@@ -62,8 +66,7 @@
     stage(&apos;Sonnarqube&apos;) {
         withSonarQubeEnv(credentialsId: &apos;sonar-token&apos;) {
             def scan = tool name: &apos;scanner&apos;, type: &apos;hudson.plugins.sonar.SonarRunnerInstallation&apos;
-            writeFile file: &apos;sonar-project.properties&apos;, text: &apos;&apos;&apos;sonar.host.url=http://sonarqube:9000
-            sonar.projectKey=test
+            writeFile file: &apos;sonar-project.properties&apos;, text: &apos;&apos;&apos;sonar.projectKey=test
             sonar.projectName=Ear-Test
             sonar.projectVersion=&gt;0.0.1-SNAPSHOT
             sonar.sources=.
@@ -75,30 +78,32 @@
         }
     }
 
-    stage(&quot;Quality Check&quot;){
-        timeout(time: 20, unit: &apos;MINUTES&apos;) {
+    stage(&apos;Quality gate&apos;) {
+        timeout(time: 1, unit: &apos;MINUTES&apos;) {
             def qg = waitForQualityGate()
-            if (qg.status == &apos;WARN&apos;) {
-                currentBuild.result = &apos;UNSTABLE&apos;
+            if (qg.status != &apos;OK&apos;) {
+                error &quot;Pipeline failed due to sonarqube: ${qg.status}&quot;
             }
         }
     }
 
-    stage(&apos;Build&apos;) {
+
+    stage(&apos;Build and Deploy&apos;) {
         def maven = tool name: &apos;maven&apos;, type: &apos;maven&apos;
-        sh &quot;&quot;&quot;
-            cd testWAR
-            ${maven}/bin/mvn clean package
-            ls -ltrh
-            cd target
-            ls -ltrh
-        &quot;&quot;&quot;
+        configFileProvider([configFile(fileId: &apos;68ff4cc8-1127-419c-b691-8ab28323f659&apos;, targetLocation: &quot;${env.WORKSPACE}/settings.xml&quot;)]) {
+            configFileProvider([configFile(fileId: &apos;a04c3037-4e2a-43bf-8810-23de7fbe56d4&apos;, targetLocation: &quot;${env.WORKSPACE}/pom.xml&quot;)]) {
+                configFileProvider([configFile(fileId: &apos;2661c4b2-0d44-428e-a734-bba0ef32c65c&apos;, targetLocation: &quot;${env.WORKSPACE}/was-maven-plugin.properties&quot;)]) {
+                    sh &quot;&quot;&quot;
+                        ${maven}/bin/mvn clean install -Ddeploy_targets=was -X
+                    &quot;&quot;&quot;
+                }
+            }
+        }
     }
+}
 
-    stage(&apos;Deploy WAS&apos;) {
 
-    }
-}</script>
+</script>
     <sandbox>false</sandbox>
   </definition>
   <triggers/>

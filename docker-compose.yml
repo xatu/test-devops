@@ -1,16 +1,16 @@
 version: '3'
 services:
-  jenkins:
-    build: 
-      context: ./jenkins      
-    container_name: jenkins
-    environment:
-      - JENKINS_HOME=/opt/jenkins/home
-    volumes:
-      - ./jenkins/data:/opt/jenkins/home
-    ports:
-      - "50000:50000"
-      - "8080:8080"      
+  # jenkins:
+  #   build: 
+  #     context: ./jenkins      
+  #   container_name: jenkins
+  #   environment:
+  #     - JENKINS_HOME=/opt/jenkins/home
+  #   volumes:
+  #     - ./jenkins/data:/opt/jenkins/home
+  #   ports:
+  #     - "50000:50000"
+  #     - "8080:8080"      
   sonarqube:
     image: sonarqube:alpine
     container_name: sonarqube
@@ -26,7 +26,7 @@ services:
     image: ibmcom/websphere-traditional
     container_name: was
     volumes:
-      - ./tmp/PASSWORD:/tmp/PASSWORD
+      - ./was/tmp/PASSWORD:/tmp/PASSWORD
     ports:
       - "9043:9043"
       - "9443:9443"

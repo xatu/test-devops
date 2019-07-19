@@ -1,0 +1,343 @@
+Started by user [8mha:////4GsdmSnoachQW7TY4LUsIa8Jceibbe1gckqppfnhBX5iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4CimnQvyZR6b2nW4znHAa0HtuPT+9DSBz84kL/SPxqARAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PBKnezGyldlWllmf3HzZQj+mh+5zrD3XIJbjkwZBBHEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HpioqQ0eUJLRt1j39eLxnVsLlnDkdQE8RUlHgx9zCIaAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+[8mha:////4AA931kxtK5wMm11cG8kV+ImoHecxJ/9oep6gmW8yMBGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4A5Xad9S+bJeHFYapW/tigAiyZdJ8qjqL5QkpS4jfVRcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] properties
+[8mha:////4FFdK3chaHOFNc6RkpPlswzOrzPVJYlq6pkUOe8e+RxWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] stage
+[8mha:////4Iz8XUqI0F8SM4+p5rl5Y/AOYOeX57AtIYHEGNI2N0KtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] { (SCM)
+[8mha:////4NwYWpOPy3ZN4vtKGi9tQ2E1TIBE+UJqL+NMD5uV0kBHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4geKI23CvAAAAA==[0m[Pipeline] git
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/codilabs/Ear-Test.git # timeout=10
+Fetching upstream changes from https://gitlab.com/codilabs/Ear-Test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://gitlab.com/codilabs/Ear-Test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3b5bcd036d946f15f2bf00b37c396e43add311ca (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3b5bcd036d946f15f2bf00b37c396e43add311ca
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 3b5bcd036d946f15f2bf00b37c396e43add311ca
+Commit message: "Commit inicial"
+ > git rev-list --no-walk 3b5bcd036d946f15f2bf00b37c396e43add311ca # timeout=10
+[8mha:////4KPJIpaSdQyTOSkDhZ6T/vj6eujzFu74loKgjrK8WRxCAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbGmOsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/Qdlmg9gvAAAAA==[0m[Pipeline] }
+[8mha:////4Dfx2JoI0LM4qcHZAWndnd8pCnCdzmWmHcPLX4F847AJAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoY+NY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AqUpLPL0AAAA=[0m[Pipeline] // stage
+[8mha:////4FnzUJdCrf4mbXgmIeW9MbaeBAFYVn1rSb/ZQohWNCtLAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] stage
+[8mha:////4NQiA7mQw72LuC2EB+TZeBh5zCygFtzD7EZpvot/6bSKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Show files)
+[8mha:////4FKgLGbKDnJHF57e9U8GAcXVUrMYNYGpR1w/eKzLJunQAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] sh
++ ls -ltrha
+total 48K
+drwxrwxr-x 4 rmezquita rmezquita 4.0K Jul 19 16:02 ..
+-rw-rw-r-- 1 rmezquita rmezquita 1.1K Jul 19 16:02 LICENSE
+-rw-rw-r-- 1 rmezquita rmezquita  265 Jul 19 16:25 sonar-project.properties
+drwxrwxr-x 2 rmezquita rmezquita 4.0K Jul 19 16:25 .scannerwork
+drwxrwxr-x 4 rmezquita rmezquita 4.0K Jul 19 16:25 testWAR
+drwxrwxr-x 3 rmezquita rmezquita 4.0K Jul 19 16:25 testEAR
+-rw-r----- 1 rmezquita rmezquita  10K Jul 19 16:25 settings.xml
+-rw-rw-r-- 1 rmezquita rmezquita  454 Jul 19 16:28 pom.xml
+drwxrwxr-x 6 rmezquita rmezquita 4.0K Jul 19 16:28 .
+drwxrwxr-x 8 rmezquita rmezquita 4.0K Jul 19 16:28 .git
+[8mha:////4Cf0SICVcs3aj0+v1i9Hz4uWY6nxT+28AXsBeDnhH2XSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3BoOEdWO+AAAA[0m[Pipeline] }
+[8mha:////4DD+jh9sAdNJA5M+vJxi9xMhMn5roGkgg3Jf5WlSUQ/wAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfnAYgMb4AAAA=[0m[Pipeline] // stage
+[8mha:////4OuPu+to2vFM7cwtGdb5wJNQCmgWbgWuEyL3tV8BiDlvAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4KroJy4j8WpwK4w54Sskv4OwuuWsYwNdXbcPAlqY1J7LAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Sonnarqube)
+[8mha:////4Ooq/+bBTp29xhRvb+hf8cOI8GdsERtrowb0CJWWqNYJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonar
+[8mha:////4BXmE/7ev/HwC5gXWFItinyB2fcYofsBIgpyytPuNdCnAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4JcaYb5lbhFVBcPsokm/wUmqRo+4woFoqfzWfhrFCajQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] tool
+[8mha:////4L+Pq0ChZXA+Cb3pZTk4o+rJirepM/kigsbmIhG6gNUzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] writeFile
+[8mha:////4IIfytCrNwNrC5UHAznhMInd+GayRqh6aQR137RRyzwGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPeHXHXtP5vywgS+AAAA[0m[Pipeline] sh
++ /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/sonar-project.properties
+INFO: SonarQube Scanner 4.0.0.1744
+INFO: Java 1.8.0_171 Oracle Corporation (64-bit)
+INFO: Linux 4.15.0-20-generic amd64
+INFO: User cache: /home/rmezquita/.sonar/cache
+INFO: SonarQube server 7.1.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=59ms
+INFO: Server id: AWwKol8fdkkWHEQ-xLJ8
+INFO: User cache: /home/rmezquita/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=45ms
+INFO: Load/download plugins
+INFO: Load/download plugins (done) | time=16ms
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=67ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=25ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=1298ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=65ms
+INFO: Project key: test
+INFO: Project base dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+INFO: -------------  Scan Ear-Test
+INFO: Load server rules
+INFO: Load server rules (done) | time=491ms
+INFO: Base dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+INFO: Working dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/.scannerwork
+INFO: Source paths: .
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: Index files
+INFO: Excluded sources: 
+INFO:   **/target/**
+INFO: 7 files indexed
+INFO: 7 files ignored because of inclusion/exclusion patterns
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: Sensor JavaSquidSensor [java]
+INFO: Configured Java source version (sonar.java.source): 8
+INFO: JavaClasspath initialization
+WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+INFO: JavaClasspath initialization (done) | time=2ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=0ms
+INFO: Java Main Files AST scan
+INFO: 1 source files to be analyzed
+INFO: Java Main Files AST scan (done) | time=133ms
+INFO: 1/1 source files have been analyzed
+INFO: Java Test Files AST scan
+INFO: 0 source files to be analyzed
+INFO: Java Test Files AST scan (done) | time=1ms
+INFO: 0/0 source files have been analyzed
+INFO: Sensor JavaSquidSensor [java] (done) | time=604ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/surefire-reports]
+INFO: Sensor SurefireSensor [java] (done) | time=3ms
+INFO: Sensor JaCoCoSensor [java]
+INFO: Sensor JaCoCoSensor [java] (done) | time=1ms
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: 4 source files to be analyzed
+INFO: 4/4 source files have been analyzed
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=484ms
+INFO: Sensor XML Sensor [xml]
+INFO: Sensor XML Sensor [xml] (done) | time=169ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=12ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=11ms
+INFO: SCM provider for this project is: git
+INFO: 1 files to be analyzed
+INFO: 0/1 files analyzed
+WARN: Missing blame information for the following files:
+WARN:   * settings.xml
+WARN: This may lead to missing/broken features in SonarQube
+INFO: 1 file had no CPD blocks
+INFO: Calculating CPD for 0 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 89ms, dir size=41 KB
+INFO: Analysis reports compressed in 19ms, zip size=17 KB
+INFO: Analysis report uploaded in 68ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/test
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AWwL7GwrfML5f2bzhs8g
+INFO: Task total time: 5.235 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 6.869s
+INFO: Final Memory: 20M/408M
+INFO: ------------------------------------------------------------------------
+[8mha:////4Pa9Fd89UyQfzQWnwMbe4cUnvMKHh03NlqfPFoNf3P55AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] }
+[8mha:////4MJOyThRrE2TdRNi14ge0bRl950og1NvSgnvawodtPqSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4Fkq0o5j+v3jdwhsdxxeVqM+0l7wzoR7+/kBtaW8V929AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] }
+[8mha:////4CUWEfEBdeK+fIZEr4+c0hctIenpuXM+IrV1zGNdX6zmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKNIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QEM+zgYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4MBnNl6pEfJSDuI8mVH26dqrOOk7W6WqIkLtc9f3GKLMAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjISQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG5POx33BAAAA[0m[Pipeline] stage
+[8mha:////4HvLg4yV67P1jn1HeL2voojMLKZlVI3FQusAi4bveJvnAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Quality gate)
+[8mha:////4A2P31menaKnY3nN6JU37cQJz+5PqLBauevr8i/jzNQVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] timeout
+Timeout set to expire in 1 min 0 sec
+[8mha:////4MoQuEhjgsa7U4g4uWWvnZtS/eAktKzvSMW8waE4y7ixAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4NeKStUOhEMTQOTz7ZScNC+idYlUpbFFQ2SbLAzLCk64AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task 'AWwL7GwrfML5f2bzhs8g' on server 'sonar'
+SonarQube task 'AWwL7GwrfML5f2bzhs8g' status is 'PENDING'
+SonarQube task 'AWwL7GwrfML5f2bzhs8g' status is 'SUCCESS'
+SonarQube task 'AWwL7GwrfML5f2bzhs8g' completed. Quality gate is 'OK'
+[8mha:////4Cv1DveKT/uqecHyrZAmoNEkSOw/O1yeJnTQ/yPU/JJzAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fGXWL/r4AAAA=[0m[Pipeline] }
+[8mha:////4Dgk2DkHzedLE2jDkeekumjgymV88XAHxSir8lhbr50EAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFZLxBVvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4DDczyMNdpK9NlVDJ2V6byLJZpswNejX1/dcJFPMMZN6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAdy8SP74AAAA=[0m[Pipeline] }
+[8mha:////4L3PF/i2GMswf2vjEmSFuI7PMAJYJKjTtLpM7l4OM9hcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigRAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAQ+HxZL4AAAA=[0m[Pipeline] // stage
+[8mha:////4OJS/vOPNvY9RsKCp/mwj+WsHilYeQsCQkDjU1se4TDEAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTgGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvghbsEMEAAAA=[0m[Pipeline] stage
+[8mha:////4A9aU5S5lTGhMHTAS2C3nrJcy9R0PWKo4ih+KBPQ5VcIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4Andbn1behpURuqwAVIeqH8JOATp+uwWNEfTn7KvUFhDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] tool
+[8mha:////4KXuVwLKQ9W1z62U66yExNL3DZYBSA6HbUkYhZlF57aOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YEAIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfABZuXxiwgAAAA==[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [MySettings] to file:/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/settings.xml
+[8mha:////4L6gt76uzxlexFzFlSaO5U+s8G2O51i+Aw9+SV7A03THAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
+[8mha:////4CETPFVZEuCjkOQJAd2AYPqZI3euqdzgFR0C8mbWfV11AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBl2WGva+AAAA[0m[Pipeline] sh
++ /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn clean package
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] testWAR                                                            [war]
+[INFO] testEAR                                                            [ear]
+[INFO] Maven                                                              [pom]
+[INFO] 
+[INFO] ------------------------< com.codilabs:testWAR >------------------------
+[INFO] Building testWAR 1.0-SNAPSHOT                                      [1/3]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testWAR ---
+[WARNING] The POM for org.apache.maven:maven-plugin-api:jar:2.0.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Deleting /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testWAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ testWAR ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testWAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ testWAR ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ testWAR ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ testWAR ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [testWAR] in [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [17 msecs]
+[INFO] Building war: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] ------------------------< com.codilabs:testEAR >------------------------
+[INFO] Building testEAR 1.0                                               [2/3]
+[INFO] --------------------------------[ ear ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testEAR ---
+[INFO] Deleting /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[INFO] 
+[INFO] --- maven-ear-plugin:3.0.1:generate-application-xml (default-generate-application-xml) @ testEAR ---
+[INFO] Generating application.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testEAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/src/main/resources
+[INFO] 
+[INFO] --- maven-ear-plugin:3.0.1:ear (default-ear) @ testEAR ---
+[INFO] Copying artifact [war:com.codilabs:testWAR:1.0-SNAPSHOT] to [com.codilabs-testWAR-1.0-SNAPSHOT.war]
+[INFO] Building jar: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test.ear
+[INFO] 
+[INFO] ---------------------------< com.org:Maven >----------------------------
+[INFO] Building Maven 0.0.1-SNAPSHOT                                      [3/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Maven ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] testWAR 1.0-SNAPSHOT ............................... SUCCESS [  1.463 s]
+[INFO] testEAR 1.0 ........................................ SUCCESS [  0.537 s]
+[INFO] Maven 0.0.1-SNAPSHOT ............................... SUCCESS [  0.004 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.179 s
+[INFO] Finished at: 2019-07-19T16:29:06-04:00
+[INFO] ------------------------------------------------------------------------
++ ls -ltrh
+total 32K
+-rw-rw-r-- 1 rmezquita rmezquita 1.1K Jul 19 16:02 LICENSE
+-rw-rw-r-- 1 rmezquita rmezquita  454 Jul 19 16:28 pom.xml
+-rw-rw-r-- 1 rmezquita rmezquita  265 Jul 19 16:28 sonar-project.properties
+-rw-r----- 1 rmezquita rmezquita  10K Jul 19 16:29 settings.xml
+drwxrwxr-x 4 rmezquita rmezquita 4.0K Jul 19 16:29 testWAR
+drwxrwxr-x 3 rmezquita rmezquita 4.0K Jul 19 16:29 testEAR
+[8mha:////4NJxW+y2BzvLBODE4t2qKPkRf+nIzsIp0BhC/PpAgV/qAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BlDdbXS+AAAA[0m[Pipeline] }
+[8mha:////4FUiTmGIMyoz5i+P2AmMvB4MouUeRVDIAfk6R3Pl9ygbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAYhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGWIKyJvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4PC9uvnhswa6WRLLL2Dxu4nDYUWi1ngBk14xNOC6H9etAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiESBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw8pPRFzvgAAAA==[0m[Pipeline] }
+[8mha:////4LYgzFiYEBdN2HusR5iKYL1Tk19RVWe8NTfO3Pus9O2nAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8GlQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8a3krPvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LKnS1R1LyTnCiFiJAyDFXKrf26zSKyQbFE1cqymBpRMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTTRDSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFA1D2ew+x+oNDChL1cEAAAA=[0m[Pipeline] stage
+[8mha:////4Bqddu+OKC01f6CGRtd+8tUyXfHUYYqhnS+GQAny8NIqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] { (Deploy WAS)
+[8mha:////4NknAe//SqCjEbSEjg+OuR39aJrJvGWhZmnuccZiP+u5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] tool
+[8mha:////4BUtJpqzpdIiR/tMqEOuj63/IVNnFUonBLhEOj8BvNdNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QUIIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfABYbkPTwgAAAA==[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [pom] to file:/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/pom.xml
+[8mha:////4DP6mTRiJfo3/yPRBLfycY4OTxX2pOu1G1nQum/lgpnSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] {
+[8mha:////4Jv0B8eSLis1OwlYA/NLFar7DWOMiUhk7bzoM8h9vQhiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] sh
++ /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn deploy
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] testWAR                                                            [war]
+[INFO] testEAR                                                            [ear]
+[INFO] Maven                                                              [pom]
+[INFO] 
+[INFO] ------------------------< com.codilabs:testWAR >------------------------
+[INFO] Building testWAR 1.0-SNAPSHOT                                      [1/3]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testWAR ---
+[WARNING] The POM for org.apache.maven:maven-plugin-api:jar:2.0.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ testWAR ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testWAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ testWAR ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ testWAR ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ testWAR ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [testWAR] in [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [14 msecs]
+[INFO] Building war: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ testWAR ---
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT.war to /home/rmezquita/.m2/repository/com/codilabs/testWAR/1.0-SNAPSHOT/testWAR-1.0-SNAPSHOT.war
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/pom.xml to /home/rmezquita/.m2/repository/com/codilabs/testWAR/1.0-SNAPSHOT/testWAR-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ testWAR ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] testWAR 1.0-SNAPSHOT ............................... FAILURE [  1.369 s]
+[INFO] testEAR 1.0 ........................................ SKIPPED
+[INFO] Maven 0.0.1-SNAPSHOT ............................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.493 s
+[INFO] Finished at: 2019-07-19T16:29:10-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project testWAR: Deployment failed: repository element was not specified in the POM inside distributionManagement element or in -DaltDeploymentRepository=id::layout::url parameter -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[8mha:////4FQyI2JBvm56B8jz76VMM46nTDHAY8dPyBzqh1/Idn+rAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN6XnAcu+AAAA[0m[Pipeline] }
+[8mha:////4GI0vXoNb4yAvRE9yB9xUxmVGdev1j52CZAT8RUqcS87AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4EiAFjXJKCdHR/QNODePDg4WA/VqnzpLQ0gv6y+bslD4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBFEgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AFaoCeavgAAAA==[0m[Pipeline] }
+[8mha:////4AOVY1iZtXd50uYPDAAzTuYLxsih1ll/GW6shATaAaCSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpCA2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPmlDfCa+AAAA[0m[Pipeline] // stage
+[8mha:////4CVFUyvbDsV4o9U1ZCDDRkwx7ci8eKHYg0Fv7IIvQHXYAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId3tBtv0AM5yUxr0AAAA=[0m[Pipeline] }
+[8mha:////4H9zBvg98u99Goca4KADsRLlnWBKaQ8K2T8p+Opv94HwAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEKJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ACAgkGW9AAAA[0m[Pipeline] // node
+[8mha:////4AFP0Ax585esKF82G/ko7tD55JwqxrwXndYXQ03ojhd8AAAApB+LCAAAAAAAAP9tjbEKwjAURW8rDq6OfkQKgiCIk2vo4hfENsa04b2avNpOfpG/5j9YLDh5p3vOcl5vLFPEkaNTjaXWU6q86kLvpqcGju018KAavqiKKXGwqrRDybU9zViyWMzLciw0VpaqwMmTE6x1Yx6mCIZccZY4uYNG7us7nsj0VBYT5QtjxObW14np1/kbwNh1gny3F2TbD2eHx5C9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

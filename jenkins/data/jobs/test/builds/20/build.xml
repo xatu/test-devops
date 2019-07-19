@@ -71,15 +71,22 @@
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
     <hudson.plugins.sonar.action.SonarMarkerAction plugin="sonar@2.9"/>
+    <hudson.plugins.sonar.action.SonarAnalysisAction plugin="sonar@2.9">
+      <installationName>sonar</installationName>
+      <credentialsId>sonar-token</credentialsId>
+      <isNew>true</isNew>
+      <isSkipped>true</isSkipped>
+    </hudson.plugins.sonar.action.SonarAnalysisAction>
   </actions>
-  <queueId>24</queueId>
+  <queueId>27</queueId>
   <timestamp>1563519899815</timestamp>
   <startTime>1563519899868</startTime>
-  <duration>0</duration>
+  <result>FAILURE</result>
+  <duration>26093882</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>SUCCESS</result>
+    <result>FAILURE</result>
     <script>node {
 
     properties([
@@ -154,33 +161,32 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>816776100</long>
+        <long>1602612132</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>1744357700</long>
+        <long>3184174403</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>2481163300</long>
+        <long>3770108610</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>1354611200</long>
+        <long>2509528522</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>540406400</long>
+        <long>602242753</long>
       </entry>
     </timings>
     <sandbox>false</sandbox>
-    <iota>22</iota>
-    <head>1:22</head>
-    <start>2</start>
-    <done>false</done>
+    <iota>29</iota>
+    <head>1:29</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
-  <completed>false</completed>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
       <scm class="hudson.plugins.git.GitSCM" plugin="git@3.10.1">

@@ -1,0 +1,206 @@
+Started by user [8mha:////4GsdmSnoachQW7TY4LUsIa8Jceibbe1gckqppfnhBX5iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4CimnQvyZR6b2nW4znHAa0HtuPT+9DSBz84kL/SPxqARAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PBKnezGyldlWllmf3HzZQj+mh+5zrD3XIJbjkwZBBHEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HpioqQ0eUJLRt1j39eLxnVsLlnDkdQE8RUlHgx9zCIaAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+[8mha:////4AA931kxtK5wMm11cG8kV+ImoHecxJ/9oep6gmW8yMBGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4A5Xad9S+bJeHFYapW/tigAiyZdJ8qjqL5QkpS4jfVRcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] properties
+[8mha:////4FFdK3chaHOFNc6RkpPlswzOrzPVJYlq6pkUOe8e+RxWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] stage
+[8mha:////4Iz8XUqI0F8SM4+p5rl5Y/AOYOeX57AtIYHEGNI2N0KtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] { (scm)
+[8mha:////4NwYWpOPy3ZN4vtKGi9tQ2E1TIBE+UJqL+NMD5uV0kBHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4geKI23CvAAAAA==[0m[Pipeline] git
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/codilabs/Ear-Test.git # timeout=10
+Fetching upstream changes from https://gitlab.com/codilabs/Ear-Test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://gitlab.com/codilabs/Ear-Test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3b5bcd036d946f15f2bf00b37c396e43add311ca (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3b5bcd036d946f15f2bf00b37c396e43add311ca
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 3b5bcd036d946f15f2bf00b37c396e43add311ca
+Commit message: "Commit inicial"
+ > git rev-list --no-walk 3b5bcd036d946f15f2bf00b37c396e43add311ca # timeout=10
+[8mha:////4KPJIpaSdQyTOSkDhZ6T/vj6eujzFu74loKgjrK8WRxCAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbGmOsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/Qdlmg9gvAAAAA==[0m[Pipeline] }
+[8mha:////4Dfx2JoI0LM4qcHZAWndnd8pCnCdzmWmHcPLX4F847AJAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoY+NY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AqUpLPL0AAAA=[0m[Pipeline] // stage
+[8mha:////4FnzUJdCrf4mbXgmIeW9MbaeBAFYVn1rSb/ZQohWNCtLAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] stage
+[8mha:////4NQiA7mQw72LuC2EB+TZeBh5zCygFtzD7EZpvot/6bSKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Show files)
+[8mha:////4FKgLGbKDnJHF57e9U8GAcXVUrMYNYGpR1w/eKzLJunQAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] sh
++ ls -ltrha
+total 36K
+drwxrwxr-x 4 rmezquita rmezquita 4.0K Jul 19 10:15 ..
+drwxrwxr-x 3 rmezquita rmezquita 4.0K Jul 19 10:24 testWAR
+drwxrwxr-x 2 rmezquita rmezquita 4.0K Jul 19 10:24 testEAR
+-rw-rw-r-- 1 rmezquita rmezquita  454 Jul 19 10:24 pom.xml
+-rw-rw-r-- 1 rmezquita rmezquita 1.1K Jul 19 10:24 LICENSE
+drwxrwxr-x 6 rmezquita rmezquita 4.0K Jul 19 10:30 .
+-rw-rw-r-- 1 rmezquita rmezquita  265 Jul 19 11:29 sonar-project.properties
+drwxrwxr-x 2 rmezquita rmezquita 4.0K Jul 19 11:30 .scannerwork
+drwxrwxr-x 8 rmezquita rmezquita 4.0K Jul 19 11:36 .git
+[8mha:////4Cf0SICVcs3aj0+v1i9Hz4uWY6nxT+28AXsBeDnhH2XSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3BoOEdWO+AAAA[0m[Pipeline] }
+[8mha:////4DD+jh9sAdNJA5M+vJxi9xMhMn5roGkgg3Jf5WlSUQ/wAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfnAYgMb4AAAA=[0m[Pipeline] // stage
+[8mha:////4OuPu+to2vFM7cwtGdb5wJNQCmgWbgWuEyL3tV8BiDlvAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4KroJy4j8WpwK4w54Sskv4OwuuWsYwNdXbcPAlqY1J7LAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Sonnarqube)
+[8mha:////4Ooq/+bBTp29xhRvb+hf8cOI8GdsERtrowb0CJWWqNYJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonar
+[8mha:////4BXmE/7ev/HwC5gXWFItinyB2fcYofsBIgpyytPuNdCnAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4JcaYb5lbhFVBcPsokm/wUmqRo+4woFoqfzWfhrFCajQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] tool
+[8mha:////4L+Pq0ChZXA+Cb3pZTk4o+rJirepM/kigsbmIhG6gNUzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] writeFile
+[8mha:////4IIfytCrNwNrC5UHAznhMInd+GayRqh6aQR137RRyzwGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPeHXHXtP5vywgS+AAAA[0m[Pipeline] sh
++ /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/sonar-project.properties
+INFO: SonarQube Scanner 4.0.0.1744
+INFO: Java 1.8.0_171 Oracle Corporation (64-bit)
+INFO: Linux 4.15.0-20-generic amd64
+INFO: User cache: /home/rmezquita/.sonar/cache
+INFO: SonarQube server 7.1.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=61ms
+INFO: Server id: AWwKol8fdkkWHEQ-xLJ8
+INFO: User cache: /home/rmezquita/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=49ms
+INFO: Load/download plugins
+INFO: Load/download plugins (done) | time=10ms
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=67ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=24ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=1129ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=67ms
+INFO: Project key: test
+INFO: Project base dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+INFO: -------------  Scan Ear-Test
+INFO: Load server rules
+INFO: Load server rules (done) | time=536ms
+INFO: Base dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+INFO: Working dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/.scannerwork
+INFO: Source paths: .
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: Index files
+INFO: Excluded sources: 
+INFO:   **/target/**
+INFO: 6 files indexed
+INFO: 0 files ignored because of inclusion/exclusion patterns
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: Sensor JavaSquidSensor [java]
+INFO: Configured Java source version (sonar.java.source): 8
+INFO: JavaClasspath initialization
+WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+INFO: JavaClasspath initialization (done) | time=2ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=0ms
+INFO: Java Main Files AST scan
+INFO: 1 source files to be analyzed
+INFO: 1/1 source files have been analyzed
+INFO: Java Main Files AST scan (done) | time=159ms
+INFO: Java Test Files AST scan
+INFO: 0 source files to be analyzed
+INFO: Java Test Files AST scan (done) | time=0ms
+INFO: 0/0 source files have been analyzed
+INFO: Sensor JavaSquidSensor [java] (done) | time=660ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/surefire-reports]
+INFO: Sensor SurefireSensor [java] (done) | time=7ms
+INFO: Sensor JaCoCoSensor [java]
+INFO: Sensor JaCoCoSensor [java] (done) | time=2ms
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: 3 source files to be analyzed
+INFO: 3/3 source files have been analyzed
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=542ms
+INFO: Sensor XML Sensor [xml]
+INFO: Sensor XML Sensor [xml] (done) | time=153ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=9ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=12ms
+INFO: 1 file had no CPD blocks
+INFO: Calculating CPD for 0 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 144ms, dir size=29 KB
+INFO: Analysis reports compressed in 36ms, zip size=11 KB
+INFO: Analysis report uploaded in 25ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/test
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AWwK4PUOdkkWHEQ-xMD2
+INFO: Task total time: 5.407 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 6.770s
+INFO: Final Memory: 19M/406M
+INFO: ------------------------------------------------------------------------
+[8mha:////4K/d/Dq9SI5gQ/2Vu5qpuy7wgahWDjQtZuBA0gJIl7ixAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKLeHXLv98AHaw9kdvgAAAA==[0m[Pipeline] waitForQualityGate
+[8mha:////4FsDEoYn6Q0P8BVuc4NsDiZdxsMPYmAs3fyKJHtxT2g/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+WR0/FvgAAAA==[0m[Pipeline] }
+[8mha:////4A2heAaCZVkASIFkWiA+acxh0CWU59N9ewmZ2ADGVNbJAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDpaQUeb4AAAA=[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4GTnabCWh8CtT2U8Oxa4vYZzoEoS5YFYU3BNi20NpbLJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+ayz9vvgAAAA==[0m[Pipeline] }
+[8mha:////4DMKnfYkMvtK8XY8/4oIQnE7BVA1fuU15Ty35HfmMk+JAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+pKGTTvgAAAA==[0m[Pipeline] // stage
+[8mha:////4P31/VCQjVCTu6rwXP6+OZTGcD6ei0B2er+OJK/Np2OOAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA+oSoWS9AAAA[0m[Pipeline] }
+[8mha:////4NiB+bfV77wEkmgtYZcZ6derytgzV0IwPYzaoUMpGw5NAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+a6lx70AAAA=[0m[Pipeline] // node
+[8mha:////4Ggc6GPRUOuYudMtpSCPbfrR2JNmcm05ZaBZXZB2qNQgAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T67L+52vQAAAA==[0m[Pipeline] End of Pipeline
+java.lang.IllegalStateException: No previous SonarQube analysis found on this pipeline execution. Please use the 'withSonarQubeEnv' wrapper to run your analysis.
+	at org.sonarsource.scanner.jenkins.pipeline.WaitForQualityGateStep$Execution.processStepParameters(WaitForQualityGateStep.java:171)
+	at org.sonarsource.scanner.jenkins.pipeline.WaitForQualityGateStep$Execution.start(WaitForQualityGateStep.java:158)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:269)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:177)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
+	at groovy.lang.MetaClassImpl.invokeMethodOnGroovyObject(MetaClassImpl.java:1278)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1172)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:46)
+	at groovy.lang.MetaClassImpl.invokeMethodOnGroovyObject(MetaClassImpl.java:1278)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1172)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:46)
+	at groovy.lang.MetaClassImpl.invokeMethodOnGroovyObject(MetaClassImpl.java:1278)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1172)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at com.cloudbees.groovy.cps.sandbox.DefaultInvoker.methodCall(DefaultInvoker.java:20)
+	at WorkflowScript.run(WorkflowScript:43)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:84)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:113)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixName(FunctionCallBlock.java:78)
+	at sun.reflect.GeneratedMethodAccessor271.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:129)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:268)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:186)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:370)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$200(CpsThreadGroup.java:93)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:282)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:270)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:66)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:131)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: FAILURE

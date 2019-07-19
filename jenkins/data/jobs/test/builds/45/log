@@ -1,0 +1,508 @@
+Started by user [8mha:////4GsdmSnoachQW7TY4LUsIa8Jceibbe1gckqppfnhBX5iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4CimnQvyZR6b2nW4znHAa0HtuPT+9DSBz84kL/SPxqARAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PBKnezGyldlWllmf3HzZQj+mh+5zrD3XIJbjkwZBBHEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HpioqQ0eUJLRt1j39eLxnVsLlnDkdQE8RUlHgx9zCIaAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+[8mha:////4AA931kxtK5wMm11cG8kV+ImoHecxJ/9oep6gmW8yMBGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4A5Xad9S+bJeHFYapW/tigAiyZdJ8qjqL5QkpS4jfVRcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] properties
+[8mha:////4FFdK3chaHOFNc6RkpPlswzOrzPVJYlq6pkUOe8e+RxWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] stage
+[8mha:////4Iz8XUqI0F8SM4+p5rl5Y/AOYOeX57AtIYHEGNI2N0KtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] { (SCM)
+[8mha:////4NwYWpOPy3ZN4vtKGi9tQ2E1TIBE+UJqL+NMD5uV0kBHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4geKI23CvAAAAA==[0m[Pipeline] git
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/codilabs/Ear-Test.git # timeout=10
+Fetching upstream changes from https://gitlab.com/codilabs/Ear-Test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://gitlab.com/codilabs/Ear-Test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3b5bcd036d946f15f2bf00b37c396e43add311ca (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3b5bcd036d946f15f2bf00b37c396e43add311ca
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 3b5bcd036d946f15f2bf00b37c396e43add311ca
+Commit message: "Commit inicial"
+ > git rev-list --no-walk 3b5bcd036d946f15f2bf00b37c396e43add311ca # timeout=10
+[8mha:////4KPJIpaSdQyTOSkDhZ6T/vj6eujzFu74loKgjrK8WRxCAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbGmOsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/Qdlmg9gvAAAAA==[0m[Pipeline] }
+[8mha:////4Dfx2JoI0LM4qcHZAWndnd8pCnCdzmWmHcPLX4F847AJAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoY+NY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AqUpLPL0AAAA=[0m[Pipeline] // stage
+[8mha:////4FnzUJdCrf4mbXgmIeW9MbaeBAFYVn1rSb/ZQohWNCtLAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] stage
+[8mha:////4NQiA7mQw72LuC2EB+TZeBh5zCygFtzD7EZpvot/6bSKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Show files)
+[8mha:////4FKgLGbKDnJHF57e9U8GAcXVUrMYNYGpR1w/eKzLJunQAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] sh
++ ls -ltrha
+total 48K
+drwxrwxr-x 4 rmezquita rmezquita 4.0K Jul 19 16:02 ..
+-rw-rw-r-- 1 rmezquita rmezquita 1.1K Jul 19 16:02 LICENSE
+-rw-rw-r-- 1 rmezquita rmezquita  265 Jul 19 16:28 sonar-project.properties
+drwxrwxr-x 2 rmezquita rmezquita 4.0K Jul 19 16:28 .scannerwork
+-rw-r----- 1 rmezquita rmezquita  10K Jul 19 16:29 settings.xml
+drwxrwxr-x 4 rmezquita rmezquita 4.0K Jul 19 16:29 testWAR
+drwxrwxr-x 3 rmezquita rmezquita 4.0K Jul 19 16:29 testEAR
+-rw-rw-r-- 1 rmezquita rmezquita  454 Jul 19 16:36 pom.xml
+drwxrwxr-x 6 rmezquita rmezquita 4.0K Jul 19 16:36 .
+drwxrwxr-x 8 rmezquita rmezquita 4.0K Jul 19 16:36 .git
+[8mha:////4Cf0SICVcs3aj0+v1i9Hz4uWY6nxT+28AXsBeDnhH2XSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3BoOEdWO+AAAA[0m[Pipeline] }
+[8mha:////4DD+jh9sAdNJA5M+vJxi9xMhMn5roGkgg3Jf5WlSUQ/wAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfnAYgMb4AAAA=[0m[Pipeline] // stage
+[8mha:////4OuPu+to2vFM7cwtGdb5wJNQCmgWbgWuEyL3tV8BiDlvAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4KroJy4j8WpwK4w54Sskv4OwuuWsYwNdXbcPAlqY1J7LAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Sonnarqube)
+[8mha:////4Ooq/+bBTp29xhRvb+hf8cOI8GdsERtrowb0CJWWqNYJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonar
+[8mha:////4BXmE/7ev/HwC5gXWFItinyB2fcYofsBIgpyytPuNdCnAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4JcaYb5lbhFVBcPsokm/wUmqRo+4woFoqfzWfhrFCajQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] tool
+[8mha:////4L+Pq0ChZXA+Cb3pZTk4o+rJirepM/kigsbmIhG6gNUzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] writeFile
+[8mha:////4IIfytCrNwNrC5UHAznhMInd+GayRqh6aQR137RRyzwGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPeHXHXtP5vywgS+AAAA[0m[Pipeline] sh
++ /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.plugins.sonar.SonarRunnerInstallation/scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/sonar-project.properties
+INFO: SonarQube Scanner 4.0.0.1744
+INFO: Java 1.8.0_171 Oracle Corporation (64-bit)
+INFO: Linux 4.15.0-20-generic amd64
+INFO: User cache: /home/rmezquita/.sonar/cache
+INFO: SonarQube server 7.1.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=61ms
+INFO: Server id: AWwKol8fdkkWHEQ-xLJ8
+INFO: User cache: /home/rmezquita/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=40ms
+INFO: Load/download plugins
+INFO: Load/download plugins (done) | time=15ms
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=93ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=22ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=1149ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=69ms
+INFO: Project key: test
+INFO: Project base dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+INFO: -------------  Scan Ear-Test
+INFO: Load server rules
+INFO: Load server rules (done) | time=391ms
+INFO: Base dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test
+INFO: Working dir: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/.scannerwork
+INFO: Source paths: .
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: Index files
+INFO: Excluded sources: 
+INFO:   **/target/**
+INFO: 7 files indexed
+INFO: 7 files ignored because of inclusion/exclusion patterns
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: Sensor JavaSquidSensor [java]
+INFO: Configured Java source version (sonar.java.source): 8
+INFO: JavaClasspath initialization
+WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+INFO: JavaClasspath initialization (done) | time=4ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=0ms
+INFO: Java Main Files AST scan
+INFO: 1 source files to be analyzed
+INFO: Java Main Files AST scan (done) | time=187ms
+INFO: Java Test Files AST scan
+INFO: 0 source files to be analyzed
+INFO: Java Test Files AST scan (done) | time=1ms
+INFO: Sensor JavaSquidSensor [java] (done) | time=813ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/target/surefire-reports]
+INFO: Sensor SurefireSensor [java] (done) | time=2ms
+INFO: Sensor JaCoCoSensor [java]
+INFO: 1/1 source files have been analyzed
+INFO: Sensor JaCoCoSensor [java] (done) | time=1ms
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: 0/0 source files have been analyzed
+INFO: 4 source files to be analyzed
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=569ms
+INFO: 4/4 source files have been analyzed
+INFO: Sensor XML Sensor [xml]
+INFO: Sensor XML Sensor [xml] (done) | time=180ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=14ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=14ms
+INFO: SCM provider for this project is: git
+INFO: 1 files to be analyzed
+INFO: 0/1 files analyzed
+WARN: Missing blame information for the following files:
+WARN:   * settings.xml
+WARN: This may lead to missing/broken features in SonarQube
+INFO: 1 file had no CPD blocks
+INFO: Calculating CPD for 0 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 99ms, dir size=41 KB
+INFO: Analysis reports compressed in 22ms, zip size=17 KB
+INFO: Analysis report uploaded in 66ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/test
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AWwL82pHfML5f2bzhs8h
+INFO: Task total time: 6.929 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 8.380s
+INFO: Final Memory: 16M/403M
+INFO: ------------------------------------------------------------------------
+[8mha:////4Pa9Fd89UyQfzQWnwMbe4cUnvMKHh03NlqfPFoNf3P55AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] }
+[8mha:////4MJOyThRrE2TdRNi14ge0bRl950og1NvSgnvawodtPqSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4Fkq0o5j+v3jdwhsdxxeVqM+0l7wzoR7+/kBtaW8V929AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] }
+[8mha:////4CUWEfEBdeK+fIZEr4+c0hctIenpuXM+IrV1zGNdX6zmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKNIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QEM+zgYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4MBnNl6pEfJSDuI8mVH26dqrOOk7W6WqIkLtc9f3GKLMAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjISQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG5POx33BAAAA[0m[Pipeline] stage
+[8mha:////4HvLg4yV67P1jn1HeL2voojMLKZlVI3FQusAi4bveJvnAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Quality gate)
+[8mha:////4A2P31menaKnY3nN6JU37cQJz+5PqLBauevr8i/jzNQVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] timeout
+Timeout set to expire in 1 min 0 sec
+[8mha:////4MoQuEhjgsa7U4g4uWWvnZtS/eAktKzvSMW8waE4y7ixAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4NeKStUOhEMTQOTz7ZScNC+idYlUpbFFQ2SbLAzLCk64AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task 'AWwL82pHfML5f2bzhs8h' on server 'sonar'
+SonarQube task 'AWwL82pHfML5f2bzhs8h' status is 'IN_PROGRESS'
+SonarQube task 'AWwL82pHfML5f2bzhs8h' status is 'SUCCESS'
+SonarQube task 'AWwL82pHfML5f2bzhs8h' completed. Quality gate is 'OK'
+[8mha:////4Cv1DveKT/uqecHyrZAmoNEkSOw/O1yeJnTQ/yPU/JJzAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fGXWL/r4AAAA=[0m[Pipeline] }
+[8mha:////4Dgk2DkHzedLE2jDkeekumjgymV88XAHxSir8lhbr50EAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFZLxBVvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4DDczyMNdpK9NlVDJ2V6byLJZpswNejX1/dcJFPMMZN6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAdy8SP74AAAA=[0m[Pipeline] }
+[8mha:////4L3PF/i2GMswf2vjEmSFuI7PMAJYJKjTtLpM7l4OM9hcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigRAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAQ+HxZL4AAAA=[0m[Pipeline] // stage
+[8mha:////4OJS/vOPNvY9RsKCp/mwj+WsHilYeQsCQkDjU1se4TDEAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTgGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvghbsEMEAAAA=[0m[Pipeline] stage
+[8mha:////4A9aU5S5lTGhMHTAS2C3nrJcy9R0PWKo4ih+KBPQ5VcIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4Andbn1behpURuqwAVIeqH8JOATp+uwWNEfTn7KvUFhDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] tool
+[8mha:////4KXuVwLKQ9W1z62U66yExNL3DZYBSA6HbUkYhZlF57aOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YEAIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfABZuXxiwgAAAA==[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [MySettings] to file:/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/settings.xml
+[8mha:////4L6gt76uzxlexFzFlSaO5U+s8G2O51i+Aw9+SV7A03THAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
+[8mha:////4CETPFVZEuCjkOQJAd2AYPqZI3euqdzgFR0C8mbWfV11AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBl2WGva+AAAA[0m[Pipeline] sh
++ /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn clean package
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] testWAR                                                            [war]
+[INFO] testEAR                                                            [ear]
+[INFO] Maven                                                              [pom]
+[INFO] 
+[INFO] ------------------------< com.codilabs:testWAR >------------------------
+[INFO] Building testWAR 1.0-SNAPSHOT                                      [1/3]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testWAR ---
+[WARNING] The POM for org.apache.maven:maven-plugin-api:jar:2.0.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Deleting /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testWAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ testWAR ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testWAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ testWAR ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ testWAR ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ testWAR ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [testWAR] in [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [16 msecs]
+[INFO] Building war: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] ------------------------< com.codilabs:testEAR >------------------------
+[INFO] Building testEAR 1.0                                               [2/3]
+[INFO] --------------------------------[ ear ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testEAR ---
+[INFO] Deleting /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[INFO] 
+[INFO] --- maven-ear-plugin:3.0.1:generate-application-xml (default-generate-application-xml) @ testEAR ---
+[INFO] Generating application.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testEAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/src/main/resources
+[INFO] 
+[INFO] --- maven-ear-plugin:3.0.1:ear (default-ear) @ testEAR ---
+[INFO] Copying artifact [war:com.codilabs:testWAR:1.0-SNAPSHOT] to [com.codilabs-testWAR-1.0-SNAPSHOT.war]
+[INFO] Building jar: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test.ear
+[INFO] 
+[INFO] ---------------------------< com.org:Maven >----------------------------
+[INFO] Building Maven 0.0.1-SNAPSHOT                                      [3/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Maven ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] testWAR 1.0-SNAPSHOT ............................... SUCCESS [  1.338 s]
+[INFO] testEAR 1.0 ........................................ SUCCESS [  0.539 s]
+[INFO] Maven 0.0.1-SNAPSHOT ............................... SUCCESS [  0.003 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.009 s
+[INFO] Finished at: 2019-07-19T16:36:44-04:00
+[INFO] ------------------------------------------------------------------------
++ ls -ltrh
+total 32K
+-rw-rw-r-- 1 rmezquita rmezquita 1.1K Jul 19 16:02 LICENSE
+-rw-rw-r-- 1 rmezquita rmezquita  454 Jul 19 16:36 pom.xml
+-rw-rw-r-- 1 rmezquita rmezquita  265 Jul 19 16:36 sonar-project.properties
+-rw-r----- 1 rmezquita rmezquita  10K Jul 19 16:36 settings.xml
+drwxrwxr-x 4 rmezquita rmezquita 4.0K Jul 19 16:36 testWAR
+drwxrwxr-x 3 rmezquita rmezquita 4.0K Jul 19 16:36 testEAR
+[8mha:////4NJxW+y2BzvLBODE4t2qKPkRf+nIzsIp0BhC/PpAgV/qAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BlDdbXS+AAAA[0m[Pipeline] }
+[8mha:////4FUiTmGIMyoz5i+P2AmMvB4MouUeRVDIAfk6R3Pl9ygbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAYhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGWIKyJvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4PC9uvnhswa6WRLLL2Dxu4nDYUWi1ngBk14xNOC6H9etAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiESBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw8pPRFzvgAAAA==[0m[Pipeline] }
+[8mha:////4LYgzFiYEBdN2HusR5iKYL1Tk19RVWe8NTfO3Pus9O2nAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8GlQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8a3krPvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LKnS1R1LyTnCiFiJAyDFXKrf26zSKyQbFE1cqymBpRMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTTRDSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFA1D2ew+x+oNDChL1cEAAAA=[0m[Pipeline] stage
+[8mha:////4Bqddu+OKC01f6CGRtd+8tUyXfHUYYqhnS+GQAny8NIqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] { (Deploy WAS)
+[8mha:////4NknAe//SqCjEbSEjg+OuR39aJrJvGWhZmnuccZiP+u5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] tool
+[8mha:////4BUtJpqzpdIiR/tMqEOuj63/IVNnFUonBLhEOj8BvNdNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QUIIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfABYbkPTwgAAAA==[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [pom] to file:/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/pom.xml
+[8mha:////4DP6mTRiJfo3/yPRBLfycY4OTxX2pOu1G1nQum/lgpnSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] {
+[8mha:////4Jv0B8eSLis1OwlYA/NLFar7DWOMiUhk7bzoM8h9vQhiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] sh
++ /home/rmezquita/Projects/test-devops/jenkins/data/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn clean install -Ddeploy_targets=node01
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] testWAR                                                            [war]
+[INFO] testEAR                                                            [ear]
+[INFO] Maven                                                              [pom]
+[INFO] 
+[INFO] ------------------------< com.codilabs:testWAR >------------------------
+[INFO] Building testWAR 1.0-SNAPSHOT                                      [1/3]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testWAR ---
+[WARNING] The POM for org.apache.maven:maven-plugin-api:jar:2.0.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Deleting /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testWAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ testWAR ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testWAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ testWAR ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ testWAR ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ testWAR ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [testWAR] in [/home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [24 msecs]
+[INFO] Building war: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ testWAR ---
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/target/testWAR-1.0-SNAPSHOT.war to /home/rmezquita/.m2/repository/com/codilabs/testWAR/1.0-SNAPSHOT/testWAR-1.0-SNAPSHOT.war
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testWAR/pom.xml to /home/rmezquita/.m2/repository/com/codilabs/testWAR/1.0-SNAPSHOT/testWAR-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------< com.codilabs:testEAR >------------------------
+[INFO] Building testEAR 1.0                                               [2/3]
+[INFO] --------------------------------[ ear ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testEAR ---
+[INFO] Deleting /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target
+[INFO] 
+[INFO] --- maven-ear-plugin:3.0.1:generate-application-xml (default-generate-application-xml) @ testEAR ---
+[INFO] Generating application.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testEAR ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/src/main/resources
+[INFO] 
+[INFO] --- maven-ear-plugin:3.0.1:ear (default-ear) @ testEAR ---
+[INFO] Copying artifact [war:com.codilabs:testWAR:1.0-SNAPSHOT] to [com.codilabs-testWAR-1.0-SNAPSHOT.war]
+[INFO] Building jar: /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test.ear
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ testEAR ---
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/target/test.ear to /home/rmezquita/.m2/repository/com/codilabs/testEAR/1.0/testEAR-1.0.ear
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/testEAR/pom.xml to /home/rmezquita/.m2/repository/com/codilabs/testEAR/1.0/testEAR-1.0.pom
+[INFO] 
+[INFO] ---------------------------< com.org:Maven >----------------------------
+[INFO] Building Maven 0.0.1-SNAPSHOT                                      [3/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/orctom/mojo/was-maven-plugin/1.1.3.3/was-maven-plugin-1.1.3.3.pom
+Progress (1): 2.2/7.3 kBProgress (1): 5.0/7.3 kBProgress (1): 7.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/orctom/mojo/was-maven-plugin/1.1.3.3/was-maven-plugin-1.1.3.3.pom (7.3 kB at 7.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/orctom/mojo/was-maven-plugin/1.1.3.3/was-maven-plugin-1.1.3.3.jar
+Progress (1): 2.2/26 kBProgress (1): 5.0/26 kBProgress (1): 7.7/26 kBProgress (1): 10/26 kB Progress (1): 13/26 kBProgress (1): 16/26 kBProgress (1): 19/26 kBProgress (1): 21/26 kBProgress (1): 24/26 kBProgress (1): 26 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/orctom/mojo/was-maven-plugin/1.1.3.3/was-maven-plugin-1.1.3.3.jar (26 kB at 117 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Maven ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Maven ---
+[INFO] Installing /home/rmezquita/Projects/test-devops/jenkins/data/workspace/test/pom.xml to /home/rmezquita/.m2/repository/com/org/Maven/0.0.1-SNAPSHOT/Maven-0.0.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- was-maven-plugin:1.1.3.3:deploy (deploy) @ Maven ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.1/maven-plugin-api-3.2.1.pom
+Progress (1): 2.2/3.4 kBProgress (1): 3.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.1/maven-plugin-api-3.2.1.pom (3.4 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.2.1/maven-3.2.1.pom
+Progress (1): 2.2/23 kBProgress (1): 5.0/23 kBProgress (1): 7.8/23 kBProgress (1): 11/23 kB Progress (1): 13/23 kBProgress (1): 16/23 kBProgress (1): 19/23 kBProgress (1): 21/23 kBProgress (1): 23 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.2.1/maven-3.2.1.pom (23 kB at 181 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.2.1/maven-model-3.2.1.pom
+Progress (1): 2.2/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.2.1/maven-model-3.2.1.pom (4.1 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.1/maven-artifact-3.2.1.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.1/maven-artifact-3.2.1.pom (2.0 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M5/org.eclipse.sisu.plexus-0.0.0.M5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M5/org.eclipse.sisu.plexus-0.0.0.M5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.0.0.M5/sisu-plexus-0.0.0.M5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.0.0.M5/sisu-plexus-0.0.0.M5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M5/sisu-inject-0.0.0.M5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M5/sisu-inject-0.0.0.M5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4.pom
+Progress (1): 2.2/6.4 kBProgress (1): 5.0/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4.pom (6.4 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.pom
+Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.pom (1.8 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.pom
+Progress (1): 2.2/2.3 kBProgress (1): 2.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.pom (2.3 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.pom (1.9 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.pom
+Progress (1): 2.2/2.5 kBProgress (1): 2.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.pom (2.5 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.pom
+Progress (1): 2.2/2.8 kBProgress (1): 2.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.pom (2.8 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.pom
+Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.pom (1.4 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether/1.13.1/aether-1.13.1.pom
+Progress (1): 2.2/10 kBProgress (1): 5.0/10 kBProgress (1): 7.8/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether/1.13.1/aether-1.13.1.pom (10 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.pom
+Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.pom (1.4 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.pom (1.7 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.pom
+Progress (1): 2.2/2.5 kBProgress (1): 2.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.pom (2.5 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/7/maven-parent-7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/7/maven-parent-7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.3/ant-1.8.3.pom
+Progress (1): 2.2/9.7 kBProgress (1): 5.0/9.7 kBProgress (1): 7.8/9.7 kBProgress (1): 9.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.3/ant-1.8.3.pom (9.7 kB at 80 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.3/ant-parent-1.8.3.pom
+Progress (1): 2.2/4.6 kBProgress (1): 4.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.3/ant-parent-1.8.3.pom (4.6 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.pom
+Progress (1): 2.2/2.4 kBProgress (1): 2.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.pom (2.4 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/orctom/was/was-util/1.1.3.2/was-util-1.1.3.2.pom
+Progress (1): 2.2/7.2 kBProgress (1): 5.0/7.2 kBProgress (1): 7.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/orctom/was/was-util/1.1.3.2/was-util-1.1.3.2.pom (7.2 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18.pom
+Progress (1): 2.2/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18.pom (4.1 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/spullara/mustache/java/mustache.java/0.8.18/mustache.java-0.8.18.pom
+Progress (1): 2.2/3.9 kBProgress (1): 3.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/github/spullara/mustache/java/mustache.java/0.8.18/mustache.java-0.8.18.pom (3.9 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.1/maven-plugin-api-3.2.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M5/org.eclipse.sisu.plexus-0.0.0.M5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.1/maven-artifact-3.2.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M5/org.eclipse.sisu.plexus-0.0.0.M5.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.jar
+Progress (1): 2.2/41 kBProgress (1): 5.0/41 kBProgress (1): 7.7/41 kBProgress (1): 10/41 kB Progress (1): 13/41 kBProgress (1): 16/41 kBProgress (1): 19/41 kBProgress (1): 21/41 kBProgress (1): 24/41 kBProgress (1): 27/41 kBProgress (1): 30/41 kBProgress (1): 32/41 kBProgress (1): 36/41 kBProgress (1): 40/41 kBProgress (1): 41 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.jar (41 kB at 226 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.jar
+Progress (1): 4.1/30 kBProgress (1): 7.7/30 kBProgress (1): 12/30 kB Progress (1): 16/30 kBProgress (1): 20/30 kBProgress (1): 24/30 kBProgress (1): 28/30 kBProgress (1): 30 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.jar (30 kB at 97 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.jar
+Progress (1): 2.2/46 kBProgress (1): 5.0/46 kBProgress (1): 7.7/46 kBProgress (1): 10/46 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.jar
+Progress (1): 13/46 kBProgress (2): 13/46 kB | 2.2/559 kBProgress (2): 13/46 kB | 5.0/559 kBProgress (2): 13/46 kB | 7.7/559 kBProgress (2): 13/46 kB | 10/559 kB Progress (2): 13/46 kB | 13/559 kBProgress (3): 13/46 kB | 13/559 kB | 4.1/151 kBProgress (3): 13/46 kB | 13/559 kB | 7.7/151 kBProgress (3): 13/46 kB | 13/559 kB | 12/151 kB Progress (3): 16/46 kB | 13/559 kB | 12/151 kBProgress (3): 19/46 kB | 13/559 kB | 12/151 kBProgress (3): 19/46 kB | 13/559 kB | 16/151 kBProgress (3): 21/46 kB | 13/559 kB | 16/151 kBProgress (3): 24/46 kB | 13/559 kB | 16/151 kBProgress (3): 27/46 kB | 13/559 kB | 16/151 kBProgress (4): 27/46 kB | 13/559 kB | 16/151 kB | 2.2/56 kBProgress (4): 27/46 kB | 13/559 kB | 20/151 kB | 2.2/56 kBProgress (4): 27/46 kB | 13/559 kB | 20/151 kB | 5.0/56 kBProgress (4): 27/46 kB | 13/559 kB | 24/151 kB | 5.0/56 kBProgress (4): 27/46 kB | 13/559 kB | 28/151 kB | 5.0/56 kBProgress (4): 27/46 kB | 13/559 kB | 32/151 kB | 5.0/56 kBProgress (4): 27/46 kB | 13/559 kB | 32/151 kB | 7.7/56 kBProgress (4): 27/46 kB | 13/559 kB | 32/151 kB | 10/56 kB Progress (4): 27/46 kB | 13/559 kB | 32/151 kB | 13/56 kBProgress (5): 27/46 kB | 13/559 kB | 32/151 kB | 13/56 kB | 2.2/54 kBProgress (5): 27/46 kB | 13/559 kB | 32/151 kB | 13/56 kB | 5.0/54 kBProgress (5): 27/46 kB | 13/559 kB | 32/151 kB | 13/56 kB | 7.7/54 kBProgress (5): 27/46 kB | 16/559 kB | 32/151 kB | 13/56 kB | 7.7/54 kBProgress (5): 27/46 kB | 16/559 kB | 36/151 kB | 13/56 kB | 7.7/54 kBProgress (5): 27/46 kB | 19/559 kB | 36/151 kB | 13/56 kB | 7.7/54 kBProgress (5): 27/46 kB | 19/559 kB | 36/151 kB | 13/56 kB | 10/54 kB Progress (5): 30/46 kB | 19/559 kB | 36/151 kB | 13/56 kB | 10/54 kBProgress (5): 30/46 kB | 19/559 kB | 36/151 kB | 13/56 kB | 13/54 kBProgress (5): 30/46 kB | 21/559 kB | 36/151 kB | 13/56 kB | 13/54 kBProgress (5): 30/46 kB | 21/559 kB | 40/151 kB | 13/56 kB | 13/54 kBProgress (5): 30/46 kB | 24/559 kB | 40/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 24/559 kB | 40/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 27/559 kB | 40/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 27/559 kB | 45/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 30/559 kB | 45/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 45/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 49/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 53/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 57/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 61/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 65/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 69/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 73/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 77/151 kB | 13/56 kB | 13/54 kBProgress (5): 32/46 kB | 32/559 kB | 81/151 kB | 13/56 kB | 13/54 kBProgress (5): 36/46 kB | 32/559 kB | 81/151 kB | 13/56 kB | 13/54 kBProgress (5): 40/46 kB | 32/559 kB | 81/151 kB | 13/56 kB | 13/54 kBProgress (5): 45/46 kB | 32/559 kB | 81/151 kB | 13/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 81/151 kB | 13/56 kB | 13/54 kB   Progress (5): 46 kB | 32/559 kB | 85/151 kB | 13/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 90/151 kB | 13/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 94/151 kB | 13/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 98/151 kB | 13/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 98/151 kB | 16/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 98/151 kB | 19/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 98/151 kB | 21/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 98/151 kB | 24/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 98/151 kB | 27/56 kB | 13/54 kBProgress (5): 46 kB | 32/559 kB | 98/151 kB | 27/56 kB | 16/54 kBProgress (5): 46 kB | 32/559 kB | 98/151 kB | 30/56 kB | 16/54 kBProgress (5): 46 kB | 32/559 kB | 98/151 kB | 30/56 kB | 19/54 kBProgress (5): 46 kB | 32/559 kB | 102/151 kB | 30/56 kB | 19/54 kBProgress (5): 46 kB | 32/559 kB | 102/151 kB | 32/56 kB | 19/54 kBProgress (5): 46 kB | 32/559 kB | 102/151 kB | 32/56 kB | 21/54 kBProgress (5): 46 kB | 32/559 kB | 106/151 kB | 32/56 kB | 21/54 kBProgress (5): 46 kB | 32/559 kB | 106/151 kB | 32/56 kB | 24/54 kBProgress (5): 46 kB | 32/559 kB | 110/151 kB | 32/56 kB | 24/54 kBProgress (5): 46 kB | 32/559 kB | 110/151 kB | 32/56 kB | 27/54 kBProgress (5): 46 kB | 32/559 kB | 114/151 kB | 32/56 kB | 27/54 kBProgress (5): 46 kB | 32/559 kB | 114/151 kB | 32/56 kB | 30/54 kBProgress (5): 46 kB | 32/559 kB | 114/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 32/559 kB | 118/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 32/559 kB | 122/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 32/559 kB | 126/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 32/559 kB | 131/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 32/559 kB | 135/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 36/559 kB | 135/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 36/559 kB | 139/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 40/559 kB | 139/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 40/559 kB | 143/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 45/559 kB | 143/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 45/559 kB | 147/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 49/559 kB | 147/151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 49/559 kB | 151 kB | 32/56 kB | 32/54 kB    Progress (5): 46 kB | 53/559 kB | 151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 57/559 kB | 151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 61/559 kB | 151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 65/559 kB | 151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 69/559 kB | 151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 73/559 kB | 151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 77/559 kB | 151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 32/56 kB | 32/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 36/56 kB | 32/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 40/56 kB | 32/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 45/56 kB | 32/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 49/56 kB | 32/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 49/56 kB | 36/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 49/56 kB | 40/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 53/56 kB | 40/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 53/56 kB | 45/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 53/56 kB | 49/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 53/56 kB | 53/54 kBProgress (5): 46 kB | 81/559 kB | 151 kB | 53/56 kB | 54 kB                                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.1/maven-plugin-api-3.2.1.jar (46 kB at 91 kB/s)
+Progress (4): 81/559 kB | 151 kB | 56 kB | 54 kB                                                Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.jar
+Progress (4): 85/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 90/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 94/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 98/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 102/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 106/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 110/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 114/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 118/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 122/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 126/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 131/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 135/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 139/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 143/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 147/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 151/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 155/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 159/559 kB | 151 kB | 56 kB | 54 kBProgress (4): 163/559 kB | 151 kB | 56 kB | 54 kB                                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.jar (151 kB at 286 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.jar
+Progress (3): 167/559 kB | 56 kB | 54 kBProgress (3): 171/559 kB | 56 kB | 54 kBProgress (3): 176/559 kB | 56 kB | 54 kBProgress (3): 180/559 kB | 56 kB | 54 kBProgress (3): 184/559 kB | 56 kB | 54 kBProgress (3): 188/559 kB | 56 kB | 54 kBProgress (3): 192/559 kB | 56 kB | 54 kBProgress (3): 196/559 kB | 56 kB | 54 kBProgress (3): 200/559 kB | 56 kB | 54 kBProgress (3): 204/559 kB | 56 kB | 54 kBProgress (3): 208/559 kB | 56 kB | 54 kBProgress (3): 212/559 kB | 56 kB | 54 kBProgress (3): 217/559 kB | 56 kB | 54 kBProgress (3): 221/559 kB | 56 kB | 54 kBProgress (3): 225/559 kB | 56 kB | 54 kBProgress (3): 229/559 kB | 56 kB | 54 kBProgress (3): 233/559 kB | 56 kB | 54 kBProgress (4): 233/559 kB | 56 kB | 54 kB | 4.1/15 kBProgress (4): 237/559 kB | 56 kB | 54 kB | 4.1/15 kBProgress (4): 237/559 kB | 56 kB | 54 kB | 7.7/15 kBProgress (4): 241/559 kB | 56 kB | 54 kB | 7.7/15 kBProgress (4): 241/559 kB | 56 kB | 54 kB | 12/15 kB Progress (4): 245/559 kB | 56 kB | 54 kB | 12/15 kBProgress (4): 245/559 kB | 56 kB | 54 kB | 15 kB                                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.jar (56 kB at 98 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.1/maven-artifact-3.2.1.jar (54 kB at 92 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.jar
+Progress (3): 245/559 kB | 15 kB | 4.1/130 kBProgress (3): 245/559 kB | 15 kB | 7.7/130 kBProgress (3): 245/559 kB | 15 kB | 12/130 kB Progress (3): 245/559 kB | 15 kB | 16/130 kBProgress (3): 245/559 kB | 15 kB | 20/130 kBProgress (3): 245/559 kB | 15 kB | 24/130 kBProgress (3): 245/559 kB | 15 kB | 28/130 kBProgress (3): 245/559 kB | 15 kB | 32/130 kBProgress (3): 245/559 kB | 15 kB | 36/130 kBProgress (3): 245/559 kB | 15 kB | 40/130 kBProgress (3): 245/559 kB | 15 kB | 45/130 kBProgress (3): 245/559 kB | 15 kB | 49/130 kBProgress (3): 245/559 kB | 15 kB | 53/130 kBProgress (3): 245/559 kB | 15 kB | 57/130 kBProgress (3): 245/559 kB | 15 kB | 61/130 kBProgress (3): 245/559 kB | 15 kB | 65/130 kBProgress (3): 245/559 kB | 15 kB | 69/130 kBProgress (3): 245/559 kB | 15 kB | 73/130 kBProgress (3): 245/559 kB | 15 kB | 77/130 kBProgress (3): 245/559 kB | 15 kB | 81/130 kBProgress (3): 245/559 kB | 15 kB | 85/130 kBProgress (3): 245/559 kB | 15 kB | 90/130 kBProgress (3): 245/559 kB | 15 kB | 94/130 kBProgress (3): 245/559 kB | 15 kB | 98/130 kBProgress (3): 245/559 kB | 15 kB | 102/130 kBProgress (3): 245/559 kB | 15 kB | 106/130 kBProgress (3): 245/559 kB | 15 kB | 110/130 kBProgress (3): 245/559 kB | 15 kB | 114/130 kBProgress (3): 245/559 kB | 15 kB | 118/130 kBProgress (3): 245/559 kB | 15 kB | 122/130 kBProgress (3): 245/559 kB | 15 kB | 126/130 kBProgress (3): 249/559 kB | 15 kB | 126/130 kBProgress (3): 249/559 kB | 15 kB | 130 kB    Progress (3): 253/559 kB | 15 kB | 130 kBProgress (3): 258/559 kB | 15 kB | 130 kBProgress (3): 262/559 kB | 15 kB | 130 kBProgress (3): 266/559 kB | 15 kB | 130 kBProgress (3): 270/559 kB | 15 kB | 130 kBProgress (3): 274/559 kB | 15 kB | 130 kBProgress (3): 278/559 kB | 15 kB | 130 kBProgress (3): 282/559 kB | 15 kB | 130 kBProgress (3): 286/559 kB | 15 kB | 130 kBProgress (3): 290/559 kB | 15 kB | 130 kBProgress (3): 294/559 kB | 15 kB | 130 kBProgress (3): 298/559 kB | 15 kB | 130 kBProgress (3): 303/559 kB | 15 kB | 130 kBProgress (3): 307/559 kB | 15 kB | 130 kBProgress (3): 311/559 kB | 15 kB | 130 kBProgress (3): 315/559 kB | 15 kB | 130 kBProgress (3): 319/559 kB | 15 kB | 130 kBProgress (3): 323/559 kB | 15 kB | 130 kBProgress (3): 327/559 kB | 15 kB | 130 kBProgress (3): 331/559 kB | 15 kB | 130 kBProgress (3): 335/559 kB | 15 kB | 130 kBProgress (3): 339/559 kB | 15 kB | 130 kBProgress (3): 344/559 kB | 15 kB | 130 kB                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.jar (15 kB at 25 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.jar
+Progress (3): 344/559 kB | 130 kB | 2.8/90 kBProgress (3): 344/559 kB | 130 kB | 5.5/90 kBProgress (3): 344/559 kB | 130 kB | 8.3/90 kBProgress (3): 344/559 kB | 130 kB | 11/90 kB Progress (3): 344/559 kB | 130 kB | 14/90 kBProgress (3): 344/559 kB | 130 kB | 16/90 kBProgress (3): 344/559 kB | 130 kB | 19/90 kBProgress (3): 344/559 kB | 130 kB | 22/90 kBProgress (3): 344/559 kB | 130 kB | 25/90 kBProgress (3): 344/559 kB | 130 kB | 27/90 kBProgress (3): 344/559 kB | 130 kB | 30/90 kBProgress (3): 344/559 kB | 130 kB | 33/90 kBProgress (3): 344/559 kB | 130 kB | 37/90 kBProgress (3): 344/559 kB | 130 kB | 41/90 kBProgress (3): 344/559 kB | 130 kB | 45/90 kBProgress (3): 344/559 kB | 130 kB | 49/90 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 4.1/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 7.7/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 12/130 kB Progress (4): 344/559 kB | 130 kB | 49/90 kB | 16/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 20/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 24/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 28/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 32/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 36/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 40/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 45/130 kBProgress (4): 344/559 kB | 130 kB | 49/90 kB | 49/130 kB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.jar (130 kB at 198 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+Progress (3): 348/559 kB | 49/90 kB | 49/130 kBProgress (3): 352/559 kB | 49/90 kB | 49/130 kBProgress (3): 356/559 kB | 49/90 kB | 49/130 kBProgress (3): 360/559 kB | 49/90 kB | 49/130 kBProgress (3): 364/559 kB | 49/90 kB | 49/130 kBProgress (3): 368/559 kB | 49/90 kB | 49/130 kBProgress (3): 372/559 kB | 49/90 kB | 49/130 kBProgress (3): 376/559 kB | 49/90 kB | 49/130 kBProgress (3): 380/559 kB | 49/90 kB | 49/130 kBProgress (3): 384/559 kB | 49/90 kB | 49/130 kBProgress (3): 389/559 kB | 49/90 kB | 49/130 kBProgress (3): 393/559 kB | 49/90 kB | 49/130 kBProgress (3): 397/559 kB | 49/90 kB | 49/130 kBProgress (3): 401/559 kB | 49/90 kB | 49/130 kBProgress (3): 405/559 kB | 49/90 kB | 49/130 kBProgress (3): 409/559 kB | 49/90 kB | 49/130 kBProgress (3): 413/559 kB | 49/90 kB | 49/130 kBProgress (3): 417/559 kB | 49/90 kB | 49/130 kBProgress (3): 421/559 kB | 49/90 kB | 49/130 kBProgress (3): 425/559 kB | 49/90 kB | 49/130 kBProgress (3): 430/559 kB | 49/90 kB | 49/130 kBProgress (3): 434/559 kB | 49/90 kB | 49/130 kBProgress (3): 438/559 kB | 49/90 kB | 49/130 kBProgress (3): 442/559 kB | 49/90 kB | 49/130 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 4.1/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 7.7/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 12/47 kB Progress (4): 442/559 kB | 49/90 kB | 49/130 kB | 16/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 20/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 24/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 28/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 32/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 36/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 40/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 45/47 kBProgress (4): 442/559 kB | 49/90 kB | 49/130 kB | 47 kB   Progress (4): 442/559 kB | 53/90 kB | 49/130 kB | 47 kBProgress (4): 442/559 kB | 57/90 kB | 49/130 kB | 47 kBProgress (4): 442/559 kB | 61/90 kB | 49/130 kB | 47 kBProgress (4): 442/559 kB | 66/90 kB | 49/130 kB | 47 kBProgress (4): 442/559 kB | 70/90 kB | 49/130 kB | 47 kBProgress (4): 442/559 kB | 74/90 kB | 49/130 kB | 47 kBProgress (4): 442/559 kB | 78/90 kB | 49/130 kB | 47 kBProgress (4): 442/559 kB | 82/90 kB | 49/130 kB | 47 kBProgress (4): 442/559 kB | 86/90 kB | 49/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 49/130 kB | 47 kB   Progress (4): 442/559 kB | 90 kB | 53/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 57/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 61/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 65/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 69/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 73/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 77/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 81/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 85/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 90/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 94/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 98/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 102/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 106/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 110/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 114/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 118/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 122/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 126/130 kB | 47 kBProgress (4): 442/559 kB | 90 kB | 130 kB | 47 kB                                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+Progress (4): 446/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 450/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 454/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 458/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 462/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 466/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 470/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 475/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 479/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 483/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 487/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 491/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 495/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 499/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 503/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 507/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 511/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 516/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 520/559 kB | 90 kB | 130 kB | 47 kBProgress (4): 524/559 kB | 90 kB | 130 kB | 47 kB                                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.jar (47 kB at 62 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.jar (90 kB at 119 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+Progress (2): 528/559 kB | 130 kBProgress (2): 532/559 kB | 130 kBProgress (2): 536/559 kB | 130 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.jar (130 kB at 172 kB/s)
+Progress (1): 540/559 kB                        Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar
+Progress (1): 544/559 kBProgress (1): 548/559 kBProgress (1): 552/559 kBProgress (1): 557/559 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.3/ant-1.8.3.jar
+Progress (1): 559 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar
+Progress (2): 559 kB | 4.1/49 kBProgress (2): 559 kB | 7.7/49 kBProgress (2): 559 kB | 12/49 kB Progress (2): 559 kB | 16/49 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar (0 B at 0 B/s)
+Progress (2): 559 kB | 20/49 kB                               Downloading from central: https://repo.maven.apache.org/maven2/com/orctom/was/was-util/1.1.3.2/was-util-1.1.3.2.jar
+Progress (2): 559 kB | 24/49 kBProgress (2): 559 kB | 28/49 kBProgress (2): 559 kB | 32/49 kBProgress (2): 559 kB | 36/49 kBProgress (2): 559 kB | 40/49 kBProgress (2): 559 kB | 45/49 kBProgress (2): 559 kB | 49/49 kBProgress (2): 559 kB | 49 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4.jar (559 kB at 671 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18.jar
+Progress (2): 49 kB | 0/1.9 MBProgress (2): 49 kB | 0/1.9 MBProgress (2): 49 kB | 0/1.9 MBProgress (2): 49 kB | 0/1.9 MBProgress (2): 49 kB | 0/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (2): 49 kB | 0.1/1.9 MBProgress (3): 49 kB | 0.1/1.9 MB | 4.1/18 kBProgress (3): 49 kB | 0.1/1.9 MB | 7.7/18 kBProgress (3): 49 kB | 0.1/1.9 MB | 12/18 kB Progress (3): 49 kB | 0.1/1.9 MB | 16/18 kBProgress (3): 49 kB | 0.1/1.9 MB | 18 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar (49 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+Progress (3): 0.1/1.9 MB | 18 kB | 4.1/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 7.7/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 12/116 kB Progress (3): 0.1/1.9 MB | 18 kB | 16/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 20/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 24/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 28/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 32/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 36/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 40/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 45/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 49/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 53/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 57/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 61/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 65/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 69/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 73/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 77/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 81/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 85/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 90/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 94/116 kBProgress (3): 0.1/1.9 MB | 18 kB | 98/116 kBProgress (4): 0.1/1.9 MB | 18 kB | 98/116 kB | 4.1/20 kBProgress (4): 0.1/1.9 MB | 18 kB | 98/116 kB | 7.7/20 kBProgress (4): 0.1/1.9 MB | 18 kB | 98/116 kB | 12/20 kB Progress (4): 0.1/1.9 MB | 18 kB | 98/116 kB | 16/20 kBProgress (4): 0.1/1.9 MB | 18 kB | 98/116 kB | 20 kB   Progress (4): 0.1/1.9 MB | 18 kB | 98/116 kB | 20 kBProgress (4): 0.1/1.9 MB | 18 kB | 98/116 kB | 20 kBProgress (4): 0.2/1.9 MB | 18 kB | 98/116 kB | 20 kBProgress (4): 0.2/1.9 MB | 18 kB | 98/116 kB | 20 kBProgress (4): 0.2/1.9 MB | 18 kB | 98/116 kB | 20 kBProgress (4): 0.2/1.9 MB | 18 kB | 98/116 kB | 20 kB                                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar (18 kB at 19 kB/s)
+Progress (3): 0.2/1.9 MB | 102/116 kB | 20 kBProgress (3): 0.2/1.9 MB | 106/116 kB | 20 kBProgress (3): 0.2/1.9 MB | 110/116 kB | 20 kBProgress (3): 0.2/1.9 MB | 114/116 kB | 20 kBProgress (3): 0.2/1.9 MB | 116 kB | 20 kB    Progress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.2/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.3/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.1/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.2/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.2/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.2/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.2/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.2/2.2 MBProgress (4): 0.4/1.9 MB | 116 kB | 20 kB | 0.2/2.2 MB                                                      Downloaded from central: https://repo.maven.apache.org/maven2/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18.jar (116 kB at 113 kB/s)
+Progress (3): 0.4/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.4/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.4/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.4/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.5/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.6/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.6/1.9 MB | 20 kB | 0.3/2.2 MBProgress (3): 0.6/1.9 MB | 20 kB | 0.3/2.2 MB                                             Downloaded from central: https://repo.maven.apache.org/maven2/com/orctom/was/was-util/1.1.3.2/was-util-1.1.3.2.jar (20 kB at 19 kB/s)
+Progress (2): 0.6/1.9 MB | 0.3/2.2 MBProgress (2): 0.6/1.9 MB | 0.3/2.2 MBProgress (2): 0.6/1.9 MB | 0.3/2.2 MBProgress (2): 0.6/1.9 MB | 0.3/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.4/2.2 MBProgress (2): 0.6/1.9 MB | 0.5/2.2 MBProgress (2): 0.6/1.9 MB | 0.5/2.2 MBProgress (2): 0.6/1.9 MB | 0.5/2.2 MBProgress (2): 0.6/1.9 MB | 0.5/2.2 MBProgress (2): 0.6/1.9 MB | 0.5/2.2 MBProgress (2): 0.6/1.9 MB | 0.5/2.2 MBProgress (2): 0.6/1.9 MB | 0.6/2.2 MBProgress (2): 0.6/1.9 MB | 0.6/2.2 MBProgress (2): 0.6/1.9 MB | 0.6/2.2 MBProgress (2): 0.6/1.9 MB | 0.6/2.2 MBProgress (2): 0.6/1.9 MB | 0.6/2.2 MBProgress (2): 0.6/1.9 MB | 0.6/2.2 MBProgress (2): 0.6/1.9 MB | 0.6/2.2 MBProgress (2): 0.6/1.9 MB | 0.6/2.2 MBProgress (2): 0.6/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.7/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.8/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.6/2.2 MBProgress (2): 0.9/1.9 MB | 0.7/2.2 MBProgress (2): 0.9/1.9 MB | 0.7/2.2 MBProgress (2): 0.9/1.9 MB | 0.7/2.2 MBProgress (2): 0.9/1.9 MB | 0.7/2.2 MBProgress (2): 0.9/1.9 MB | 0.7/2.2 MBProgress (2): 0.9/1.9 MB | 0.7/2.2 MBProgress (2): 0.9/1.9 MB | 0.8/2.2 MBProgress (2): 0.9/1.9 MB | 0.8/2.2 MBProgress (2): 0.9/1.9 MB | 0.8/2.2 MBProgress (2): 0.9/1.9 MB | 0.8/2.2 MBProgress (2): 0.9/1.9 MB | 0.8/2.2 MBProgress (2): 0.9/1.9 MB | 0.8/2.2 MBProgress (2): 0.9/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.0/1.9 MB | 0.8/2.2 MBProgress (2): 1.1/1.9 MB | 0.8/2.2 MBProgress (2): 1.1/1.9 MB | 0.8/2.2 MBProgress (2): 1.1/1.9 MB | 0.8/2.2 MBProgress (2): 1.1/1.9 MB | 0.8/2.2 MBProgress (2): 1.1/1.9 MB | 0.8/2.2 MBProgress (2): 1.1/1.9 MB | 0.9/2.2 MBProgress (2): 1.1/1.9 MB | 0.9/2.2 MBProgress (2): 1.1/1.9 MB | 0.9/2.2 MBProgress (2): 1.1/1.9 MB | 0.9/2.2 MBProgress (2): 1.1/1.9 MB | 0.9/2.2 MBProgress (2): 1.1/1.9 MB | 0.9/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.1/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.0/2.2 MBProgress (2): 1.2/1.9 MB | 1.1/2.2 MBProgress (2): 1.2/1.9 MB | 1.1/2.2 MBProgress (2): 1.2/1.9 MB | 1.1/2.2 MBProgress (2): 1.2/1.9 MB | 1.1/2.2 MBProgress (2): 1.2/1.9 MB | 1.1/2.2 MBProgress (2): 1.2/1.9 MB | 1.1/2.2 MBProgress (2): 1.2/1.9 MB | 1.2/2.2 MBProgress (2): 1.2/1.9 MB | 1.2/2.2 MBProgress (2): 1.2/1.9 MB | 1.2/2.2 MBProgress (2): 1.2/1.9 MB | 1.2/2.2 MBProgress (2): 1.2/1.9 MB | 1.2/2.2 MBProgress (2): 1.2/1.9 MB | 1.2/2.2 MBProgress (2): 1.2/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.3/1.9 MB | 1.2/2.2 MBProgress (2): 1.4/1.9 MB | 1.2/2.2 MBProgress (2): 1.4/1.9 MB | 1.2/2.2 MBProgress (2): 1.4/1.9 MB | 1.2/2.2 MBProgress (2): 1.4/1.9 MB | 1.2/2.2 MBProgress (2): 1.4/1.9 MB | 1.2/2.2 MBProgress (2): 1.4/1.9 MB | 1.3/2.2 MBProgress (2): 1.4/1.9 MB | 1.3/2.2 MBProgress (2): 1.4/1.9 MB | 1.3/2.2 MBProgress (2): 1.4/1.9 MB | 1.3/2.2 MBProgress (2): 1.4/1.9 MB | 1.3/2.2 MBProgress (2): 1.4/1.9 MB | 1.3/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.4/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.4/2.2 MBProgress (2): 1.5/1.9 MB | 1.5/2.2 MBProgress (2): 1.5/1.9 MB | 1.5/2.2 MBProgress (2): 1.5/1.9 MB | 1.5/2.2 MBProgress (2): 1.5/1.9 MB | 1.5/2.2 MBProgress (2): 1.5/1.9 MB | 1.5/2.2 MBProgress (2): 1.5/1.9 MB | 1.5/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.5/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.6/2.2 MBProgress (2): 1.6/1.9 MB | 1.7/2.2 MBProgress (2): 1.6/1.9 MB | 1.7/2.2 MBProgress (2): 1.7/1.9 MB | 1.7/2.2 MBProgress (2): 1.7/1.9 MB | 1.7/2.2 MBProgress (2): 1.7/1.9 MB | 1.7/2.2 MBProgress (2): 1.7/1.9 MB | 1.7/2.2 MBProgress (2): 1.7/1.9 MB | 1.7/2.2 MBProgress (2): 1.7/1.9 MB | 1.7/2.2 MBProgress (2): 1.7/1.9 MB | 1.7/2.2 MBProgress (2): 1.7/1.9 MB | 1.7/2.2 MBProgress (2): 1.7/1.9 MB | 1.8/2.2 MBProgress (2): 1.7/1.9 MB | 1.8/2.2 MBProgress (2): 1.7/1.9 MB | 1.8/2.2 MBProgress (2): 1.7/1.9 MB | 1.8/2.2 MBProgress (2): 1.7/1.9 MB | 1.8/2.2 MBProgress (2): 1.7/1.9 MB | 1.8/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.7/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 1.9/2.2 MBProgress (2): 1.8/1.9 MB | 2.0/2.2 MBProgress (2): 1.8/1.9 MB | 2.0/2.2 MBProgress (2): 1.8/1.9 MB | 2.0/2.2 MBProgress (2): 1.8/1.9 MB | 2.0/2.2 MBProgress (2): 1.8/1.9 MB | 2.0/2.2 MBProgress (2): 1.8/1.9 MB | 2.0/2.2 MBProgress (2): 1.8/1.9 MB | 2.1/2.2 MBProgress (2): 1.8/1.9 MB | 2.1/2.2 MBProgress (2): 1.8/1.9 MB | 2.1/2.2 MBProgress (2): 1.8/1.9 MB | 2.1/2.2 MBProgress (2): 1.8/1.9 MB | 2.1/2.2 MBProgress (2): 1.8/1.9 MB | 2.1/2.2 MBProgress (2): 1.8/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9/1.9 MB | 2.1/2.2 MBProgress (2): 1.9 MB | 2.1/2.2 MB    Progress (2): 1.9 MB | 2.1/2.2 MBProgress (2): 1.9 MB | 2.2/2.2 MBProgress (2): 1.9 MB | 2.2/2.2 MBProgress (2): 1.9 MB | 2.2/2.2 MBProgress (2): 1.9 MB | 2.2/2.2 MBProgress (2): 1.9 MB | 2.2 MB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.3/ant-1.8.3.jar (1.9 MB at 1.2 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar (2.2 MB at 1.4 MB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] testWAR 1.0-SNAPSHOT ............................... SUCCESS [  1.421 s]
+[INFO] testEAR 1.0 ........................................ SUCCESS [  0.578 s]
+[INFO] Maven 0.0.1-SNAPSHOT ............................... FAILURE [  8.014 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.128 s
+[INFO] Finished at: 2019-07-19T16:36:56-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy (deploy) on project Maven: The parameters 'wasHome' for goal com.orctom.mojo:was-maven-plugin:1.1.3.3:deploy are missing or invalid -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginParameterException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :Maven
+[8mha:////4FQyI2JBvm56B8jz76VMM46nTDHAY8dPyBzqh1/Idn+rAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN6XnAcu+AAAA[0m[Pipeline] }
+[8mha:////4GI0vXoNb4yAvRE9yB9xUxmVGdev1j52CZAT8RUqcS87AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4EiAFjXJKCdHR/QNODePDg4WA/VqnzpLQ0gv6y+bslD4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBFEgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AFaoCeavgAAAA==[0m[Pipeline] }
+[8mha:////4AOVY1iZtXd50uYPDAAzTuYLxsih1ll/GW6shATaAaCSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpCA2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPmlDfCa+AAAA[0m[Pipeline] // stage
+[8mha:////4CVFUyvbDsV4o9U1ZCDDRkwx7ci8eKHYg0Fv7IIvQHXYAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId3tBtv0AM5yUxr0AAAA=[0m[Pipeline] }
+[8mha:////4H9zBvg98u99Goca4KADsRLlnWBKaQ8K2T8p+Opv94HwAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEKJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ACAgkGW9AAAA[0m[Pipeline] // node
+[8mha:////4AFP0Ax585esKF82G/ko7tD55JwqxrwXndYXQ03ojhd8AAAApB+LCAAAAAAAAP9tjbEKwjAURW8rDq6OfkQKgiCIk2vo4hfENsa04b2avNpOfpG/5j9YLDh5p3vOcl5vLFPEkaNTjaXWU6q86kLvpqcGju018KAavqiKKXGwqrRDybU9zViyWMzLciw0VpaqwMmTE6x1Yx6mCIZccZY4uYNG7us7nsj0VBYT5QtjxObW14np1/kbwNh1gny3F2TbD2eHx5C9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
