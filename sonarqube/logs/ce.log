@@ -86,3 +86,7 @@
 2019.07.19 20:50:37 INFO  ce[AWwMADVwfML5f2bzhs8m][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwMADVwfML5f2bzhs8m | submitter=admin | status=SUCCESS | time=1246ms
 2019.07.19 20:51:49 INFO  ce[AWwMAVDIfML5f2bzhs8n][o.s.c.t.CeWorkerImpl] Execute task | project=test | type=REPORT | id=AWwMAVDIfML5f2bzhs8n | submitter=admin
 2019.07.19 20:51:50 INFO  ce[AWwMAVDIfML5f2bzhs8n][o.s.c.t.CeWorkerImpl] Executed task | project=test | type=REPORT | id=AWwMAVDIfML5f2bzhs8n | submitter=admin | status=SUCCESS | time=1214ms
+2019.07.19 21:44:40 INFO  ce[][o.s.p.StopWatcher] Stopping process
+2019.07.19 21:44:40 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2019.07.19 21:44:40 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Waiting for workers to finish in-progress tasks
+2019.07.19 21:44:41 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped

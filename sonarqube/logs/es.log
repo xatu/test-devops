@@ -159,3 +159,7 @@
 2019.07.19 19:08:46 INFO  es[][o.e.n.Node] started
 2019.07.19 19:08:47 INFO  es[][o.e.g.GatewayService] recovered [8] indices into cluster_state
 2019.07.19 19:08:53 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0], [components][3]] ...]).
+2019.07.19 21:44:45 INFO  es[][o.e.n.Node] stopping ...
+2019.07.19 21:44:45 INFO  es[][o.e.n.Node] stopped
+2019.07.19 21:44:45 INFO  es[][o.e.n.Node] closing ...
+2019.07.19 21:44:45 INFO  es[][o.e.n.Node] closed
